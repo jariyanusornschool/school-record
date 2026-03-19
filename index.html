@@ -82,7 +82,7 @@ function searchStudent(){
 
  const id = document.getElementById("searchBox").value.trim()
 
- const list = students.filter(s => s.id === id)
+ const list = students.filter(s => String(s.id).trim() === id)
 
  const result = document.getElementById("result")
 

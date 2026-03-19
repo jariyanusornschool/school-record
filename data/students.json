@@ -1,52 +1,6422 @@
 [
   {
-    "album": "The White Stripes",
-    "year": 1999,
-    "US_peak_chart_post": "-"
+    "id": 1399900316687,
+    "name": "นางสาว มิลล้า ชินิก้า  แสงทอง",
+    "year": "ม.6",
+    "student_code": 10339,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 67,
+    "grade": 2.5
   },
   {
-    "album": "De Stijl",
-    "year": 2000,
-    "US_peak_chart_post": "-"
+    "id": 1399900316687,
+    "name": "นางสาว มิลล้า ชินิก้า  แสงทอง",
+    "year": "ม.6",
+    "student_code": 10339,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": 53,
+    "grade": 1
   },
   {
-    "album": "White Blood Cells",
-    "year": 2001,
-    "US_peak_chart_post": 61
+    "id": 1399900316687,
+    "name": "นางสาว มิลล้า ชินิก้า  แสงทอง",
+    "year": "ม.6",
+    "student_code": 10339,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 74,
+    "grade": 3
   },
   {
-    "album": "Elephant",
-    "year": 2003,
-    "US_peak_chart_post": 6
+    "id": 1399900316687,
+    "name": "นางสาว มิลล้า ชินิก้า  แสงทอง",
+    "year": "ม.6",
+    "student_code": 10339,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 63,
+    "grade": 2
   },
   {
-    "album": "Get Behind Me Satan",
-    "year": 2005,
-    "US_peak_chart_post": 3
+    "id": 1399900316687,
+    "name": "นางสาว มิลล้า ชินิก้า  แสงทอง",
+    "year": "ม.6",
+    "student_code": 10339,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 81,
+    "grade": 4
   },
   {
-    "album": "Icky Thump",
-    "year": 2007,
-    "US_peak_chart_post": 2
+    "id": 1399900316687,
+    "name": "นางสาว มิลล้า ชินิก้า  แสงทอง",
+    "year": "ม.6",
+    "student_code": 10339,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 67,
+    "grade": 2.5
   },
   {
-    "album": "Under Great White Northern Lights",
-    "year": 2010,
-    "US_peak_chart_post": 11
+    "id": 1399900316687,
+    "name": "นางสาว มิลล้า ชินิก้า  แสงทอง",
+    "year": "ม.6",
+    "student_code": 10339,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 95,
+    "grade": 4
   },
   {
-    "album": "Live in Mississippi",
-    "year": 2011,
-    "US_peak_chart_post": "-"
+    "id": 1399900316687,
+    "name": "นางสาว มิลล้า ชินิก้า  แสงทอง",
+    "year": "ม.6",
+    "student_code": 10339,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 73,
+    "grade": 3
   },
   {
-    "album": "Live at the Gold Dollar",
-    "year": 2012,
-    "US_peak_chart_post": "-"
+    "id": 1399900316687,
+    "name": "นางสาว มิลล้า ชินิก้า  แสงทอง",
+    "year": "ม.6",
+    "student_code": 10339,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 70,
+    "grade": 3
   },
   {
-    "album": "Nine Miles from the White City",
-    "year": 2013,
-    "US_peak_chart_post": "-"
+    "id": 1399900316687,
+    "name": "นางสาว มิลล้า ชินิก้า  แสงทอง",
+    "year": "ม.6",
+    "student_code": 10339,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 73,
+    "grade": 3
+  },
+  {
+    "id": 1399900316687,
+    "name": "นางสาว มิลล้า ชินิก้า  แสงทอง",
+    "year": "ม.6",
+    "student_code": 10339,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900316687,
+    "name": "นางสาว มิลล้า ชินิก้า  แสงทอง",
+    "year": "ม.6",
+    "student_code": 10339,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 83,
+    "grade": 4
+  },
+  {
+    "id": 1399900316687,
+    "name": "นางสาว มิลล้า ชินิก้า  แสงทอง",
+    "year": "ม.6",
+    "student_code": 10339,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 86,
+    "grade": 4
+  },
+  {
+    "id": 1399900316687,
+    "name": "นางสาว มิลล้า ชินิก้า  แสงทอง",
+    "year": "ม.6",
+    "student_code": 10339,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 71,
+    "grade": 3
+  },
+  {
+    "id": 1399900316687,
+    "name": "นางสาว มิลล้า ชินิก้า  แสงทอง",
+    "year": "ม.6",
+    "student_code": 10339,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 61,
+    "grade": 2
+  },
+  {
+    "id": 1399900316687,
+    "name": "นางสาว มิลล้า ชินิก้า  แสงทอง",
+    "year": "ม.6",
+    "student_code": 10339,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900328715,
+    "name": "นางสาว สุรางคณา ทนทาน",
+    "year": "ม.6",
+    "student_code": 10491,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 78,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900328715,
+    "name": "นางสาว สุรางคณา ทนทาน",
+    "year": "ม.6",
+    "student_code": 10491,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 71,
+    "grade": 3
+  },
+  {
+    "id": 1399900328715,
+    "name": "นางสาว สุรางคณา ทนทาน",
+    "year": "ม.6",
+    "student_code": 10491,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 88,
+    "grade": 4
+  },
+  {
+    "id": 1399900328715,
+    "name": "นางสาว สุรางคณา ทนทาน",
+    "year": "ม.6",
+    "student_code": 10491,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 89,
+    "grade": 4
+  },
+  {
+    "id": 1399900328715,
+    "name": "นางสาว สุรางคณา ทนทาน",
+    "year": "ม.6",
+    "student_code": 10491,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 84,
+    "grade": 4
+  },
+  {
+    "id": 1399900328715,
+    "name": "นางสาว สุรางคณา ทนทาน",
+    "year": "ม.6",
+    "student_code": 10491,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 86,
+    "grade": 4
+  },
+  {
+    "id": 1399900328715,
+    "name": "นางสาว สุรางคณา ทนทาน",
+    "year": "ม.6",
+    "student_code": 10491,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900328715,
+    "name": "นางสาว สุรางคณา ทนทาน",
+    "year": "ม.6",
+    "student_code": 10491,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900328715,
+    "name": "นางสาว สุรางคณา ทนทาน",
+    "year": "ม.6",
+    "student_code": 10491,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900328715,
+    "name": "นางสาว สุรางคณา ทนทาน",
+    "year": "ม.6",
+    "student_code": 10491,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 96,
+    "grade": 4
+  },
+  {
+    "id": 1399900328715,
+    "name": "นางสาว สุรางคณา ทนทาน",
+    "year": "ม.6",
+    "student_code": 10491,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 62,
+    "grade": 2
+  },
+  {
+    "id": 1399900328715,
+    "name": "นางสาว สุรางคณา ทนทาน",
+    "year": "ม.6",
+    "student_code": 10491,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900328715,
+    "name": "นางสาว สุรางคณา ทนทาน",
+    "year": "ม.6",
+    "student_code": 10491,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900328715,
+    "name": "นางสาว สุรางคณา ทนทาน",
+    "year": "ม.6",
+    "student_code": 10491,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 91,
+    "grade": 4
+  },
+  {
+    "id": 1399900328715,
+    "name": "นางสาว สุรางคณา ทนทาน",
+    "year": "ม.6",
+    "student_code": 10491,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": 72,
+    "grade": 3
+  },
+  {
+    "id": 1399900328715,
+    "name": "นางสาว สุรางคณา ทนทาน",
+    "year": "ม.6",
+    "student_code": 10491,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 72,
+    "grade": 3
+  },
+  {
+    "id": 1399900328898,
+    "name": "นางสาว อุไรพร ประสาวะทัง",
+    "year": "ม.6",
+    "student_code": 10497,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900328898,
+    "name": "นางสาว อุไรพร ประสาวะทัง",
+    "year": "ม.6",
+    "student_code": 10497,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": 66,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900328898,
+    "name": "นางสาว อุไรพร ประสาวะทัง",
+    "year": "ม.6",
+    "student_code": 10497,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 90,
+    "grade": 4
+  },
+  {
+    "id": 1399900328898,
+    "name": "นางสาว อุไรพร ประสาวะทัง",
+    "year": "ม.6",
+    "student_code": 10497,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 66,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900328898,
+    "name": "นางสาว อุไรพร ประสาวะทัง",
+    "year": "ม.6",
+    "student_code": 10497,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 83,
+    "grade": 4
+  },
+  {
+    "id": 1399900328898,
+    "name": "นางสาว อุไรพร ประสาวะทัง",
+    "year": "ม.6",
+    "student_code": 10497,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900328898,
+    "name": "นางสาว อุไรพร ประสาวะทัง",
+    "year": "ม.6",
+    "student_code": 10497,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 94,
+    "grade": 4
+  },
+  {
+    "id": 1399900328898,
+    "name": "นางสาว อุไรพร ประสาวะทัง",
+    "year": "ม.6",
+    "student_code": 10497,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 72,
+    "grade": 3
+  },
+  {
+    "id": 1399900328898,
+    "name": "นางสาว อุไรพร ประสาวะทัง",
+    "year": "ม.6",
+    "student_code": 10497,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 69,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900328898,
+    "name": "นางสาว อุไรพร ประสาวะทัง",
+    "year": "ม.6",
+    "student_code": 10497,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900328898,
+    "name": "นางสาว อุไรพร ประสาวะทัง",
+    "year": "ม.6",
+    "student_code": 10497,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 83,
+    "grade": 4
+  },
+  {
+    "id": 1399900328898,
+    "name": "นางสาว อุไรพร ประสาวะทัง",
+    "year": "ม.6",
+    "student_code": 10497,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900328898,
+    "name": "นางสาว อุไรพร ประสาวะทัง",
+    "year": "ม.6",
+    "student_code": 10497,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 60,
+    "grade": 2
+  },
+  {
+    "id": 1399900328898,
+    "name": "นางสาว อุไรพร ประสาวะทัง",
+    "year": "ม.6",
+    "student_code": 10497,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900328898,
+    "name": "นางสาว อุไรพร ประสาวะทัง",
+    "year": "ม.6",
+    "student_code": 10497,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900328898,
+    "name": "นางสาว อุไรพร ประสาวะทัง",
+    "year": "ม.6",
+    "student_code": 10497,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399900309419,
+    "name": "นางสาว พัชราภา เกตุศิริ",
+    "year": "ม.6",
+    "student_code": 10506,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399900309419,
+    "name": "นางสาว พัชราภา เกตุศิริ",
+    "year": "ม.6",
+    "student_code": 10506,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 85,
+    "grade": 4
+  },
+  {
+    "id": 1399900309419,
+    "name": "นางสาว พัชราภา เกตุศิริ",
+    "year": "ม.6",
+    "student_code": 10506,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 87,
+    "grade": 4
+  },
+  {
+    "id": 1399900309419,
+    "name": "นางสาว พัชราภา เกตุศิริ",
+    "year": "ม.6",
+    "student_code": 10506,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 94,
+    "grade": 4
+  },
+  {
+    "id": 1399900309419,
+    "name": "นางสาว พัชราภา เกตุศิริ",
+    "year": "ม.6",
+    "student_code": 10506,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 85,
+    "grade": 4
+  },
+  {
+    "id": 1399900309419,
+    "name": "นางสาว พัชราภา เกตุศิริ",
+    "year": "ม.6",
+    "student_code": 10506,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 87,
+    "grade": 4
+  },
+  {
+    "id": 1399900309419,
+    "name": "นางสาว พัชราภา เกตุศิริ",
+    "year": "ม.6",
+    "student_code": 10506,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 77,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900309419,
+    "name": "นางสาว พัชราภา เกตุศิริ",
+    "year": "ม.6",
+    "student_code": 10506,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 87,
+    "grade": 4
+  },
+  {
+    "id": 1399900309419,
+    "name": "นางสาว พัชราภา เกตุศิริ",
+    "year": "ม.6",
+    "student_code": 10506,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1399900309419,
+    "name": "นางสาว พัชราภา เกตุศิริ",
+    "year": "ม.6",
+    "student_code": 10506,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900309419,
+    "name": "นางสาว พัชราภา เกตุศิริ",
+    "year": "ม.6",
+    "student_code": 10506,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 95,
+    "grade": 4
+  },
+  {
+    "id": 1399900309419,
+    "name": "นางสาว พัชราภา เกตุศิริ",
+    "year": "ม.6",
+    "student_code": 10506,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 81,
+    "grade": 4
+  },
+  {
+    "id": 1399900309419,
+    "name": "นางสาว พัชราภา เกตุศิริ",
+    "year": "ม.6",
+    "student_code": 10506,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 88,
+    "grade": 4
+  },
+  {
+    "id": 1399900309419,
+    "name": "นางสาว พัชราภา เกตุศิริ",
+    "year": "ม.6",
+    "student_code": 10506,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 94,
+    "grade": 4
+  },
+  {
+    "id": 1399900309419,
+    "name": "นางสาว พัชราภา เกตุศิริ",
+    "year": "ม.6",
+    "student_code": 10506,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": 72,
+    "grade": 3
+  },
+  {
+    "id": 1399900309419,
+    "name": "นางสาว พัชราภา เกตุศิริ",
+    "year": "ม.6",
+    "student_code": 10506,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 73,
+    "grade": 3
+  },
+  {
+    "id": 1399400072631,
+    "name": "นางสาว ไปรยา ชัยมาตย์",
+    "year": "ม.6",
+    "student_code": 10930,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399400072631,
+    "name": "นางสาว ไปรยา ชัยมาตย์",
+    "year": "ม.6",
+    "student_code": 10930,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": 71,
+    "grade": 3
+  },
+  {
+    "id": 1399400072631,
+    "name": "นางสาว ไปรยา ชัยมาตย์",
+    "year": "ม.6",
+    "student_code": 10930,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 90,
+    "grade": 4
+  },
+  {
+    "id": 1399400072631,
+    "name": "นางสาว ไปรยา ชัยมาตย์",
+    "year": "ม.6",
+    "student_code": 10930,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 77,
+    "grade": 3.5
+  },
+  {
+    "id": 1399400072631,
+    "name": "นางสาว ไปรยา ชัยมาตย์",
+    "year": "ม.6",
+    "student_code": 10930,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1399400072631,
+    "name": "นางสาว ไปรยา ชัยมาตย์",
+    "year": "ม.6",
+    "student_code": 10930,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 90,
+    "grade": 4
+  },
+  {
+    "id": 1399400072631,
+    "name": "นางสาว ไปรยา ชัยมาตย์",
+    "year": "ม.6",
+    "student_code": 10930,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": 1399400072631,
+    "name": "นางสาว ไปรยา ชัยมาตย์",
+    "year": "ม.6",
+    "student_code": 10930,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399400072631,
+    "name": "นางสาว ไปรยา ชัยมาตย์",
+    "year": "ม.6",
+    "student_code": 10930,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 72,
+    "grade": 3
+  },
+  {
+    "id": 1399400072631,
+    "name": "นางสาว ไปรยา ชัยมาตย์",
+    "year": "ม.6",
+    "student_code": 10930,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 78,
+    "grade": 3.5
+  },
+  {
+    "id": 1399400072631,
+    "name": "นางสาว ไปรยา ชัยมาตย์",
+    "year": "ม.6",
+    "student_code": 10930,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 88,
+    "grade": 4
+  },
+  {
+    "id": 1399400072631,
+    "name": "นางสาว ไปรยา ชัยมาตย์",
+    "year": "ม.6",
+    "student_code": 10930,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 86,
+    "grade": 4
+  },
+  {
+    "id": 1399400072631,
+    "name": "นางสาว ไปรยา ชัยมาตย์",
+    "year": "ม.6",
+    "student_code": 10930,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 68,
+    "grade": 2.5
+  },
+  {
+    "id": 1399400072631,
+    "name": "นางสาว ไปรยา ชัยมาตย์",
+    "year": "ม.6",
+    "student_code": 10930,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399400072631,
+    "name": "นางสาว ไปรยา ชัยมาตย์",
+    "year": "ม.6",
+    "student_code": 10930,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 77,
+    "grade": 3.5
+  },
+  {
+    "id": 1399400072631,
+    "name": "นางสาว ไปรยา ชัยมาตย์",
+    "year": "ม.6",
+    "student_code": 10930,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 71,
+    "grade": 3
+  },
+  {
+    "id": 1459901173838,
+    "name": "นาย อภินันท์ เจริญสุข",
+    "year": "ม.6",
+    "student_code": 10934,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 71,
+    "grade": 3
+  },
+  {
+    "id": 1459901173838,
+    "name": "นาย อภินันท์ เจริญสุข",
+    "year": "ม.6",
+    "student_code": 10934,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 66,
+    "grade": 2.5
+  },
+  {
+    "id": 1459901173838,
+    "name": "นาย อภินันท์ เจริญสุข",
+    "year": "ม.6",
+    "student_code": 10934,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1459901173838,
+    "name": "นาย อภินันท์ เจริญสุข",
+    "year": "ม.6",
+    "student_code": 10934,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 84,
+    "grade": 4
+  },
+  {
+    "id": 1459901173838,
+    "name": "นาย อภินันท์ เจริญสุข",
+    "year": "ม.6",
+    "student_code": 10934,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1459901173838,
+    "name": "นาย อภินันท์ เจริญสุข",
+    "year": "ม.6",
+    "student_code": 10934,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 86,
+    "grade": 4
+  },
+  {
+    "id": 1459901173838,
+    "name": "นาย อภินันท์ เจริญสุข",
+    "year": "ม.6",
+    "student_code": 10934,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1459901173838,
+    "name": "นาย อภินันท์ เจริญสุข",
+    "year": "ม.6",
+    "student_code": 10934,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 74,
+    "grade": 3
+  },
+  {
+    "id": 1459901173838,
+    "name": "นาย อภินันท์ เจริญสุข",
+    "year": "ม.6",
+    "student_code": 10934,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1459901173838,
+    "name": "นาย อภินันท์ เจริญสุข",
+    "year": "ม.6",
+    "student_code": 10934,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1459901173838,
+    "name": "นาย อภินันท์ เจริญสุข",
+    "year": "ม.6",
+    "student_code": 10934,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 87,
+    "grade": 4
+  },
+  {
+    "id": 1459901173838,
+    "name": "นาย อภินันท์ เจริญสุข",
+    "year": "ม.6",
+    "student_code": 10934,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 81,
+    "grade": 4
+  },
+  {
+    "id": 1459901173838,
+    "name": "นาย อภินันท์ เจริญสุข",
+    "year": "ม.6",
+    "student_code": 10934,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 72,
+    "grade": 3
+  },
+  {
+    "id": 1459901173838,
+    "name": "นาย อภินันท์ เจริญสุข",
+    "year": "ม.6",
+    "student_code": 10934,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 95,
+    "grade": 4
+  },
+  {
+    "id": 1459901173838,
+    "name": "นาย อภินันท์ เจริญสุข",
+    "year": "ม.6",
+    "student_code": 10934,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": 60,
+    "grade": 2
+  },
+  {
+    "id": 1459901173838,
+    "name": "นาย อภินันท์ เจริญสุข",
+    "year": "ม.6",
+    "student_code": 10934,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 71,
+    "grade": 3
+  },
+  {
+    "id": 1399900332691,
+    "name": "นาย พิชิต ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10937,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 60,
+    "grade": 2
+  },
+  {
+    "id": 1399900332691,
+    "name": "นาย พิชิต ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10937,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1399900332691,
+    "name": "นาย พิชิต ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10937,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 60,
+    "grade": 2
+  },
+  {
+    "id": 1399900332691,
+    "name": "นาย พิชิต ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10937,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 56,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900332691,
+    "name": "นาย พิชิต ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10937,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 81,
+    "grade": 4
+  },
+  {
+    "id": 1399900332691,
+    "name": "นาย พิชิต ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10937,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 62,
+    "grade": 2
+  },
+  {
+    "id": 1399900332691,
+    "name": "นาย พิชิต ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10937,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 87,
+    "grade": 4
+  },
+  {
+    "id": 1399900332691,
+    "name": "นาย พิชิต ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10937,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 60,
+    "grade": 2
+  },
+  {
+    "id": 1399900332691,
+    "name": "นาย พิชิต ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10937,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 55,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900332691,
+    "name": "นาย พิชิต ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10937,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 68,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900332691,
+    "name": "นาย พิชิต ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10937,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 79,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900332691,
+    "name": "นาย พิชิต ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10937,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900332691,
+    "name": "นาย พิชิต ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10937,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 56,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900332691,
+    "name": "นาย พิชิต ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10937,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 61,
+    "grade": 2
+  },
+  {
+    "id": 1399900332691,
+    "name": "นาย พิชิต ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10937,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 60,
+    "grade": 2
+  },
+  {
+    "id": 1399900332691,
+    "name": "นาย พิชิต ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10937,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 53,
+    "grade": 1
+  },
+  {
+    "id": 1399900332704,
+    "name": "นาย พิชัย ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10938,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 67,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900332704,
+    "name": "นาย พิชัย ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10938,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 62,
+    "grade": 2
+  },
+  {
+    "id": 1399900332704,
+    "name": "นาย พิชัย ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10938,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 66,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900332704,
+    "name": "นาย พิชัย ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10938,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 56,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900332704,
+    "name": "นาย พิชัย ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10938,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 78,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900332704,
+    "name": "นาย พิชัย ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10938,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 77,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900332704,
+    "name": "นาย พิชัย ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10938,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900332704,
+    "name": "นาย พิชัย ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10938,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 59,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900332704,
+    "name": "นาย พิชัย ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10938,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 73,
+    "grade": 3
+  },
+  {
+    "id": 1399900332704,
+    "name": "นาย พิชัย ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10938,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1399900332704,
+    "name": "นาย พิชัย ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10938,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 61,
+    "grade": 2
+  },
+  {
+    "id": 1399900332704,
+    "name": "นาย พิชัย ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10938,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 81,
+    "grade": 4
+  },
+  {
+    "id": 1399900332704,
+    "name": "นาย พิชัย ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10938,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 55,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900332704,
+    "name": "นาย พิชัย ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10938,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 77,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900332704,
+    "name": "นาย พิชัย ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10938,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": 55,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900332704,
+    "name": "นาย พิชัย ดาเหล็ก",
+    "year": "ม.6",
+    "student_code": 10938,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": "",
+    "name": "",
+    "year": "ม.6",
+    "student_code": 11267,
+    "subject_code": "ว33103",
+    "subject_name": "",
+    "score": 0,
+    "grade": 0
+  },
+  {
+    "id": "",
+    "name": "",
+    "year": "ม.6",
+    "student_code": 11267,
+    "subject_code": "อ33101",
+    "subject_name": "",
+    "score": 0,
+    "grade": 0
+  },
+  {
+    "id": 1101000210623,
+    "name": "นาย ธนัช อัคริมาชิตดนัย",
+    "year": "ม.6",
+    "student_code": 11395,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 84,
+    "grade": 4
+  },
+  {
+    "id": 1101000210623,
+    "name": "นาย ธนัช อัคริมาชิตดนัย",
+    "year": "ม.6",
+    "student_code": 11395,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1101000210623,
+    "name": "นาย ธนัช อัคริมาชิตดนัย",
+    "year": "ม.6",
+    "student_code": 11395,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 83,
+    "grade": 4
+  },
+  {
+    "id": 1101000210623,
+    "name": "นาย ธนัช อัคริมาชิตดนัย",
+    "year": "ม.6",
+    "student_code": 11395,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1101000210623,
+    "name": "นาย ธนัช อัคริมาชิตดนัย",
+    "year": "ม.6",
+    "student_code": 11395,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 78,
+    "grade": 3.5
+  },
+  {
+    "id": 1101000210623,
+    "name": "นาย ธนัช อัคริมาชิตดนัย",
+    "year": "ม.6",
+    "student_code": 11395,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 68,
+    "grade": 2.5
+  },
+  {
+    "id": 1101000210623,
+    "name": "นาย ธนัช อัคริมาชิตดนัย",
+    "year": "ม.6",
+    "student_code": 11395,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 66,
+    "grade": 2.5
+  },
+  {
+    "id": 1101000210623,
+    "name": "นาย ธนัช อัคริมาชิตดนัย",
+    "year": "ม.6",
+    "student_code": 11395,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1101000210623,
+    "name": "นาย ธนัช อัคริมาชิตดนัย",
+    "year": "ม.6",
+    "student_code": 11395,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 56,
+    "grade": 1.5
+  },
+  {
+    "id": 1101000210623,
+    "name": "นาย ธนัช อัคริมาชิตดนัย",
+    "year": "ม.6",
+    "student_code": 11395,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1101000210623,
+    "name": "นาย ธนัช อัคริมาชิตดนัย",
+    "year": "ม.6",
+    "student_code": 11395,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 61,
+    "grade": 2
+  },
+  {
+    "id": 1101000210623,
+    "name": "นาย ธนัช อัคริมาชิตดนัย",
+    "year": "ม.6",
+    "student_code": 11395,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1101000210623,
+    "name": "นาย ธนัช อัคริมาชิตดนัย",
+    "year": "ม.6",
+    "student_code": 11395,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1101000210623,
+    "name": "นาย ธนัช อัคริมาชิตดนัย",
+    "year": "ม.6",
+    "student_code": 11395,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 84,
+    "grade": 4
+  },
+  {
+    "id": 1101000210623,
+    "name": "นาย ธนัช อัคริมาชิตดนัย",
+    "year": "ม.6",
+    "student_code": 11395,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 67,
+    "grade": 2.5
+  },
+  {
+    "id": 1101000210623,
+    "name": "นาย ธนัช อัคริมาชิตดนัย",
+    "year": "ม.6",
+    "student_code": 11395,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 73,
+    "grade": 3
+  },
+  {
+    "id": 1399400074170,
+    "name": "นางสาว เพ็ญธิชา วิจันทอน",
+    "year": "ม.6",
+    "student_code": 11535,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399400074170,
+    "name": "นางสาว เพ็ญธิชา วิจันทอน",
+    "year": "ม.6",
+    "student_code": 11535,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 87,
+    "grade": 4
+  },
+  {
+    "id": 1399400074170,
+    "name": "นางสาว เพ็ญธิชา วิจันทอน",
+    "year": "ม.6",
+    "student_code": 11535,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399400074170,
+    "name": "นางสาว เพ็ญธิชา วิจันทอน",
+    "year": "ม.6",
+    "student_code": 11535,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 84,
+    "grade": 4
+  },
+  {
+    "id": 1399400074170,
+    "name": "นางสาว เพ็ญธิชา วิจันทอน",
+    "year": "ม.6",
+    "student_code": 11535,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 67,
+    "grade": 2.5
+  },
+  {
+    "id": 1399400074170,
+    "name": "นางสาว เพ็ญธิชา วิจันทอน",
+    "year": "ม.6",
+    "student_code": 11535,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": 73,
+    "grade": 3
+  },
+  {
+    "id": 1399400074170,
+    "name": "นางสาว เพ็ญธิชา วิจันทอน",
+    "year": "ม.6",
+    "student_code": 11535,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 91,
+    "grade": 4
+  },
+  {
+    "id": 1399400074170,
+    "name": "นางสาว เพ็ญธิชา วิจันทอน",
+    "year": "ม.6",
+    "student_code": 11535,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 83,
+    "grade": 4
+  },
+  {
+    "id": 1399400074170,
+    "name": "นางสาว เพ็ญธิชา วิจันทอน",
+    "year": "ม.6",
+    "student_code": 11535,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 90,
+    "grade": 4
+  },
+  {
+    "id": 1399400074170,
+    "name": "นางสาว เพ็ญธิชา วิจันทอน",
+    "year": "ม.6",
+    "student_code": 11535,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 78,
+    "grade": 3.5
+  },
+  {
+    "id": 1399400074170,
+    "name": "นางสาว เพ็ญธิชา วิจันทอน",
+    "year": "ม.6",
+    "student_code": 11535,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 86,
+    "grade": 4
+  },
+  {
+    "id": 1399400074170,
+    "name": "นางสาว เพ็ญธิชา วิจันทอน",
+    "year": "ม.6",
+    "student_code": 11535,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 93,
+    "grade": 4
+  },
+  {
+    "id": 1399400074170,
+    "name": "นางสาว เพ็ญธิชา วิจันทอน",
+    "year": "ม.6",
+    "student_code": 11535,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 92,
+    "grade": 4
+  },
+  {
+    "id": 1399400074170,
+    "name": "นางสาว เพ็ญธิชา วิจันทอน",
+    "year": "ม.6",
+    "student_code": 11535,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 92,
+    "grade": 4
+  },
+  {
+    "id": 1399400074170,
+    "name": "นางสาว เพ็ญธิชา วิจันทอน",
+    "year": "ม.6",
+    "student_code": 11535,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 89,
+    "grade": 4
+  },
+  {
+    "id": 1399400074170,
+    "name": "นางสาว เพ็ญธิชา วิจันทอน",
+    "year": "ม.6",
+    "student_code": 11535,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 95,
+    "grade": 4
+  },
+  {
+    "id": 1390101125921,
+    "name": "นางสาว กัลยกร  สีอ่อน",
+    "year": "ม.6",
+    "student_code": 11767,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 67,
+    "grade": 2.5
+  },
+  {
+    "id": 1390101125921,
+    "name": "นางสาว กัลยกร  สีอ่อน",
+    "year": "ม.6",
+    "student_code": 11767,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 89,
+    "grade": 4
+  },
+  {
+    "id": 1390101125921,
+    "name": "นางสาว กัลยกร  สีอ่อน",
+    "year": "ม.6",
+    "student_code": 11767,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 79,
+    "grade": 3.5
+  },
+  {
+    "id": 1390101125921,
+    "name": "นางสาว กัลยกร  สีอ่อน",
+    "year": "ม.6",
+    "student_code": 11767,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 91,
+    "grade": 4
+  },
+  {
+    "id": 1390101125921,
+    "name": "นางสาว กัลยกร  สีอ่อน",
+    "year": "ม.6",
+    "student_code": 11767,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 93,
+    "grade": 4
+  },
+  {
+    "id": 1390101125921,
+    "name": "นางสาว กัลยกร  สีอ่อน",
+    "year": "ม.6",
+    "student_code": 11767,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 94,
+    "grade": 4
+  },
+  {
+    "id": 1390101125921,
+    "name": "นางสาว กัลยกร  สีอ่อน",
+    "year": "ม.6",
+    "student_code": 11767,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 72,
+    "grade": 3
+  },
+  {
+    "id": 1390101125921,
+    "name": "นางสาว กัลยกร  สีอ่อน",
+    "year": "ม.6",
+    "student_code": 11767,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 78,
+    "grade": 3.5
+  },
+  {
+    "id": 1390101125921,
+    "name": "นางสาว กัลยกร  สีอ่อน",
+    "year": "ม.6",
+    "student_code": 11767,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 78,
+    "grade": 3.5
+  },
+  {
+    "id": 1390101125921,
+    "name": "นางสาว กัลยกร  สีอ่อน",
+    "year": "ม.6",
+    "student_code": 11767,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 90,
+    "grade": 4
+  },
+  {
+    "id": 1390101125921,
+    "name": "นางสาว กัลยกร  สีอ่อน",
+    "year": "ม.6",
+    "student_code": 11767,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": 73,
+    "grade": 3
+  },
+  {
+    "id": 1390101125921,
+    "name": "นางสาว กัลยกร  สีอ่อน",
+    "year": "ม.6",
+    "student_code": 11767,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 66,
+    "grade": 2.5
+  },
+  {
+    "id": 1390101125921,
+    "name": "นางสาว กัลยกร  สีอ่อน",
+    "year": "ม.6",
+    "student_code": 11767,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 77,
+    "grade": 3.5
+  },
+  {
+    "id": 1390101125921,
+    "name": "นางสาว กัลยกร  สีอ่อน",
+    "year": "ม.6",
+    "student_code": 11767,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1390101125921,
+    "name": "นางสาว กัลยกร  สีอ่อน",
+    "year": "ม.6",
+    "student_code": 11767,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 77,
+    "grade": 3.5
+  },
+  {
+    "id": 1390101125921,
+    "name": "นางสาว กัลยกร  สีอ่อน",
+    "year": "ม.6",
+    "student_code": 11767,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 77,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900300250,
+    "name": "นางสาว จิราพร มงคลเคหา",
+    "year": "ม.6",
+    "student_code": 11772,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399900300250,
+    "name": "นางสาว จิราพร มงคลเคหา",
+    "year": "ม.6",
+    "student_code": 11772,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 67,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900300250,
+    "name": "นางสาว จิราพร มงคลเคหา",
+    "year": "ม.6",
+    "student_code": 11772,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900300250,
+    "name": "นางสาว จิราพร มงคลเคหา",
+    "year": "ม.6",
+    "student_code": 11772,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399900300250,
+    "name": "นางสาว จิราพร มงคลเคหา",
+    "year": "ม.6",
+    "student_code": 11772,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399900300250,
+    "name": "นางสาว จิราพร มงคลเคหา",
+    "year": "ม.6",
+    "student_code": 11772,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": 66,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900300250,
+    "name": "นางสาว จิราพร มงคลเคหา",
+    "year": "ม.6",
+    "student_code": 11772,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 89,
+    "grade": 4
+  },
+  {
+    "id": 1399900300250,
+    "name": "นางสาว จิราพร มงคลเคหา",
+    "year": "ม.6",
+    "student_code": 11772,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 79,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900300250,
+    "name": "นางสาว จิราพร มงคลเคหา",
+    "year": "ม.6",
+    "student_code": 11772,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 72,
+    "grade": 3
+  },
+  {
+    "id": 1399900300250,
+    "name": "นางสาว จิราพร มงคลเคหา",
+    "year": "ม.6",
+    "student_code": 11772,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 74,
+    "grade": 3
+  },
+  {
+    "id": 1399900300250,
+    "name": "นางสาว จิราพร มงคลเคหา",
+    "year": "ม.6",
+    "student_code": 11772,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 95,
+    "grade": 4
+  },
+  {
+    "id": 1399900300250,
+    "name": "นางสาว จิราพร มงคลเคหา",
+    "year": "ม.6",
+    "student_code": 11772,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 74,
+    "grade": 3
+  },
+  {
+    "id": 1399900300250,
+    "name": "นางสาว จิราพร มงคลเคหา",
+    "year": "ม.6",
+    "student_code": 11772,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900300250,
+    "name": "นางสาว จิราพร มงคลเคหา",
+    "year": "ม.6",
+    "student_code": 11772,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1399900300250,
+    "name": "นางสาว จิราพร มงคลเคหา",
+    "year": "ม.6",
+    "student_code": 11772,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900300250,
+    "name": "นางสาว จิราพร มงคลเคหา",
+    "year": "ม.6",
+    "student_code": 11772,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900348481,
+    "name": "นาย ณัฐกรณ์ ทรงภักดี",
+    "year": "ม.6",
+    "student_code": 11786,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900348481,
+    "name": "นาย ณัฐกรณ์ ทรงภักดี",
+    "year": "ม.6",
+    "student_code": 11786,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 77,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900348481,
+    "name": "นาย ณัฐกรณ์ ทรงภักดี",
+    "year": "ม.6",
+    "student_code": 11786,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 89,
+    "grade": 4
+  },
+  {
+    "id": 1399900348481,
+    "name": "นาย ณัฐกรณ์ ทรงภักดี",
+    "year": "ม.6",
+    "student_code": 11786,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900348481,
+    "name": "นาย ณัฐกรณ์ ทรงภักดี",
+    "year": "ม.6",
+    "student_code": 11786,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 69,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900348481,
+    "name": "นาย ณัฐกรณ์ ทรงภักดี",
+    "year": "ม.6",
+    "student_code": 11786,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 0,
+    "grade": 0
+  },
+  {
+    "id": 1399900348481,
+    "name": "นาย ณัฐกรณ์ ทรงภักดี",
+    "year": "ม.6",
+    "student_code": 11786,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399900348481,
+    "name": "นาย ณัฐกรณ์ ทรงภักดี",
+    "year": "ม.6",
+    "student_code": 11786,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 55,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900348481,
+    "name": "นาย ณัฐกรณ์ ทรงภักดี",
+    "year": "ม.6",
+    "student_code": 11786,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 74,
+    "grade": 3
+  },
+  {
+    "id": 1399900348481,
+    "name": "นาย ณัฐกรณ์ ทรงภักดี",
+    "year": "ม.6",
+    "student_code": 11786,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 60,
+    "grade": 2
+  },
+  {
+    "id": 1399900348481,
+    "name": "นาย ณัฐกรณ์ ทรงภักดี",
+    "year": "ม.6",
+    "student_code": 11786,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 57,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900348481,
+    "name": "นาย ณัฐกรณ์ ทรงภักดี",
+    "year": "ม.6",
+    "student_code": 11786,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1399900348481,
+    "name": "นาย ณัฐกรณ์ ทรงภักดี",
+    "year": "ม.6",
+    "student_code": 11786,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 69,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900348481,
+    "name": "นาย ณัฐกรณ์ ทรงภักดี",
+    "year": "ม.6",
+    "student_code": 11786,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900348481,
+    "name": "นาย ณัฐกรณ์ ทรงภักดี",
+    "year": "ม.6",
+    "student_code": 11786,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399900348481,
+    "name": "นาย ณัฐกรณ์ ทรงภักดี",
+    "year": "ม.6",
+    "student_code": 11786,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 60,
+    "grade": 2
+  },
+  {
+    "id": 1399900335576,
+    "name": "นาย อัศวิน  เหงาพรม",
+    "year": "ม.6",
+    "student_code": 11798,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900335576,
+    "name": "นาย อัศวิน  เหงาพรม",
+    "year": "ม.6",
+    "student_code": 11798,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900335576,
+    "name": "นาย อัศวิน  เหงาพรม",
+    "year": "ม.6",
+    "student_code": 11798,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1399900335576,
+    "name": "นาย อัศวิน  เหงาพรม",
+    "year": "ม.6",
+    "student_code": 11798,
+    "subject_code": "ว33101",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 67,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900335576,
+    "name": "นาย อัศวิน  เหงาพรม",
+    "year": "ม.6",
+    "student_code": 11798,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900335576,
+    "name": "นาย อัศวิน  เหงาพรม",
+    "year": "ม.6",
+    "student_code": 11798,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900335576,
+    "name": "นาย อัศวิน  เหงาพรม",
+    "year": "ม.6",
+    "student_code": 11798,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 90,
+    "grade": 4
+  },
+  {
+    "id": 1399900335576,
+    "name": "นาย อัศวิน  เหงาพรม",
+    "year": "ม.6",
+    "student_code": 11798,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 81,
+    "grade": 4
+  },
+  {
+    "id": 1399900335576,
+    "name": "นาย อัศวิน  เหงาพรม",
+    "year": "ม.6",
+    "student_code": 11798,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 92,
+    "grade": 4
+  },
+  {
+    "id": 1399900335576,
+    "name": "นาย อัศวิน  เหงาพรม",
+    "year": "ม.6",
+    "student_code": 11798,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900335576,
+    "name": "นาย อัศวิน  เหงาพรม",
+    "year": "ม.6",
+    "student_code": 11798,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 95,
+    "grade": 4
+  },
+  {
+    "id": 1399900335576,
+    "name": "นาย อัศวิน  เหงาพรม",
+    "year": "ม.6",
+    "student_code": 11798,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900335576,
+    "name": "นาย อัศวิน  เหงาพรม",
+    "year": "ม.6",
+    "student_code": 11798,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 81,
+    "grade": 4
+  },
+  {
+    "id": 1399900335576,
+    "name": "นาย อัศวิน  เหงาพรม",
+    "year": "ม.6",
+    "student_code": 11798,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 89,
+    "grade": 4
+  },
+  {
+    "id": 1399900335576,
+    "name": "นาย อัศวิน  เหงาพรม",
+    "year": "ม.6",
+    "student_code": 11798,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 84,
+    "grade": 4
+  },
+  {
+    "id": 1399900335576,
+    "name": "นาย อัศวิน  เหงาพรม",
+    "year": "ม.6",
+    "student_code": 11798,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 63,
+    "grade": 2
+  },
+  {
+    "id": 1399900301736,
+    "name": "นาย วัชรพงษ์ แสงจันทร์",
+    "year": "ม.6",
+    "student_code": 11813,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1399900301736,
+    "name": "นาย วัชรพงษ์ แสงจันทร์",
+    "year": "ม.6",
+    "student_code": 11813,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900301736,
+    "name": "นาย วัชรพงษ์ แสงจันทร์",
+    "year": "ม.6",
+    "student_code": 11813,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 88,
+    "grade": 4
+  },
+  {
+    "id": 1399900301736,
+    "name": "นาย วัชรพงษ์ แสงจันทร์",
+    "year": "ม.6",
+    "student_code": 11813,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 81,
+    "grade": 4
+  },
+  {
+    "id": 1399900301736,
+    "name": "นาย วัชรพงษ์ แสงจันทร์",
+    "year": "ม.6",
+    "student_code": 11813,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 60,
+    "grade": 2
+  },
+  {
+    "id": 1399900301736,
+    "name": "นาย วัชรพงษ์ แสงจันทร์",
+    "year": "ม.6",
+    "student_code": 11813,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 94,
+    "grade": 4
+  },
+  {
+    "id": 1399900301736,
+    "name": "นาย วัชรพงษ์ แสงจันทร์",
+    "year": "ม.6",
+    "student_code": 11813,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900301736,
+    "name": "นาย วัชรพงษ์ แสงจันทร์",
+    "year": "ม.6",
+    "student_code": 11813,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 55,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900301736,
+    "name": "นาย วัชรพงษ์ แสงจันทร์",
+    "year": "ม.6",
+    "student_code": 11813,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 73,
+    "grade": 3
+  },
+  {
+    "id": 1399900301736,
+    "name": "นาย วัชรพงษ์ แสงจันทร์",
+    "year": "ม.6",
+    "student_code": 11813,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 93,
+    "grade": 4
+  },
+  {
+    "id": 1399900301736,
+    "name": "นาย วัชรพงษ์ แสงจันทร์",
+    "year": "ม.6",
+    "student_code": 11813,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399900301736,
+    "name": "นาย วัชรพงษ์ แสงจันทร์",
+    "year": "ม.6",
+    "student_code": 11813,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": 63,
+    "grade": 2
+  },
+  {
+    "id": 1399900301736,
+    "name": "นาย วัชรพงษ์ แสงจันทร์",
+    "year": "ม.6",
+    "student_code": 11813,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 63,
+    "grade": 2
+  },
+  {
+    "id": 1399900301736,
+    "name": "นาย วัชรพงษ์ แสงจันทร์",
+    "year": "ม.6",
+    "student_code": 11813,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 85,
+    "grade": 4
+  },
+  {
+    "id": 1399900301736,
+    "name": "นาย วัชรพงษ์ แสงจันทร์",
+    "year": "ม.6",
+    "student_code": 11813,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 66,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900301736,
+    "name": "นาย วัชรพงษ์ แสงจันทร์",
+    "year": "ม.6",
+    "student_code": 11813,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 71,
+    "grade": 3
+  },
+  {
+    "id": 1418800028971,
+    "name": "นางสาว วจนะ สุวรรณชาติ",
+    "year": "ม.6",
+    "student_code": 11843,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 72,
+    "grade": 3
+  },
+  {
+    "id": 1418800028971,
+    "name": "นางสาว วจนะ สุวรรณชาติ",
+    "year": "ม.6",
+    "student_code": 11843,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 68,
+    "grade": 2.5
+  },
+  {
+    "id": 1418800028971,
+    "name": "นางสาว วจนะ สุวรรณชาติ",
+    "year": "ม.6",
+    "student_code": 11843,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 84,
+    "grade": 4
+  },
+  {
+    "id": 1418800028971,
+    "name": "นางสาว วจนะ สุวรรณชาติ",
+    "year": "ม.6",
+    "student_code": 11843,
+    "subject_code": "ว33101",
+    "subject_name": "ภาษาไทย",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": 1418800028971,
+    "name": "นางสาว วจนะ สุวรรณชาติ",
+    "year": "ม.6",
+    "student_code": 11843,
+    "subject_code": "ค33201",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1418800028971,
+    "name": "นางสาว วจนะ สุวรรณชาติ",
+    "year": "ม.6",
+    "student_code": 11843,
+    "subject_code": "ท33101",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": 81,
+    "grade": 4
+  },
+  {
+    "id": 1418800028971,
+    "name": "นางสาว วจนะ สุวรรณชาติ",
+    "year": "ม.6",
+    "student_code": 11843,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 91,
+    "grade": 4
+  },
+  {
+    "id": 1418800028971,
+    "name": "นางสาว วจนะ สุวรรณชาติ",
+    "year": "ม.6",
+    "student_code": 11843,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 73,
+    "grade": 3
+  },
+  {
+    "id": 1418800028971,
+    "name": "นางสาว วจนะ สุวรรณชาติ",
+    "year": "ม.6",
+    "student_code": 11843,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 84,
+    "grade": 4
+  },
+  {
+    "id": 1418800028971,
+    "name": "นางสาว วจนะ สุวรรณชาติ",
+    "year": "ม.6",
+    "student_code": 11843,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 72,
+    "grade": 3
+  },
+  {
+    "id": 1418800028971,
+    "name": "นางสาว วจนะ สุวรรณชาติ",
+    "year": "ม.6",
+    "student_code": 11843,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 88,
+    "grade": 4
+  },
+  {
+    "id": 1418800028971,
+    "name": "นางสาว วจนะ สุวรรณชาติ",
+    "year": "ม.6",
+    "student_code": 11843,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 93,
+    "grade": 4
+  },
+  {
+    "id": 1418800028971,
+    "name": "นางสาว วจนะ สุวรรณชาติ",
+    "year": "ม.6",
+    "student_code": 11843,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 85,
+    "grade": 4
+  },
+  {
+    "id": 1418800028971,
+    "name": "นางสาว วจนะ สุวรรณชาติ",
+    "year": "ม.6",
+    "student_code": 11843,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 89,
+    "grade": 4
+  },
+  {
+    "id": 1418800028971,
+    "name": "นางสาว วจนะ สุวรรณชาติ",
+    "year": "ม.6",
+    "student_code": 11843,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 88,
+    "grade": 4
+  },
+  {
+    "id": 1418800028971,
+    "name": "นางสาว วจนะ สุวรรณชาติ",
+    "year": "ม.6",
+    "student_code": 11843,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 86,
+    "grade": 4
+  },
+  {
+    "id": 1399900331562,
+    "name": "นาย นพคุณ ภาภักดี",
+    "year": "ม.6",
+    "student_code": 11906,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 63,
+    "grade": 2
+  },
+  {
+    "id": 1399900331562,
+    "name": "นาย นพคุณ ภาภักดี",
+    "year": "ม.6",
+    "student_code": 11906,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 72,
+    "grade": 3
+  },
+  {
+    "id": 1399900331562,
+    "name": "นาย นพคุณ ภาภักดี",
+    "year": "ม.6",
+    "student_code": 11906,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 86,
+    "grade": 4
+  },
+  {
+    "id": 1399900331562,
+    "name": "นาย นพคุณ ภาภักดี",
+    "year": "ม.6",
+    "student_code": 11906,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900331562,
+    "name": "นาย นพคุณ ภาภักดี",
+    "year": "ม.6",
+    "student_code": 11906,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 73,
+    "grade": 3
+  },
+  {
+    "id": 1399900331562,
+    "name": "นาย นพคุณ ภาภักดี",
+    "year": "ม.6",
+    "student_code": 11906,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 81,
+    "grade": 4
+  },
+  {
+    "id": 1399900331562,
+    "name": "นาย นพคุณ ภาภักดี",
+    "year": "ม.6",
+    "student_code": 11906,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 73,
+    "grade": 3
+  },
+  {
+    "id": 1399900331562,
+    "name": "นาย นพคุณ ภาภักดี",
+    "year": "ม.6",
+    "student_code": 11906,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 55,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900331562,
+    "name": "นาย นพคุณ ภาภักดี",
+    "year": "ม.6",
+    "student_code": 11906,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 73,
+    "grade": 3
+  },
+  {
+    "id": 1399900331562,
+    "name": "นาย นพคุณ ภาภักดี",
+    "year": "ม.6",
+    "student_code": 11906,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 62,
+    "grade": 2
+  },
+  {
+    "id": 1399900331562,
+    "name": "นาย นพคุณ ภาภักดี",
+    "year": "ม.6",
+    "student_code": 11906,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 51,
+    "grade": 1
+  },
+  {
+    "id": 1399900331562,
+    "name": "นาย นพคุณ ภาภักดี",
+    "year": "ม.6",
+    "student_code": 11906,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": 51,
+    "grade": 1
+  },
+  {
+    "id": 1399900331562,
+    "name": "นาย นพคุณ ภาภักดี",
+    "year": "ม.6",
+    "student_code": 11906,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 67,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900331562,
+    "name": "นาย นพคุณ ภาภักดี",
+    "year": "ม.6",
+    "student_code": 11906,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 81,
+    "grade": 4
+  },
+  {
+    "id": 1399900331562,
+    "name": "นาย นพคุณ ภาภักดี",
+    "year": "ม.6",
+    "student_code": 11906,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1399900331562,
+    "name": "นาย นพคุณ ภาภักดี",
+    "year": "ม.6",
+    "student_code": 11906,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 53,
+    "grade": 1
+  },
+  {
+    "id": 1118600040636,
+    "name": "นางสาว ณัฏฐนิชา สมน้อย",
+    "year": "ม.6",
+    "student_code": 11911,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1118600040636,
+    "name": "นางสาว ณัฏฐนิชา สมน้อย",
+    "year": "ม.6",
+    "student_code": 11911,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 92,
+    "grade": 4
+  },
+  {
+    "id": 1118600040636,
+    "name": "นางสาว ณัฏฐนิชา สมน้อย",
+    "year": "ม.6",
+    "student_code": 11911,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1118600040636,
+    "name": "นางสาว ณัฏฐนิชา สมน้อย",
+    "year": "ม.6",
+    "student_code": 11911,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 66,
+    "grade": 2.5
+  },
+  {
+    "id": 1118600040636,
+    "name": "นางสาว ณัฏฐนิชา สมน้อย",
+    "year": "ม.6",
+    "student_code": 11911,
+    "subject_code": "ว33201",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 95,
+    "grade": 4
+  },
+  {
+    "id": 1118600040636,
+    "name": "นางสาว ณัฏฐนิชา สมน้อย",
+    "year": "ม.6",
+    "student_code": 11911,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": 96,
+    "grade": 4
+  },
+  {
+    "id": 1118600040636,
+    "name": "นางสาว ณัฏฐนิชา สมน้อย",
+    "year": "ม.6",
+    "student_code": 11911,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 94,
+    "grade": 4
+  },
+  {
+    "id": 1118600040636,
+    "name": "นางสาว ณัฏฐนิชา สมน้อย",
+    "year": "ม.6",
+    "student_code": 11911,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1118600040636,
+    "name": "นางสาว ณัฏฐนิชา สมน้อย",
+    "year": "ม.6",
+    "student_code": 11911,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 94,
+    "grade": 4
+  },
+  {
+    "id": 1118600040636,
+    "name": "นางสาว ณัฏฐนิชา สมน้อย",
+    "year": "ม.6",
+    "student_code": 11911,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 89,
+    "grade": 4
+  },
+  {
+    "id": 1118600040636,
+    "name": "นางสาว ณัฏฐนิชา สมน้อย",
+    "year": "ม.6",
+    "student_code": 11911,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 96,
+    "grade": 4
+  },
+  {
+    "id": 1118600040636,
+    "name": "นางสาว ณัฏฐนิชา สมน้อย",
+    "year": "ม.6",
+    "student_code": 11911,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 95,
+    "grade": 4
+  },
+  {
+    "id": 1118600040636,
+    "name": "นางสาว ณัฏฐนิชา สมน้อย",
+    "year": "ม.6",
+    "student_code": 11911,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 93,
+    "grade": 4
+  },
+  {
+    "id": 1118600040636,
+    "name": "นางสาว ณัฏฐนิชา สมน้อย",
+    "year": "ม.6",
+    "student_code": 11911,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 91,
+    "grade": 4
+  },
+  {
+    "id": 1118600040636,
+    "name": "นางสาว ณัฏฐนิชา สมน้อย",
+    "year": "ม.6",
+    "student_code": 11911,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 89,
+    "grade": 4
+  },
+  {
+    "id": 1118600040636,
+    "name": "นางสาว ณัฏฐนิชา สมน้อย",
+    "year": "ม.6",
+    "student_code": 11911,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 93,
+    "grade": 4
+  },
+  {
+    "id": 1168300004600,
+    "name": "นาย ทวีณัฐ บุดดีคำ",
+    "year": "ม.6",
+    "student_code": 12528,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1168300004600,
+    "name": "นาย ทวีณัฐ บุดดีคำ",
+    "year": "ม.6",
+    "student_code": 12528,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1168300004600,
+    "name": "นาย ทวีณัฐ บุดดีคำ",
+    "year": "ม.6",
+    "student_code": 12528,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1168300004600,
+    "name": "นาย ทวีณัฐ บุดดีคำ",
+    "year": "ม.6",
+    "student_code": 12528,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 77,
+    "grade": 3.5
+  },
+  {
+    "id": 1168300004600,
+    "name": "นาย ทวีณัฐ บุดดีคำ",
+    "year": "ม.6",
+    "student_code": 12528,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 96,
+    "grade": 4
+  },
+  {
+    "id": 1168300004600,
+    "name": "นาย ทวีณัฐ บุดดีคำ",
+    "year": "ม.6",
+    "student_code": 12528,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 68,
+    "grade": 2.5
+  },
+  {
+    "id": 1168300004600,
+    "name": "นาย ทวีณัฐ บุดดีคำ",
+    "year": "ม.6",
+    "student_code": 12528,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1168300004600,
+    "name": "นาย ทวีณัฐ บุดดีคำ",
+    "year": "ม.6",
+    "student_code": 12528,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 78,
+    "grade": 3.5
+  },
+  {
+    "id": 1168300004600,
+    "name": "นาย ทวีณัฐ บุดดีคำ",
+    "year": "ม.6",
+    "student_code": 12528,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 86,
+    "grade": 4
+  },
+  {
+    "id": 1168300004600,
+    "name": "นาย ทวีณัฐ บุดดีคำ",
+    "year": "ม.6",
+    "student_code": 12528,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1168300004600,
+    "name": "นาย ทวีณัฐ บุดดีคำ",
+    "year": "ม.6",
+    "student_code": 12528,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 77,
+    "grade": 3.5
+  },
+  {
+    "id": 1168300004600,
+    "name": "นาย ทวีณัฐ บุดดีคำ",
+    "year": "ม.6",
+    "student_code": 12528,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": 53,
+    "grade": 1
+  },
+  {
+    "id": 1168300004600,
+    "name": "นาย ทวีณัฐ บุดดีคำ",
+    "year": "ม.6",
+    "student_code": 12528,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 64,
+    "grade": 2
+  },
+  {
+    "id": 1168300004600,
+    "name": "นาย ทวีณัฐ บุดดีคำ",
+    "year": "ม.6",
+    "student_code": 12528,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1168300004600,
+    "name": "นาย ทวีณัฐ บุดดีคำ",
+    "year": "ม.6",
+    "student_code": 12528,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 72,
+    "grade": 3
+  },
+  {
+    "id": 1168300004600,
+    "name": "นาย ทวีณัฐ บุดดีคำ",
+    "year": "ม.6",
+    "student_code": 12528,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 73,
+    "grade": 3
+  },
+  {
+    "id": 1110301467223,
+    "name": "นางสาว ปริญญาดา โมคคัลลาสารีบุตร",
+    "year": "ม.6",
+    "student_code": 12876,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1110301467223,
+    "name": "นางสาว ปริญญาดา โมคคัลลาสารีบุตร",
+    "year": "ม.6",
+    "student_code": 12876,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 54,
+    "grade": 1
+  },
+  {
+    "id": 1110301467223,
+    "name": "นางสาว ปริญญาดา โมคคัลลาสารีบุตร",
+    "year": "ม.6",
+    "student_code": 12876,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1110301467223,
+    "name": "นางสาว ปริญญาดา โมคคัลลาสารีบุตร",
+    "year": "ม.6",
+    "student_code": 12876,
+    "subject_code": "ว33101",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 57,
+    "grade": 1.5
+  },
+  {
+    "id": 1110301467223,
+    "name": "นางสาว ปริญญาดา โมคคัลลาสารีบุตร",
+    "year": "ม.6",
+    "student_code": 12876,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1110301467223,
+    "name": "นางสาว ปริญญาดา โมคคัลลาสารีบุตร",
+    "year": "ม.6",
+    "student_code": 12876,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 60,
+    "grade": 2
+  },
+  {
+    "id": 1110301467223,
+    "name": "นางสาว ปริญญาดา โมคคัลลาสารีบุตร",
+    "year": "ม.6",
+    "student_code": 12876,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 50,
+    "grade": 1
+  },
+  {
+    "id": 1110301467223,
+    "name": "นางสาว ปริญญาดา โมคคัลลาสารีบุตร",
+    "year": "ม.6",
+    "student_code": 12876,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 71,
+    "grade": 3
+  },
+  {
+    "id": 1110301467223,
+    "name": "นางสาว ปริญญาดา โมคคัลลาสารีบุตร",
+    "year": "ม.6",
+    "student_code": 12876,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 72,
+    "grade": 3
+  },
+  {
+    "id": 1110301467223,
+    "name": "นางสาว ปริญญาดา โมคคัลลาสารีบุตร",
+    "year": "ม.6",
+    "student_code": 12876,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1110301467223,
+    "name": "นางสาว ปริญญาดา โมคคัลลาสารีบุตร",
+    "year": "ม.6",
+    "student_code": 12876,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1110301467223,
+    "name": "นางสาว ปริญญาดา โมคคัลลาสารีบุตร",
+    "year": "ม.6",
+    "student_code": 12876,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 0,
+    "grade": 0
+  },
+  {
+    "id": 1110301467223,
+    "name": "นางสาว ปริญญาดา โมคคัลลาสารีบุตร",
+    "year": "ม.6",
+    "student_code": 12876,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 55,
+    "grade": 1.5
+  },
+  {
+    "id": 1110301467223,
+    "name": "นางสาว ปริญญาดา โมคคัลลาสารีบุตร",
+    "year": "ม.6",
+    "student_code": 12876,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1110301467223,
+    "name": "นางสาว ปริญญาดา โมคคัลลาสารีบุตร",
+    "year": "ม.6",
+    "student_code": 12876,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 61,
+    "grade": 2
+  },
+  {
+    "id": 1110301467223,
+    "name": "นางสาว ปริญญาดา โมคคัลลาสารีบุตร",
+    "year": "ม.6",
+    "student_code": 12876,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 62,
+    "grade": 2
+  },
+  {
+    "id": 1710400115184,
+    "name": "นางสาว จุฑารัตน์ คราทอง",
+    "year": "ม.6",
+    "student_code": 12877,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 83,
+    "grade": 4
+  },
+  {
+    "id": 1710400115184,
+    "name": "นางสาว จุฑารัตน์ คราทอง",
+    "year": "ม.6",
+    "student_code": 12877,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 87,
+    "grade": 4
+  },
+  {
+    "id": 1710400115184,
+    "name": "นางสาว จุฑารัตน์ คราทอง",
+    "year": "ม.6",
+    "student_code": 12877,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 91,
+    "grade": 4
+  },
+  {
+    "id": 1710400115184,
+    "name": "นางสาว จุฑารัตน์ คราทอง",
+    "year": "ม.6",
+    "student_code": 12877,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 91,
+    "grade": 4
+  },
+  {
+    "id": 1710400115184,
+    "name": "นางสาว จุฑารัตน์ คราทอง",
+    "year": "ม.6",
+    "student_code": 12877,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 94,
+    "grade": 4
+  },
+  {
+    "id": 1710400115184,
+    "name": "นางสาว จุฑารัตน์ คราทอง",
+    "year": "ม.6",
+    "student_code": 12877,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1710400115184,
+    "name": "นางสาว จุฑารัตน์ คราทอง",
+    "year": "ม.6",
+    "student_code": 12877,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1710400115184,
+    "name": "นางสาว จุฑารัตน์ คราทอง",
+    "year": "ม.6",
+    "student_code": 12877,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1710400115184,
+    "name": "นางสาว จุฑารัตน์ คราทอง",
+    "year": "ม.6",
+    "student_code": 12877,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 92,
+    "grade": 4
+  },
+  {
+    "id": 1710400115184,
+    "name": "นางสาว จุฑารัตน์ คราทอง",
+    "year": "ม.6",
+    "student_code": 12877,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1710400115184,
+    "name": "นางสาว จุฑารัตน์ คราทอง",
+    "year": "ม.6",
+    "student_code": 12877,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 87,
+    "grade": 4
+  },
+  {
+    "id": 1710400115184,
+    "name": "นางสาว จุฑารัตน์ คราทอง",
+    "year": "ม.6",
+    "student_code": 12877,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์ (เพิ่มเติม)",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1710400115184,
+    "name": "นางสาว จุฑารัตน์ คราทอง",
+    "year": "ม.6",
+    "student_code": 12877,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": 1710400115184,
+    "name": "นางสาว จุฑารัตน์ คราทอง",
+    "year": "ม.6",
+    "student_code": 12877,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 81,
+    "grade": 4
+  },
+  {
+    "id": 1710400115184,
+    "name": "นางสาว จุฑารัตน์ คราทอง",
+    "year": "ม.6",
+    "student_code": 12877,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 78,
+    "grade": 3.5
+  },
+  {
+    "id": 1710400115184,
+    "name": "นางสาว จุฑารัตน์ คราทอง",
+    "year": "ม.6",
+    "student_code": 12877,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900319937,
+    "name": "นาย คุณากร คุ้มภัย",
+    "year": "ม.6",
+    "student_code": 12878,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900319937,
+    "name": "นาย คุณากร คุ้มภัย",
+    "year": "ม.6",
+    "student_code": 12878,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 64,
+    "grade": 2
+  },
+  {
+    "id": 1399900319937,
+    "name": "นาย คุณากร คุ้มภัย",
+    "year": "ม.6",
+    "student_code": 12878,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900319937,
+    "name": "นาย คุณากร คุ้มภัย",
+    "year": "ม.6",
+    "student_code": 12878,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 71,
+    "grade": 3
+  },
+  {
+    "id": 1399900319937,
+    "name": "นาย คุณากร คุ้มภัย",
+    "year": "ม.6",
+    "student_code": 12878,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์ (เพิ่มเติม)",
+    "score": 64,
+    "grade": 2
+  },
+  {
+    "id": 1399900319937,
+    "name": "นาย คุณากร คุ้มภัย",
+    "year": "ม.6",
+    "student_code": 12878,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 88,
+    "grade": 4
+  },
+  {
+    "id": 1399900319937,
+    "name": "นาย คุณากร คุ้มภัย",
+    "year": "ม.6",
+    "student_code": 12878,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399900319937,
+    "name": "นาย คุณากร คุ้มภัย",
+    "year": "ม.6",
+    "student_code": 12878,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 88,
+    "grade": 4
+  },
+  {
+    "id": 1399900319937,
+    "name": "นาย คุณากร คุ้มภัย",
+    "year": "ม.6",
+    "student_code": 12878,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 84,
+    "grade": 4
+  },
+  {
+    "id": 1399900319937,
+    "name": "นาย คุณากร คุ้มภัย",
+    "year": "ม.6",
+    "student_code": 12878,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 55,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900319937,
+    "name": "นาย คุณากร คุ้มภัย",
+    "year": "ม.6",
+    "student_code": 12878,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399900319937,
+    "name": "นาย คุณากร คุ้มภัย",
+    "year": "ม.6",
+    "student_code": 12878,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 95,
+    "grade": 4
+  },
+  {
+    "id": 1399900319937,
+    "name": "นาย คุณากร คุ้มภัย",
+    "year": "ม.6",
+    "student_code": 12878,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 71,
+    "grade": 3
+  },
+  {
+    "id": 1399900319937,
+    "name": "นาย คุณากร คุ้มภัย",
+    "year": "ม.6",
+    "student_code": 12878,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 85,
+    "grade": 4
+  },
+  {
+    "id": 1399900319937,
+    "name": "นาย คุณากร คุ้มภัย",
+    "year": "ม.6",
+    "student_code": 12878,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 83,
+    "grade": 4
+  },
+  {
+    "id": 1399900319937,
+    "name": "นาย คุณากร คุ้มภัย",
+    "year": "ม.6",
+    "student_code": 12878,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 62,
+    "grade": 2
+  },
+  {
+    "id": 1399900334421,
+    "name": "นางสาว ชฎาภรณ์ เจิมทอง",
+    "year": "ม.6",
+    "student_code": 12880,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 91,
+    "grade": 4
+  },
+  {
+    "id": 1399900334421,
+    "name": "นางสาว ชฎาภรณ์ เจิมทอง",
+    "year": "ม.6",
+    "student_code": 12880,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 83,
+    "grade": 4
+  },
+  {
+    "id": 1399900334421,
+    "name": "นางสาว ชฎาภรณ์ เจิมทอง",
+    "year": "ม.6",
+    "student_code": 12880,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 88,
+    "grade": 4
+  },
+  {
+    "id": 1399900334421,
+    "name": "นางสาว ชฎาภรณ์ เจิมทอง",
+    "year": "ม.6",
+    "student_code": 12880,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 92,
+    "grade": 4
+  },
+  {
+    "id": 1399900334421,
+    "name": "นางสาว ชฎาภรณ์ เจิมทอง",
+    "year": "ม.6",
+    "student_code": 12880,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 94,
+    "grade": 4
+  },
+  {
+    "id": 1399900334421,
+    "name": "นางสาว ชฎาภรณ์ เจิมทอง",
+    "year": "ม.6",
+    "student_code": 12880,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900334421,
+    "name": "นางสาว ชฎาภรณ์ เจิมทอง",
+    "year": "ม.6",
+    "student_code": 12880,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 83,
+    "grade": 4
+  },
+  {
+    "id": 1399900334421,
+    "name": "นางสาว ชฎาภรณ์ เจิมทอง",
+    "year": "ม.6",
+    "student_code": 12880,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900334421,
+    "name": "นางสาว ชฎาภรณ์ เจิมทอง",
+    "year": "ม.6",
+    "student_code": 12880,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 91,
+    "grade": 4
+  },
+  {
+    "id": 1399900334421,
+    "name": "นางสาว ชฎาภรณ์ เจิมทอง",
+    "year": "ม.6",
+    "student_code": 12880,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 77,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900334421,
+    "name": "นางสาว ชฎาภรณ์ เจิมทอง",
+    "year": "ม.6",
+    "student_code": 12880,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 95,
+    "grade": 4
+  },
+  {
+    "id": 1399900334421,
+    "name": "นางสาว ชฎาภรณ์ เจิมทอง",
+    "year": "ม.6",
+    "student_code": 12880,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์(เพิ่มเติม)",
+    "score": 52,
+    "grade": 1
+  },
+  {
+    "id": 1399900334421,
+    "name": "นางสาว ชฎาภรณ์ เจิมทอง",
+    "year": "ม.6",
+    "student_code": 12880,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 68,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900334421,
+    "name": "นางสาว ชฎาภรณ์ เจิมทอง",
+    "year": "ม.6",
+    "student_code": 12880,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900334421,
+    "name": "นางสาว ชฎาภรณ์ เจิมทอง",
+    "year": "ม.6",
+    "student_code": 12880,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 84,
+    "grade": 4
+  },
+  {
+    "id": 1399900334421,
+    "name": "นางสาว ชฎาภรณ์ เจิมทอง",
+    "year": "ม.6",
+    "student_code": 12880,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399000060856,
+    "name": "นางสาว อรนุช ปินะเต",
+    "year": "ม.6",
+    "student_code": 12881,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 63,
+    "grade": 2
+  },
+  {
+    "id": 1399000060856,
+    "name": "นางสาว อรนุช ปินะเต",
+    "year": "ม.6",
+    "student_code": 12881,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1399000060856,
+    "name": "นางสาว อรนุช ปินะเต",
+    "year": "ม.6",
+    "student_code": 12881,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399000060856,
+    "name": "นางสาว อรนุช ปินะเต",
+    "year": "ม.6",
+    "student_code": 12881,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 67,
+    "grade": 2.5
+  },
+  {
+    "id": 1399000060856,
+    "name": "นางสาว อรนุช ปินะเต",
+    "year": "ม.6",
+    "student_code": 12881,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์ (เพิ่มเติม)",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1399000060856,
+    "name": "นางสาว อรนุช ปินะเต",
+    "year": "ม.6",
+    "student_code": 12881,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 61,
+    "grade": 2
+  },
+  {
+    "id": 1399000060856,
+    "name": "นางสาว อรนุช ปินะเต",
+    "year": "ม.6",
+    "student_code": 12881,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1399000060856,
+    "name": "นางสาว อรนุช ปินะเต",
+    "year": "ม.6",
+    "student_code": 12881,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 83,
+    "grade": 4
+  },
+  {
+    "id": 1399000060856,
+    "name": "นางสาว อรนุช ปินะเต",
+    "year": "ม.6",
+    "student_code": 12881,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 72,
+    "grade": 3
+  },
+  {
+    "id": 1399000060856,
+    "name": "นางสาว อรนุช ปินะเต",
+    "year": "ม.6",
+    "student_code": 12881,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 62,
+    "grade": 2
+  },
+  {
+    "id": 1399000060856,
+    "name": "นางสาว อรนุช ปินะเต",
+    "year": "ม.6",
+    "student_code": 12881,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": 1399000060856,
+    "name": "นางสาว อรนุช ปินะเต",
+    "year": "ม.6",
+    "student_code": 12881,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 89,
+    "grade": 4
+  },
+  {
+    "id": 1399000060856,
+    "name": "นางสาว อรนุช ปินะเต",
+    "year": "ม.6",
+    "student_code": 12881,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 60,
+    "grade": 2
+  },
+  {
+    "id": 1399000060856,
+    "name": "นางสาว อรนุช ปินะเต",
+    "year": "ม.6",
+    "student_code": 12881,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399000060856,
+    "name": "นางสาว อรนุช ปินะเต",
+    "year": "ม.6",
+    "student_code": 12881,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399000060856,
+    "name": "นางสาว อรนุช ปินะเต",
+    "year": "ม.6",
+    "student_code": 12881,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 62,
+    "grade": 2
+  },
+  {
+    "id": 1141101132652,
+    "name": "นาย วีรภัทร จันทะพันธ์",
+    "year": "ม.6",
+    "student_code": 13221,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": 1141101132652,
+    "name": "นาย วีรภัทร จันทะพันธ์",
+    "year": "ม.6",
+    "student_code": 13221,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 68,
+    "grade": 2.5
+  },
+  {
+    "id": 1141101132652,
+    "name": "นาย วีรภัทร จันทะพันธ์",
+    "year": "ม.6",
+    "student_code": 13221,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1141101132652,
+    "name": "นาย วีรภัทร จันทะพันธ์",
+    "year": "ม.6",
+    "student_code": 13221,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 60,
+    "grade": 2
+  },
+  {
+    "id": 1141101132652,
+    "name": "นาย วีรภัทร จันทะพันธ์",
+    "year": "ม.6",
+    "student_code": 13221,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 0,
+    "grade": 0
+  },
+  {
+    "id": 1141101132652,
+    "name": "นาย วีรภัทร จันทะพันธ์",
+    "year": "ม.6",
+    "student_code": 13221,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1141101132652,
+    "name": "นาย วีรภัทร จันทะพันธ์",
+    "year": "ม.6",
+    "student_code": 13221,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 55,
+    "grade": 1.5
+  },
+  {
+    "id": 1141101132652,
+    "name": "นาย วีรภัทร จันทะพันธ์",
+    "year": "ม.6",
+    "student_code": 13221,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 74,
+    "grade": 3
+  },
+  {
+    "id": 1141101132652,
+    "name": "นาย วีรภัทร จันทะพันธ์",
+    "year": "ม.6",
+    "student_code": 13221,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1141101132652,
+    "name": "นาย วีรภัทร จันทะพันธ์",
+    "year": "ม.6",
+    "student_code": 13221,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 50,
+    "grade": 1
+  },
+  {
+    "id": 1141101132652,
+    "name": "นาย วีรภัทร จันทะพันธ์",
+    "year": "ม.6",
+    "student_code": 13221,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 63,
+    "grade": 2
+  },
+  {
+    "id": 1141101132652,
+    "name": "นาย วีรภัทร จันทะพันธ์",
+    "year": "ม.6",
+    "student_code": 13221,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 61,
+    "grade": 2
+  },
+  {
+    "id": 1141101132652,
+    "name": "นาย วีรภัทร จันทะพันธ์",
+    "year": "ม.6",
+    "student_code": 13221,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1141101132652,
+    "name": "นาย วีรภัทร จันทะพันธ์",
+    "year": "ม.6",
+    "student_code": 13221,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 60,
+    "grade": 2
+  },
+  {
+    "id": 1141101132652,
+    "name": "นาย วีรภัทร จันทะพันธ์",
+    "year": "ม.6",
+    "student_code": 13221,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์ (เพิ่มเติม)",
+    "score": 50,
+    "grade": 1
+  },
+  {
+    "id": 1141101132652,
+    "name": "นาย วีรภัทร จันทะพันธ์",
+    "year": "ม.6",
+    "student_code": 13221,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 63,
+    "grade": 2
+  },
+  {
+    "id": 1399900305529,
+    "name": "นาย นนทกร กันยา",
+    "year": "ม.6",
+    "student_code": 13601,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1399900305529,
+    "name": "นาย นนทกร กันยา",
+    "year": "ม.6",
+    "student_code": 13601,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์ (เพิ่มเติม)",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1399900305529,
+    "name": "นาย นนทกร กันยา",
+    "year": "ม.6",
+    "student_code": 13601,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1399900305529,
+    "name": "นาย นนทกร กันยา",
+    "year": "ม.6",
+    "student_code": 13601,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 61,
+    "grade": 2
+  },
+  {
+    "id": 1399900305529,
+    "name": "นาย นนทกร กันยา",
+    "year": "ม.6",
+    "student_code": 13601,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 57,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900305529,
+    "name": "นาย นนทกร กันยา",
+    "year": "ม.6",
+    "student_code": 13601,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 60,
+    "grade": 2
+  },
+  {
+    "id": 1399900305529,
+    "name": "นาย นนทกร กันยา",
+    "year": "ม.6",
+    "student_code": 13601,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1399900305529,
+    "name": "นาย นนทกร กันยา",
+    "year": "ม.6",
+    "student_code": 13601,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1399900305529,
+    "name": "นาย นนทกร กันยา",
+    "year": "ม.6",
+    "student_code": 13601,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 58,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900305529,
+    "name": "นาย นนทกร กันยา",
+    "year": "ม.6",
+    "student_code": 13601,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1399900305529,
+    "name": "นาย นนทกร กันยา",
+    "year": "ม.6",
+    "student_code": 13601,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 58,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900305529,
+    "name": "นาย นนทกร กันยา",
+    "year": "ม.6",
+    "student_code": 13601,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 0,
+    "grade": 0
+  },
+  {
+    "id": 1399900305529,
+    "name": "นาย นนทกร กันยา",
+    "year": "ม.6",
+    "student_code": 13601,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 58,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900305529,
+    "name": "นาย นนทกร กันยา",
+    "year": "ม.6",
+    "student_code": 13601,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1399900305529,
+    "name": "นาย นนทกร กันยา",
+    "year": "ม.6",
+    "student_code": 13601,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 62,
+    "grade": 2
+  },
+  {
+    "id": 1399900305529,
+    "name": "นาย นนทกร กันยา",
+    "year": "ม.6",
+    "student_code": 13601,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 55,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900311758,
+    "name": "นาย สุธิพร พรรณพ",
+    "year": "ม.6",
+    "student_code": 8010,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 61,
+    "grade": 2
+  },
+  {
+    "id": 1399900311758,
+    "name": "นาย สุธิพร พรรณพ",
+    "year": "ม.6",
+    "student_code": 8010,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399900311758,
+    "name": "นาย สุธิพร พรรณพ",
+    "year": "ม.6",
+    "student_code": 8010,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900311758,
+    "name": "นาย สุธิพร พรรณพ",
+    "year": "ม.6",
+    "student_code": 8010,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900311758,
+    "name": "นาย สุธิพร พรรณพ",
+    "year": "ม.6",
+    "student_code": 8010,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 89,
+    "grade": 4
+  },
+  {
+    "id": 1399900311758,
+    "name": "นาย สุธิพร พรรณพ",
+    "year": "ม.6",
+    "student_code": 8010,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 63,
+    "grade": 2
+  },
+  {
+    "id": 1399900311758,
+    "name": "นาย สุธิพร พรรณพ",
+    "year": "ม.6",
+    "student_code": 8010,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 58,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900311758,
+    "name": "นาย สุธิพร พรรณพ",
+    "year": "ม.6",
+    "student_code": 8010,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 74,
+    "grade": 3
+  },
+  {
+    "id": 1399900311758,
+    "name": "นาย สุธิพร พรรณพ",
+    "year": "ม.6",
+    "student_code": 8010,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 68,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900311758,
+    "name": "นาย สุธิพร พรรณพ",
+    "year": "ม.6",
+    "student_code": 8010,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 55,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900311758,
+    "name": "นาย สุธิพร พรรณพ",
+    "year": "ม.6",
+    "student_code": 8010,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 60,
+    "grade": 2
+  },
+  {
+    "id": 1399900311758,
+    "name": "นาย สุธิพร พรรณพ",
+    "year": "ม.6",
+    "student_code": 8010,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 67,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900311758,
+    "name": "นาย สุธิพร พรรณพ",
+    "year": "ม.6",
+    "student_code": 8010,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 87,
+    "grade": 4
+  },
+  {
+    "id": 1399900311758,
+    "name": "นาย สุธิพร พรรณพ",
+    "year": "ม.6",
+    "student_code": 8010,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900311758,
+    "name": "นาย สุธิพร พรรณพ",
+    "year": "ม.6",
+    "student_code": 8010,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์ (เพิ่มเติม)",
+    "score": 54,
+    "grade": 1
+  },
+  {
+    "id": 1399900311758,
+    "name": "นาย สุธิพร พรรณพ",
+    "year": "ม.6",
+    "student_code": 8010,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 53,
+    "grade": 1
+  },
+  {
+    "id": 1449900872554,
+    "name": "นาย พงษ์พิชิต เทพสุระ",
+    "year": "ม.6",
+    "student_code": 8471,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 55,
+    "grade": 1.5
+  },
+  {
+    "id": 1449900872554,
+    "name": "นาย พงษ์พิชิต เทพสุระ",
+    "year": "ม.6",
+    "student_code": 8471,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์ (เพิ่มเติม)",
+    "score": 54,
+    "grade": 1
+  },
+  {
+    "id": 1449900872554,
+    "name": "นาย พงษ์พิชิต เทพสุระ",
+    "year": "ม.6",
+    "student_code": 8471,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 63,
+    "grade": 2
+  },
+  {
+    "id": 1449900872554,
+    "name": "นาย พงษ์พิชิต เทพสุระ",
+    "year": "ม.6",
+    "student_code": 8471,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1449900872554,
+    "name": "นาย พงษ์พิชิต เทพสุระ",
+    "year": "ม.6",
+    "student_code": 8471,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 71,
+    "grade": 3
+  },
+  {
+    "id": 1449900872554,
+    "name": "นาย พงษ์พิชิต เทพสุระ",
+    "year": "ม.6",
+    "student_code": 8471,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 61,
+    "grade": 2
+  },
+  {
+    "id": 1449900872554,
+    "name": "นาย พงษ์พิชิต เทพสุระ",
+    "year": "ม.6",
+    "student_code": 8471,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 55,
+    "grade": 1.5
+  },
+  {
+    "id": 1449900872554,
+    "name": "นาย พงษ์พิชิต เทพสุระ",
+    "year": "ม.6",
+    "student_code": 8471,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 81,
+    "grade": 4
+  },
+  {
+    "id": 1449900872554,
+    "name": "นาย พงษ์พิชิต เทพสุระ",
+    "year": "ม.6",
+    "student_code": 8471,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1449900872554,
+    "name": "นาย พงษ์พิชิต เทพสุระ",
+    "year": "ม.6",
+    "student_code": 8471,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1449900872554,
+    "name": "นาย พงษ์พิชิต เทพสุระ",
+    "year": "ม.6",
+    "student_code": 8471,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1449900872554,
+    "name": "นาย พงษ์พิชิต เทพสุระ",
+    "year": "ม.6",
+    "student_code": 8471,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1449900872554,
+    "name": "นาย พงษ์พิชิต เทพสุระ",
+    "year": "ม.6",
+    "student_code": 8471,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 66,
+    "grade": 2.5
+  },
+  {
+    "id": 1449900872554,
+    "name": "นาย พงษ์พิชิต เทพสุระ",
+    "year": "ม.6",
+    "student_code": 8471,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 85,
+    "grade": 4
+  },
+  {
+    "id": 1449900872554,
+    "name": "นาย พงษ์พิชิต เทพสุระ",
+    "year": "ม.6",
+    "student_code": 8471,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 78,
+    "grade": 3.5
+  },
+  {
+    "id": 1449900872554,
+    "name": "นาย พงษ์พิชิต เทพสุระ",
+    "year": "ม.6",
+    "student_code": 8471,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1308200084006,
+    "name": "นางสาว กนกวรรณ พันธ์พงษ์",
+    "year": "ม.6",
+    "student_code": 8937,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 84,
+    "grade": 4
+  },
+  {
+    "id": 1308200084006,
+    "name": "นางสาว กนกวรรณ พันธ์พงษ์",
+    "year": "ม.6",
+    "student_code": 8937,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 90,
+    "grade": 4
+  },
+  {
+    "id": 1308200084006,
+    "name": "นางสาว กนกวรรณ พันธ์พงษ์",
+    "year": "ม.6",
+    "student_code": 8937,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 88,
+    "grade": 4
+  },
+  {
+    "id": 1308200084006,
+    "name": "นางสาว กนกวรรณ พันธ์พงษ์",
+    "year": "ม.6",
+    "student_code": 8937,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 94,
+    "grade": 4
+  },
+  {
+    "id": 1308200084006,
+    "name": "นางสาว กนกวรรณ พันธ์พงษ์",
+    "year": "ม.6",
+    "student_code": 8937,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 95,
+    "grade": 4
+  },
+  {
+    "id": 1308200084006,
+    "name": "นางสาว กนกวรรณ พันธ์พงษ์",
+    "year": "ม.6",
+    "student_code": 8937,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 83,
+    "grade": 4
+  },
+  {
+    "id": 1308200084006,
+    "name": "นางสาว กนกวรรณ พันธ์พงษ์",
+    "year": "ม.6",
+    "student_code": 8937,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 90,
+    "grade": 4
+  },
+  {
+    "id": 1308200084006,
+    "name": "นางสาว กนกวรรณ พันธ์พงษ์",
+    "year": "ม.6",
+    "student_code": 8937,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1308200084006,
+    "name": "นางสาว กนกวรรณ พันธ์พงษ์",
+    "year": "ม.6",
+    "student_code": 8937,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 88,
+    "grade": 4
+  },
+  {
+    "id": 1308200084006,
+    "name": "นางสาว กนกวรรณ พันธ์พงษ์",
+    "year": "ม.6",
+    "student_code": 8937,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 85,
+    "grade": 4
+  },
+  {
+    "id": 1308200084006,
+    "name": "นางสาว กนกวรรณ พันธ์พงษ์",
+    "year": "ม.6",
+    "student_code": 8937,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 95,
+    "grade": 4
+  },
+  {
+    "id": 1308200084006,
+    "name": "นางสาว กนกวรรณ พันธ์พงษ์",
+    "year": "ม.6",
+    "student_code": 8937,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 71,
+    "grade": 3
+  },
+  {
+    "id": 1308200084006,
+    "name": "นางสาว กนกวรรณ พันธ์พงษ์",
+    "year": "ม.6",
+    "student_code": 8937,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1308200084006,
+    "name": "นางสาว กนกวรรณ พันธ์พงษ์",
+    "year": "ม.6",
+    "student_code": 8937,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 74,
+    "grade": 3
+  },
+  {
+    "id": 1308200084006,
+    "name": "นางสาว กนกวรรณ พันธ์พงษ์",
+    "year": "ม.6",
+    "student_code": 8937,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์ (เพิ่มเติม)",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1308200084006,
+    "name": "นางสาว กนกวรรณ พันธ์พงษ์",
+    "year": "ม.6",
+    "student_code": 8937,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900338044,
+    "name": "นาย อภิวิชญ์ ทองวงศ์",
+    "year": "ม.6",
+    "student_code": 8953,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 73,
+    "grade": 3
+  },
+  {
+    "id": 1399900338044,
+    "name": "นาย อภิวิชญ์ ทองวงศ์",
+    "year": "ม.6",
+    "student_code": 8953,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์ (เพิ่มเติม)",
+    "score": 67,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900338044,
+    "name": "นาย อภิวิชญ์ ทองวงศ์",
+    "year": "ม.6",
+    "student_code": 8953,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1399900338044,
+    "name": "นาย อภิวิชญ์ ทองวงศ์",
+    "year": "ม.6",
+    "student_code": 8953,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 81,
+    "grade": 4
+  },
+  {
+    "id": 1399900338044,
+    "name": "นาย อภิวิชญ์ ทองวงศ์",
+    "year": "ม.6",
+    "student_code": 8953,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 74,
+    "grade": 3
+  },
+  {
+    "id": 1399900338044,
+    "name": "นาย อภิวิชญ์ ทองวงศ์",
+    "year": "ม.6",
+    "student_code": 8953,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 94,
+    "grade": 4
+  },
+  {
+    "id": 1399900338044,
+    "name": "นาย อภิวิชญ์ ทองวงศ์",
+    "year": "ม.6",
+    "student_code": 8953,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900338044,
+    "name": "นาย อภิวิชญ์ ทองวงศ์",
+    "year": "ม.6",
+    "student_code": 8953,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 85,
+    "grade": 4
+  },
+  {
+    "id": 1399900338044,
+    "name": "นาย อภิวิชญ์ ทองวงศ์",
+    "year": "ม.6",
+    "student_code": 8953,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 84,
+    "grade": 4
+  },
+  {
+    "id": 1399900338044,
+    "name": "นาย อภิวิชญ์ ทองวงศ์",
+    "year": "ม.6",
+    "student_code": 8953,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900338044,
+    "name": "นาย อภิวิชญ์ ทองวงศ์",
+    "year": "ม.6",
+    "student_code": 8953,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 86,
+    "grade": 4
+  },
+  {
+    "id": 1399900338044,
+    "name": "นาย อภิวิชญ์ ทองวงศ์",
+    "year": "ม.6",
+    "student_code": 8953,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 91,
+    "grade": 4
+  },
+  {
+    "id": 1399900338044,
+    "name": "นาย อภิวิชญ์ ทองวงศ์",
+    "year": "ม.6",
+    "student_code": 8953,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 86,
+    "grade": 4
+  },
+  {
+    "id": 1399900338044,
+    "name": "นาย อภิวิชญ์ ทองวงศ์",
+    "year": "ม.6",
+    "student_code": 8953,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1399900338044,
+    "name": "นาย อภิวิชญ์ ทองวงศ์",
+    "year": "ม.6",
+    "student_code": 8953,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900338044,
+    "name": "นาย อภิวิชญ์ ทองวงศ์",
+    "year": "ม.6",
+    "student_code": 8953,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 66,
+    "grade": 2.5
+  },
+  {
+    "id": 1399000060708,
+    "name": "นางสาว สุริษา ศรีธานิน",
+    "year": "ม.6",
+    "student_code": 8993,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 62,
+    "grade": 2
+  },
+  {
+    "id": 1399000060708,
+    "name": "นางสาว สุริษา ศรีธานิน",
+    "year": "ม.6",
+    "student_code": 8993,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399000060708,
+    "name": "นางสาว สุริษา ศรีธานิน",
+    "year": "ม.6",
+    "student_code": 8993,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399000060708,
+    "name": "นางสาว สุริษา ศรีธานิน",
+    "year": "ม.6",
+    "student_code": 8993,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 58,
+    "grade": 1.5
+  },
+  {
+    "id": 1399000060708,
+    "name": "นางสาว สุริษา ศรีธานิน",
+    "year": "ม.6",
+    "student_code": 8993,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 0,
+    "grade": 0
+  },
+  {
+    "id": 1399000060708,
+    "name": "นางสาว สุริษา ศรีธานิน",
+    "year": "ม.6",
+    "student_code": 8993,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": 1399000060708,
+    "name": "นางสาว สุริษา ศรีธานิน",
+    "year": "ม.6",
+    "student_code": 8993,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 55,
+    "grade": 1.5
+  },
+  {
+    "id": 1399000060708,
+    "name": "นางสาว สุริษา ศรีธานิน",
+    "year": "ม.6",
+    "student_code": 8993,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 74,
+    "grade": 3
+  },
+  {
+    "id": 1399000060708,
+    "name": "นางสาว สุริษา ศรีธานิน",
+    "year": "ม.6",
+    "student_code": 8993,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 81,
+    "grade": 4
+  },
+  {
+    "id": 1399000060708,
+    "name": "นางสาว สุริษา ศรีธานิน",
+    "year": "ม.6",
+    "student_code": 8993,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 60,
+    "grade": 2
+  },
+  {
+    "id": 1399000060708,
+    "name": "นางสาว สุริษา ศรีธานิน",
+    "year": "ม.6",
+    "student_code": 8993,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 62,
+    "grade": 2
+  },
+  {
+    "id": 1399000060708,
+    "name": "นางสาว สุริษา ศรีธานิน",
+    "year": "ม.6",
+    "student_code": 8993,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 69,
+    "grade": 2.5
+  },
+  {
+    "id": 1399000060708,
+    "name": "นางสาว สุริษา ศรีธานิน",
+    "year": "ม.6",
+    "student_code": 8993,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 85,
+    "grade": 4
+  },
+  {
+    "id": 1399000060708,
+    "name": "นางสาว สุริษา ศรีธานิน",
+    "year": "ม.6",
+    "student_code": 8993,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 61,
+    "grade": 2
+  },
+  {
+    "id": 1399000060708,
+    "name": "นางสาว สุริษา ศรีธานิน",
+    "year": "ม.6",
+    "student_code": 8993,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์ (เพิ่มเติม)",
+    "score": 58,
+    "grade": 1.5
+  },
+  {
+    "id": 1399000060708,
+    "name": "นางสาว สุริษา ศรีธานิน",
+    "year": "ม.6",
+    "student_code": 8993,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 53,
+    "grade": 1
+  },
+  {
+    "id": 1399900323586,
+    "name": "นางสาว อรนิชา จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9205,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 71,
+    "grade": 3
+  },
+  {
+    "id": 1399900323586,
+    "name": "นางสาว อรนิชา จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9205,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์ (เพิ่มเติม)",
+    "score": 69,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900323586,
+    "name": "นางสาว อรนิชา จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9205,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399900323586,
+    "name": "นางสาว อรนิชา จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9205,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 81,
+    "grade": 4
+  },
+  {
+    "id": 1399900323586,
+    "name": "นางสาว อรนิชา จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9205,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 66,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900323586,
+    "name": "นางสาว อรนิชา จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9205,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 92,
+    "grade": 4
+  },
+  {
+    "id": 1399900323586,
+    "name": "นางสาว อรนิชา จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9205,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 84,
+    "grade": 4
+  },
+  {
+    "id": 1399900323586,
+    "name": "นางสาว อรนิชา จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9205,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 85,
+    "grade": 4
+  },
+  {
+    "id": 1399900323586,
+    "name": "นางสาว อรนิชา จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9205,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 74,
+    "grade": 3
+  },
+  {
+    "id": 1399900323586,
+    "name": "นางสาว อรนิชา จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9205,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399900323586,
+    "name": "นางสาว อรนิชา จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9205,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900323586,
+    "name": "นางสาว อรนิชา จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9205,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 95,
+    "grade": 4
+  },
+  {
+    "id": 1399900323586,
+    "name": "นางสาว อรนิชา จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9205,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 85,
+    "grade": 4
+  },
+  {
+    "id": 1399900323586,
+    "name": "นางสาว อรนิชา จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9205,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900323586,
+    "name": "นางสาว อรนิชา จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9205,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900323586,
+    "name": "นางสาว อรนิชา จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9205,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 66,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900323560,
+    "name": "นางสาว อรนลิน จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9206,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 67,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900323560,
+    "name": "นางสาว อรนลิน จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9206,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900323560,
+    "name": "นางสาว อรนลิน จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9206,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900323560,
+    "name": "นางสาว อรนลิน จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9206,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 64,
+    "grade": 2
+  },
+  {
+    "id": 1399900323560,
+    "name": "นางสาว อรนลิน จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9206,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 87,
+    "grade": 4
+  },
+  {
+    "id": 1399900323560,
+    "name": "นางสาว อรนลิน จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9206,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399900323560,
+    "name": "นางสาว อรนลิน จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9206,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 62,
+    "grade": 2
+  },
+  {
+    "id": 1399900323560,
+    "name": "นางสาว อรนลิน จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9206,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900323560,
+    "name": "นางสาว อรนลิน จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9206,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399900323560,
+    "name": "นางสาว อรนลิน จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9206,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 77,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900323560,
+    "name": "นางสาว อรนลิน จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9206,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 85,
+    "grade": 4
+  },
+  {
+    "id": 1399900323560,
+    "name": "นางสาว อรนลิน จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9206,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900323560,
+    "name": "นางสาว อรนลิน จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9206,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 81,
+    "grade": 4
+  },
+  {
+    "id": 1399900323560,
+    "name": "นางสาว อรนลิน จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9206,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 69,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900323560,
+    "name": "นางสาว อรนลิน จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9206,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์ (เพิ่มเติม)",
+    "score": 67,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900323560,
+    "name": "นางสาว อรนลิน จารุจิตต์",
+    "year": "ม.6",
+    "student_code": 9206,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399000053124,
+    "name": "นางสาว ชุติมา ยาโย",
+    "year": "ม.6",
+    "student_code": 9209,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 56,
+    "grade": 1.5
+  },
+  {
+    "id": 1399000053124,
+    "name": "นางสาว ชุติมา ยาโย",
+    "year": "ม.6",
+    "student_code": 9209,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์ (เพิ่มเติม)",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1399000053124,
+    "name": "นางสาว ชุติมา ยาโย",
+    "year": "ม.6",
+    "student_code": 9209,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399000053124,
+    "name": "นางสาว ชุติมา ยาโย",
+    "year": "ม.6",
+    "student_code": 9209,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 86,
+    "grade": 4
+  },
+  {
+    "id": 1399000053124,
+    "name": "นางสาว ชุติมา ยาโย",
+    "year": "ม.6",
+    "student_code": 9209,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 67,
+    "grade": 2.5
+  },
+  {
+    "id": 1399000053124,
+    "name": "นางสาว ชุติมา ยาโย",
+    "year": "ม.6",
+    "student_code": 9209,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 71,
+    "grade": 3
+  },
+  {
+    "id": 1399000053124,
+    "name": "นางสาว ชุติมา ยาโย",
+    "year": "ม.6",
+    "student_code": 9209,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 62,
+    "grade": 2
+  },
+  {
+    "id": 1399000053124,
+    "name": "นางสาว ชุติมา ยาโย",
+    "year": "ม.6",
+    "student_code": 9209,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399000053124,
+    "name": "นางสาว ชุติมา ยาโย",
+    "year": "ม.6",
+    "student_code": 9209,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399000053124,
+    "name": "นางสาว ชุติมา ยาโย",
+    "year": "ม.6",
+    "student_code": 9209,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 58,
+    "grade": 1.5
+  },
+  {
+    "id": 1399000053124,
+    "name": "นางสาว ชุติมา ยาโย",
+    "year": "ม.6",
+    "student_code": 9209,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 77,
+    "grade": 3.5
+  },
+  {
+    "id": 1399000053124,
+    "name": "นางสาว ชุติมา ยาโย",
+    "year": "ม.6",
+    "student_code": 9209,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 89,
+    "grade": 4
+  },
+  {
+    "id": 1399000053124,
+    "name": "นางสาว ชุติมา ยาโย",
+    "year": "ม.6",
+    "student_code": 9209,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 84,
+    "grade": 4
+  },
+  {
+    "id": 1399000053124,
+    "name": "นางสาว ชุติมา ยาโย",
+    "year": "ม.6",
+    "student_code": 9209,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399000053124,
+    "name": "นางสาว ชุติมา ยาโย",
+    "year": "ม.6",
+    "student_code": 9209,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 73,
+    "grade": 3
+  },
+  {
+    "id": 1399000053124,
+    "name": "นางสาว ชุติมา ยาโย",
+    "year": "ม.6",
+    "student_code": 9209,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 62,
+    "grade": 2
+  },
+  {
+    "id": 1279900348261,
+    "name": "นาย หัสฐวุฒิ แสนตุ้ย",
+    "year": "ม.6",
+    "student_code": 9218,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 87,
+    "grade": 4
+  },
+  {
+    "id": 1279900348261,
+    "name": "นาย หัสฐวุฒิ แสนตุ้ย",
+    "year": "ม.6",
+    "student_code": 9218,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 85,
+    "grade": 4
+  },
+  {
+    "id": 1279900348261,
+    "name": "นาย หัสฐวุฒิ แสนตุ้ย",
+    "year": "ม.6",
+    "student_code": 9218,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 88,
+    "grade": 4
+  },
+  {
+    "id": 1279900348261,
+    "name": "นาย หัสฐวุฒิ แสนตุ้ย",
+    "year": "ม.6",
+    "student_code": 9218,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 93,
+    "grade": 4
+  },
+  {
+    "id": 1279900348261,
+    "name": "นาย หัสฐวุฒิ แสนตุ้ย",
+    "year": "ม.6",
+    "student_code": 9218,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 97,
+    "grade": 4
+  },
+  {
+    "id": 1279900348261,
+    "name": "นาย หัสฐวุฒิ แสนตุ้ย",
+    "year": "ม.6",
+    "student_code": 9218,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 81,
+    "grade": 4
+  },
+  {
+    "id": 1279900348261,
+    "name": "นาย หัสฐวุฒิ แสนตุ้ย",
+    "year": "ม.6",
+    "student_code": 9218,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 79,
+    "grade": 3.5
+  },
+  {
+    "id": 1279900348261,
+    "name": "นาย หัสฐวุฒิ แสนตุ้ย",
+    "year": "ม.6",
+    "student_code": 9218,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 89,
+    "grade": 4
+  },
+  {
+    "id": 1279900348261,
+    "name": "นาย หัสฐวุฒิ แสนตุ้ย",
+    "year": "ม.6",
+    "student_code": 9218,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 5",
+    "score": 90,
+    "grade": 4
+  },
+  {
+    "id": 1279900348261,
+    "name": "นาย หัสฐวุฒิ แสนตุ้ย",
+    "year": "ม.6",
+    "student_code": 9218,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 85,
+    "grade": 4
+  },
+  {
+    "id": 1279900348261,
+    "name": "นาย หัสฐวุฒิ แสนตุ้ย",
+    "year": "ม.6",
+    "student_code": 9218,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 93,
+    "grade": 4
+  },
+  {
+    "id": 1279900348261,
+    "name": "นาย หัสฐวุฒิ แสนตุ้ย",
+    "year": "ม.6",
+    "student_code": 9218,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 73,
+    "grade": 3
+  },
+  {
+    "id": 1279900348261,
+    "name": "นาย หัสฐวุฒิ แสนตุ้ย",
+    "year": "ม.6",
+    "student_code": 9218,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 84,
+    "grade": 4
+  },
+  {
+    "id": 1279900348261,
+    "name": "นาย หัสฐวุฒิ แสนตุ้ย",
+    "year": "ม.6",
+    "student_code": 9218,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 83,
+    "grade": 4
+  },
+  {
+    "id": 1279900348261,
+    "name": "นาย หัสฐวุฒิ แสนตุ้ย",
+    "year": "ม.6",
+    "student_code": 9218,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์ (เพิ่มเติม)",
+    "score": 67,
+    "grade": 2.5
+  },
+  {
+    "id": 1279900348261,
+    "name": "นาย หัสฐวุฒิ แสนตุ้ย",
+    "year": "ม.6",
+    "student_code": 9218,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399900329771,
+    "name": "นางสาว ปาลิดา ผ่องแผ้ว",
+    "year": "ม.6",
+    "student_code": 9220,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 71,
+    "grade": 3
+  },
+  {
+    "id": 1399900329771,
+    "name": "นางสาว ปาลิดา ผ่องแผ้ว",
+    "year": "ม.6",
+    "student_code": 9220,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์ (เพิ่มเติม)",
+    "score": 78,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900329771,
+    "name": "นางสาว ปาลิดา ผ่องแผ้ว",
+    "year": "ม.6",
+    "student_code": 9220,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1399900329771,
+    "name": "นางสาว ปาลิดา ผ่องแผ้ว",
+    "year": "ม.6",
+    "student_code": 9220,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 89,
+    "grade": 4
+  },
+  {
+    "id": 1399900329771,
+    "name": "นางสาว ปาลิดา ผ่องแผ้ว",
+    "year": "ม.6",
+    "student_code": 9220,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 73,
+    "grade": 3
+  },
+  {
+    "id": 1399900329771,
+    "name": "นางสาว ปาลิดา ผ่องแผ้ว",
+    "year": "ม.6",
+    "student_code": 9220,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 96,
+    "grade": 4
+  },
+  {
+    "id": 1399900329771,
+    "name": "นางสาว ปาลิดา ผ่องแผ้ว",
+    "year": "ม.6",
+    "student_code": 9220,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 90,
+    "grade": 4
+  },
+  {
+    "id": 1399900329771,
+    "name": "นางสาว ปาลิดา ผ่องแผ้ว",
+    "year": "ม.6",
+    "student_code": 9220,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 85,
+    "grade": 4
+  },
+  {
+    "id": 1399900329771,
+    "name": "นางสาว ปาลิดา ผ่องแผ้ว",
+    "year": "ม.6",
+    "student_code": 9220,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 6",
+    "score": 89,
+    "grade": 4
+  },
+  {
+    "id": 1399900329771,
+    "name": "นางสาว ปาลิดา ผ่องแผ้ว",
+    "year": "ม.6",
+    "student_code": 9220,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 77,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900329771,
+    "name": "นางสาว ปาลิดา ผ่องแผ้ว",
+    "year": "ม.6",
+    "student_code": 9220,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900329771,
+    "name": "นางสาว ปาลิดา ผ่องแผ้ว",
+    "year": "ม.6",
+    "student_code": 9220,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 78,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900329771,
+    "name": "นางสาว ปาลิดา ผ่องแผ้ว",
+    "year": "ม.6",
+    "student_code": 9220,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 97,
+    "grade": 4
+  },
+  {
+    "id": 1399900329771,
+    "name": "นางสาว ปาลิดา ผ่องแผ้ว",
+    "year": "ม.6",
+    "student_code": 9220,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 83,
+    "grade": 4
+  },
+  {
+    "id": 1399900329771,
+    "name": "นางสาว ปาลิดา ผ่องแผ้ว",
+    "year": "ม.6",
+    "student_code": 9220,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 86,
+    "grade": 4
+  },
+  {
+    "id": 1399900329771,
+    "name": "นางสาว ปาลิดา ผ่องแผ้ว",
+    "year": "ม.6",
+    "student_code": 9220,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1399900308838,
+    "name": "นาย ธนพัฒน์ อรัญมาลา",
+    "year": "ม.6",
+    "student_code": 9222,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900308838,
+    "name": "นาย ธนพัฒน์ อรัญมาลา",
+    "year": "ม.6",
+    "student_code": 9222,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900308838,
+    "name": "นาย ธนพัฒน์ อรัญมาลา",
+    "year": "ม.6",
+    "student_code": 9222,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900308838,
+    "name": "นาย ธนพัฒน์ อรัญมาลา",
+    "year": "ม.6",
+    "student_code": 9222,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900308838,
+    "name": "นาย ธนพัฒน์ อรัญมาลา",
+    "year": "ม.6",
+    "student_code": 9222,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 55,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900308838,
+    "name": "นาย ธนพัฒน์ อรัญมาลา",
+    "year": "ม.6",
+    "student_code": 9222,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 55,
+    "grade": 1.5
+  },
+  {
+    "id": 1399900308838,
+    "name": "นาย ธนพัฒน์ อรัญมาลา",
+    "year": "ม.6",
+    "student_code": 9222,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399900308838,
+    "name": "นาย ธนพัฒน์ อรัญมาลา",
+    "year": "ม.6",
+    "student_code": 9222,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900308838,
+    "name": "นาย ธนพัฒน์ อรัญมาลา",
+    "year": "ม.6",
+    "student_code": 9222,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 6",
+    "score": 69,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900308838,
+    "name": "นาย ธนพัฒน์ อรัญมาลา",
+    "year": "ม.6",
+    "student_code": 9222,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 51,
+    "grade": 1
+  },
+  {
+    "id": 1399900308838,
+    "name": "นาย ธนพัฒน์ อรัญมาลา",
+    "year": "ม.6",
+    "student_code": 9222,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1399900308838,
+    "name": "นาย ธนพัฒน์ อรัญมาลา",
+    "year": "ม.6",
+    "student_code": 9222,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 86,
+    "grade": 4
+  },
+  {
+    "id": 1399900308838,
+    "name": "นาย ธนพัฒน์ อรัญมาลา",
+    "year": "ม.6",
+    "student_code": 9222,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 68,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900308838,
+    "name": "นาย ธนพัฒน์ อรัญมาลา",
+    "year": "ม.6",
+    "student_code": 9222,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 86,
+    "grade": 4
+  },
+  {
+    "id": 1399900308838,
+    "name": "นาย ธนพัฒน์ อรัญมาลา",
+    "year": "ม.6",
+    "student_code": 9222,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1399900308838,
+    "name": "นาย ธนพัฒน์ อรัญมาลา",
+    "year": "ม.6",
+    "student_code": 9222,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์ (เพิ่มเติม)",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1399900322601,
+    "name": "นางสาว อาทิมา สัมฤทธิ์ริน",
+    "year": "ม.6",
+    "student_code": 9241,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์ (เพิ่มเติม)",
+    "score": 73,
+    "grade": 3
+  },
+  {
+    "id": 1399900322601,
+    "name": "นางสาว อาทิมา สัมฤทธิ์ริน",
+    "year": "ม.6",
+    "student_code": 9241,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 65,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900322601,
+    "name": "นางสาว อาทิมา สัมฤทธิ์ริน",
+    "year": "ม.6",
+    "student_code": 9241,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 83,
+    "grade": 4
+  },
+  {
+    "id": 1399900322601,
+    "name": "นางสาว อาทิมา สัมฤทธิ์ริน",
+    "year": "ม.6",
+    "student_code": 9241,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399900322601,
+    "name": "นางสาว อาทิมา สัมฤทธิ์ริน",
+    "year": "ม.6",
+    "student_code": 9241,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 85,
+    "grade": 4
+  },
+  {
+    "id": 1399900322601,
+    "name": "นางสาว อาทิมา สัมฤทธิ์ริน",
+    "year": "ม.6",
+    "student_code": 9241,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 88,
+    "grade": 4
+  },
+  {
+    "id": 1399900322601,
+    "name": "นางสาว อาทิมา สัมฤทธิ์ริน",
+    "year": "ม.6",
+    "student_code": 9241,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900322601,
+    "name": "นางสาว อาทิมา สัมฤทธิ์ริน",
+    "year": "ม.6",
+    "student_code": 9241,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 6",
+    "score": 77,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900322601,
+    "name": "นางสาว อาทิมา สัมฤทธิ์ริน",
+    "year": "ม.6",
+    "student_code": 9241,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900322601,
+    "name": "นางสาว อาทิมา สัมฤทธิ์ริน",
+    "year": "ม.6",
+    "student_code": 9241,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900322601,
+    "name": "นางสาว อาทิมา สัมฤทธิ์ริน",
+    "year": "ม.6",
+    "student_code": 9241,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 73,
+    "grade": 3
+  },
+  {
+    "id": 1399900322601,
+    "name": "นางสาว อาทิมา สัมฤทธิ์ริน",
+    "year": "ม.6",
+    "student_code": 9241,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 85,
+    "grade": 4
+  },
+  {
+    "id": 1399900322601,
+    "name": "นางสาว อาทิมา สัมฤทธิ์ริน",
+    "year": "ม.6",
+    "student_code": 9241,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900322601,
+    "name": "นางสาว อาทิมา สัมฤทธิ์ริน",
+    "year": "ม.6",
+    "student_code": 9241,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 62,
+    "grade": 2
+  },
+  {
+    "id": 1399900322601,
+    "name": "นางสาว อาทิมา สัมฤทธิ์ริน",
+    "year": "ม.6",
+    "student_code": 9241,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 77,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900322601,
+    "name": "นางสาว อาทิมา สัมฤทธิ์ริน",
+    "year": "ม.6",
+    "student_code": 9241,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 66,
+    "grade": 2.5
+  },
+  {
+    "id": 1399900309109,
+    "name": "นาย เชิดชัย สุวรรณโค",
+    "year": "ม.6",
+    "student_code": 9714,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900309109,
+    "name": "นาย เชิดชัย สุวรรณโค",
+    "year": "ม.6",
+    "student_code": 9714,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 91,
+    "grade": 4
+  },
+  {
+    "id": 1399900309109,
+    "name": "นาย เชิดชัย สุวรรณโค",
+    "year": "ม.6",
+    "student_code": 9714,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": 77,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900309109,
+    "name": "นาย เชิดชัย สุวรรณโค",
+    "year": "ม.6",
+    "student_code": 9714,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 89,
+    "grade": 4
+  },
+  {
+    "id": 1399900309109,
+    "name": "นาย เชิดชัย สุวรรณโค",
+    "year": "ม.6",
+    "student_code": 9714,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 86,
+    "grade": 4
+  },
+  {
+    "id": 1399900309109,
+    "name": "นาย เชิดชัย สุวรรณโค",
+    "year": "ม.6",
+    "student_code": 9714,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 83,
+    "grade": 4
+  },
+  {
+    "id": 1399900309109,
+    "name": "นาย เชิดชัย สุวรรณโค",
+    "year": "ม.6",
+    "student_code": 9714,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1399900309109,
+    "name": "นาย เชิดชัย สุวรรณโค",
+    "year": "ม.6",
+    "student_code": 9714,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 80,
+    "grade": 4
+  },
+  {
+    "id": 1399900309109,
+    "name": "นาย เชิดชัย สุวรรณโค",
+    "year": "ม.6",
+    "student_code": 9714,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 6",
+    "score": 84,
+    "grade": 4
+  },
+  {
+    "id": 1399900309109,
+    "name": "นาย เชิดชัย สุวรรณโค",
+    "year": "ม.6",
+    "student_code": 9714,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 71,
+    "grade": 3
+  },
+  {
+    "id": 1399900309109,
+    "name": "นาย เชิดชัย สุวรรณโค",
+    "year": "ม.6",
+    "student_code": 9714,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 94,
+    "grade": 4
+  },
+  {
+    "id": 1399900309109,
+    "name": "นาย เชิดชัย สุวรรณโค",
+    "year": "ม.6",
+    "student_code": 9714,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 89,
+    "grade": 4
+  },
+  {
+    "id": 1399900309109,
+    "name": "นาย เชิดชัย สุวรรณโค",
+    "year": "ม.6",
+    "student_code": 9714,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 70,
+    "grade": 3
+  },
+  {
+    "id": 1399900309109,
+    "name": "นาย เชิดชัย สุวรรณโค",
+    "year": "ม.6",
+    "student_code": 9714,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 81,
+    "grade": 4
+  },
+  {
+    "id": 1399900309109,
+    "name": "นาย เชิดชัย สุวรรณโค",
+    "year": "ม.6",
+    "student_code": 9714,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1399900309109,
+    "name": "นาย เชิดชัย สุวรรณโค",
+    "year": "ม.6",
+    "student_code": 9714,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์ (เพิ่มเติม)",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1739902320327,
+    "name": "นาย อชาสันต์ สินชัย",
+    "year": "ม.6",
+    "student_code": 9715,
+    "subject_code": "ค33201",
+    "subject_name": "คณิตศาสตร์ (เพิ่มเติม)",
+    "score": 56,
+    "grade": 1.5
+  },
+  {
+    "id": 1739902320327,
+    "name": "นาย อชาสันต์ สินชัย",
+    "year": "ม.6",
+    "student_code": 9715,
+    "subject_code": "ค33101",
+    "subject_name": "คณิตศาสตร์",
+    "score": 72,
+    "grade": 3
+  },
+  {
+    "id": 1739902320327,
+    "name": "นาย อชาสันต์ สินชัย",
+    "year": "ม.6",
+    "student_code": 9715,
+    "subject_code": "พ33101",
+    "subject_name": "สุขศึกษา/พลศึกษา",
+    "score": 82,
+    "grade": 4
+  },
+  {
+    "id": 1739902320327,
+    "name": "นาย อชาสันต์ สินชัย",
+    "year": "ม.6",
+    "student_code": 9715,
+    "subject_code": "ว33101",
+    "subject_name": "วิทยาศาสตร์โลกและอวกาศ 1",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1739902320327,
+    "name": "นาย อชาสันต์ สินชัย",
+    "year": "ม.6",
+    "student_code": 9715,
+    "subject_code": "ว33103",
+    "subject_name": "การออกแบบและเทคโนโลยี",
+    "score": 85,
+    "grade": 4
+  },
+  {
+    "id": 1739902320327,
+    "name": "นาย อชาสันต์ สินชัย",
+    "year": "ม.6",
+    "student_code": 9715,
+    "subject_code": "ง33101",
+    "subject_name": "การงานอาชีพ",
+    "score": 63,
+    "grade": 2
+  },
+  {
+    "id": 1739902320327,
+    "name": "นาย อชาสันต์ สินชัย",
+    "year": "ม.6",
+    "student_code": 9715,
+    "subject_code": "ท33101",
+    "subject_name": "ภาษาไทย",
+    "score": 62,
+    "grade": 2
+  },
+  {
+    "id": 1739902320327,
+    "name": "นาย อชาสันต์ สินชัย",
+    "year": "ม.6",
+    "student_code": 9715,
+    "subject_code": "ว33265",
+    "subject_name": "โลกดาราศาสตร์และอวกาศ 6",
+    "score": 77,
+    "grade": 3.5
+  },
+  {
+    "id": 1739902320327,
+    "name": "นาย อชาสันต์ สินชัย",
+    "year": "ม.6",
+    "student_code": 9715,
+    "subject_code": "ว33245",
+    "subject_name": "ชีววิทยา 5",
+    "score": 83,
+    "grade": 4
+  },
+  {
+    "id": 1739902320327,
+    "name": "นาย อชาสันต์ สินชัย",
+    "year": "ม.6",
+    "student_code": 9715,
+    "subject_code": "ว33205",
+    "subject_name": "ฟิสิกส์ 5",
+    "score": 75,
+    "grade": 3.5
+  },
+  {
+    "id": 1739902320327,
+    "name": "นาย อชาสันต์ สินชัย",
+    "year": "ม.6",
+    "student_code": 9715,
+    "subject_code": "ว33225",
+    "subject_name": "เคมี 5",
+    "score": 59,
+    "grade": 1.5
+  },
+  {
+    "id": 1739902320327,
+    "name": "นาย อชาสันต์ สินชัย",
+    "year": "ม.6",
+    "student_code": 9715,
+    "subject_code": "ส33101",
+    "subject_name": "เศรษฐศาสตร์/การป้องกันการทุจริต",
+    "score": 68,
+    "grade": 2.5
+  },
+  {
+    "id": 1739902320327,
+    "name": "นาย อชาสันต์ สินชัย",
+    "year": "ม.6",
+    "student_code": 9715,
+    "subject_code": "ศ33101",
+    "subject_name": "ศิลปะ",
+    "score": 76,
+    "grade": 3.5
+  },
+  {
+    "id": 1739902320327,
+    "name": "นาย อชาสันต์ สินชัย",
+    "year": "ม.6",
+    "student_code": 9715,
+    "subject_code": "อ33201",
+    "subject_name": "ภาษาอังกฤษ(เพิ่มเติม)",
+    "score": "",
+    "grade": 0
+  },
+  {
+    "id": 1739902320327,
+    "name": "นาย อชาสันต์ สินชัย",
+    "year": "ม.6",
+    "student_code": 9715,
+    "subject_code": "ส33103",
+    "subject_name": "พระพุทธศาสนา 1",
+    "score": 66,
+    "grade": 2.5
+  },
+  {
+    "id": 1739902320327,
+    "name": "นาย อชาสันต์ สินชัย",
+    "year": "ม.6",
+    "student_code": 9715,
+    "subject_code": "อ33101",
+    "subject_name": "ภาษาอังกฤษ",
+    "score": 60,
+    "grade": 2
   }
 ]

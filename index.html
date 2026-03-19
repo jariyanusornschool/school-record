@@ -1,13 +1,133 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <base target="_top">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>เว็บแอป</title>
+<meta charset="UTF-8">
+<title>ตรวจสอบผลการเรียน</title>
+
+<style>
+body{
+font-family:Arial;
+background:#f5f6fa;
+text-align:center;
+}
+
+.container{
+width:700px;
+margin:auto;
+margin-top:80px;
+background:white;
+padding:30px;
+box-shadow:0 0 20px rgba(0,0,0,0.1);
+border-radius:10px;
+}
+
+input{
+padding:10px;
+width:60%;
+margin-top:10px;
+}
+
+button{
+padding:10px 20px;
+background:#2e7d32;
+color:white;
+border:none;
+}
+
+table{
+width:100%;
+margin-top:20px;
+border-collapse:collapse;
+}
+
+th,td{
+border:1px solid #ddd;
+padding:8px;
+}
+
+th{
+background:#2e7d32;
+color:white;
+}
+</style>
+
 </head>
+
 <body>
-    
+
+<div class="container">
+
+<h1>ตรวจสอบผลการเรียน</h1>
+
+<input id="searchBox" placeholder="กรอกเลขบัตรประชาชน 13 หลัก">
+
+<button onclick="searchStudent()">ค้นหา</button>
+
+<div id="result"></div>
+
+</div>
+
+<script>
+
+let students = []
+
+async function loadData(){
+
+ const res = await fetch("./data/students.json")
+ students = await res.json()
+
+}
+
+function searchStudent(){
+
+ const id = document.getElementById("searchBox").value.trim()
+
+ const list = students.filter(s => s.id === id)
+
+ const result = document.getElementById("result")
+
+ if(list.length === 0){
+
+  result.innerHTML = "ไม่พบข้อมูล"
+  return
+
+ }
+
+ let html = `
+ <h2>${list[0].name}</h2>
+ ชั้น ${list[0].year}
+
+ <table>
+ <tr>
+ <th>รหัสวิชา</th>
+ <th>ชื่อวิชา</th>
+ <th>คะแนน</th>
+ <th>เกรด</th>
+ </tr>
+ `
+
+ list.forEach(s=>{
+
+ html += `
+ <tr>
+ <td>${s.subject_code}</td>
+ <td>${s.subject_name}</td>
+ <td>${s.work}</td>
+ <td>${s.grade}</td>
+ </tr>
+ `
+
+ })
+
+ html += "</table>"
+
+ result.innerHTML = html
+
+}
+
+loadData()
+
+</script>
+
 </body>
 </html>

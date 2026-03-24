@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ตรวจสอบผลการเรียนระดับอนุบาล</title>
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      background:#f5f6fa;
+      text-align:center;
+      margin:0;
+      padding:0;
+    }
+
+    .container{
+      width:700px;
+      max-width:90%;
+      margin:80px auto;
+      background:white;
+      padding:30px;
+      box-shadow:0 0 20px rgba(0,0,0,0.1);
+      border-radius:10px;
+    }
+
+    input{
+      padding:10px;
+      width:60%;
+      margin-top:10px;
+      font-size:16px;
+    }
+
+    button{
+      padding:10px 20px;
+      background:#2e7d32;
+      color:white;
+      border:none;
+      cursor:pointer;
+      font-size:16px;
+      margin-left:8px;
+    }
+
+    table{
+      width:100%;
+      margin-top:20px;
+      border-collapse:collapse;
+    }
+
+    th,td{
+      border:1px solid #ddd;
+      padding:8px;
+      text-align:center;
+    }
+
+    th{
+      background:#2e7d32;
+      color:white;
+    }
+
+    .top-info{
+      margin-top:20px;
+      line-height:1.8;
+    }
+
+    .student-name{
+      font-size:24px;
+      font-weight:bold;
+      margin-bottom:8px;
+    }
+
+    .year-room{
+      font-size:18px;
+      margin-bottom:6px;
+    }
+
+    .rank{
+      font-size:18px;
+      font-weight:bold;
+      margin-bottom:12px;
+    }
+
+    .total-score{
+      margin-top:16px;
+      font-size:20px;
+      font-weight:bold;
+      text-align:right;
+    }
+
+    .status{
+      margin-top:12px;
+      color:#666;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>ตรวจสอบผลการเรียนระดับอนุบาล</h1>
+
+    <input id="searchBox" placeholder="กรอกเลขบัตรประชาชน 13 หลัก">
+    <button onclick="searchStudent()">ค้นหา</button>
+
+    <div class="status" id="status">กำลังโหลดข้อมูล...</div>
+    <div id="result"></div>
+  </div>
+
+  <script>
+    let kindergartenData = [];
+    let isLoaded = false;
+
+    async function loadData() {
+      const status = document.getElementById("status");
+
+      try {
+        const res = await fetch('./data/kindergarten_students.json');
+        if (!res.ok) throw new Error('โหลด kindergarten_students.json ไม่สำเร็จ');
+
+        kindergartenData = (await res.json()).filter(item => item && item.id);
+
+        isLoaded = true;
+        status.innerHTML = "โหลดข้อมูลเรียบร้อย";
+        console.log("kindergartenData:", kindergartenData.length);
+      } catch (err) {
+        status.innerHTML = "โหลดข้อมูลไม่สำเร็จ";
+        console.error(err);
+      }
+    }
+
+    function searchStudent() {
+      const id = document.getElementById("searchBox").value.trim();
+      const result = document.getElementById("result");
+
+      if (!isLoaded) {
+        result.innerHTML = "กรุณารอสักครู่ ระบบกำลังโหลดข้อมูล";
+        return;
+      }
+
+      if (!id) {
+        result.innerHTML = "กรุณากรอกเลขบัตรประชาชน";
+        return;
+      }
+
+      const list = kindergartenData.filter(s => String(s.id).trim() === id);
+
+      if (list.length === 0) {
+        result.innerHTML = "ไม่พบข้อมูล";
+        return;
+      }
+
+      const student = list[0];
+
+      let html = `
+        <div class="top-info">
+          <div class="student-name">${student.name ?? ""}</div>
+          <div class="year-room">${student.year_room ?? ((student.year ?? "") + "/" + (student.room ?? ""))}</div>
+          <div class="rank">ลำดับที่ ${student.class_rank ?? "-"}</div>
+        </div>
+
+        <table>
+          <tr>
+            <th>รายวิชา</th>
+            <th>คะแนน</th>
+          </tr>
+      `;
+
+      list.forEach(s => {
+        html += `
+          <tr>
+            <td>${s.subject_name ?? s.subject ?? ""}</td>
+            <td>${s.score ?? ""}</td>
+          </tr>
+        `;
+      });
+
+      html += `</table>`;
+
+      html += `
+        <div class="total-score">
+          คะแนนรวม : ${student.total_score ?? "-"}
+        </div>
+      `;
+
+      result.innerHTML = html;
+    }
+
+    loadData();
+  </script>
+
+</body>
+</html>

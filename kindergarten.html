@@ -105,86 +105,107 @@
   </div>
 
   <script>
-    let kindergartenData = [];
-    let isLoaded = false;
+  let kindergartenData = [];
+  let isLoaded = false;
+  let loadFailed = false;
 
-    async function loadData() {
-      const status = document.getElementById("status");
+  async function loadData() {
+    const status = document.getElementById("status");
 
-      try {
-        const res = await fetch('./data/kindergarten_students.json');
-        if (!res.ok) throw new Error('โหลด kindergarten_students.json ไม่สำเร็จ');
+    try {
+      status.innerHTML = "กำลังโหลดข้อมูล...";
 
-        kindergartenData = (await res.json()).filter(item => item && item.id);
-
-        isLoaded = true;
-        status.innerHTML = "โหลดข้อมูลเรียบร้อย";
-        console.log("kindergartenData:", kindergartenData.length);
-      } catch (err) {
-        status.innerHTML = "โหลดข้อมูลไม่สำเร็จ";
-        console.error(err);
+      const res = await fetch('./data/kindergarten_students.json');
+      if (!res.ok) {
+        throw new Error('โหลดไฟล์ไม่สำเร็จ: ' + res.status);
       }
+
+      const rawData = await res.json();
+      console.log("rawData:", rawData);
+
+      if (!Array.isArray(rawData)) {
+        throw new Error("ไฟล์ JSON ไม่ใช่ array");
+      }
+
+      kindergartenData = rawData.filter(item => item && item.id);
+      console.log("kindergartenData:", kindergartenData.length);
+
+      isLoaded = true;
+      loadFailed = false;
+      status.innerHTML = "โหลดข้อมูลเรียบร้อย";
+    } catch (err) {
+      isLoaded = false;
+      loadFailed = true;
+      status.innerHTML = "โหลดข้อมูลไม่สำเร็จ";
+      console.error("loadData error:", err);
+    }
+  }
+
+  function searchStudent() {
+    const id = document.getElementById("searchBox").value.trim();
+    const result = document.getElementById("result");
+
+    if (loadFailed) {
+      result.innerHTML = "ระบบไม่สามารถโหลดข้อมูลอนุบาลได้";
+      return;
     }
 
-    function searchStudent() {
-      const id = document.getElementById("searchBox").value.trim();
-      const result = document.getElementById("result");
+    if (!isLoaded) {
+      result.innerHTML = "กรุณารอสักครู่ ระบบกำลังโหลดข้อมูล";
+      return;
+    }
 
-      if (!isLoaded) {
-        result.innerHTML = "กรุณารอสักครู่ ระบบกำลังโหลดข้อมูล";
-        return;
-      }
+    if (!id) {
+      result.innerHTML = "กรุณากรอกเลขบัตรประชาชน";
+      return;
+    }
 
-      if (!id) {
-        result.innerHTML = "กรุณากรอกเลขบัตรประชาชน";
-        return;
-      }
+    const list = kindergartenData.filter(s => String(s.id).trim() === id);
+    console.log("search result:", list);
 
-      const list = kindergartenData.filter(s => String(s.id).trim() === id);
+    if (list.length === 0) {
+      result.innerHTML = "ไม่พบข้อมูล";
+      return;
+    }
 
-      if (list.length === 0) {
-        result.innerHTML = "ไม่พบข้อมูล";
-        return;
-      }
+    const student = list[0];
 
-      const student = list[0];
+    let html = `
+      <div class="top-info">
+        <div class="student-name">${student.name ?? ""}</div>
+        <div class="year-room">${student.year_room ?? ((student.year ?? "") + "/" + (student.room ?? ""))}</div>
+        <div class="rank">ลำดับที่ ${student.class_rank ?? "-"}</div>
+      </div>
 
-      let html = `
-        <div class="top-info">
-          <div class="student-name">${student.name ?? ""}</div>
-          <div class="year-room">${student.year_room ?? ((student.year ?? "") + "/" + (student.room ?? ""))}</div>
-          <div class="rank">ลำดับที่ ${student.class_rank ?? "-"}</div>
-        </div>
+      <table>
+        <tr>
+          <th>รายวิชา</th>
+          <th>คะแนน</th>
+        </tr>
+    `;
 
-        <table>
-          <tr>
-            <th>รายวิชา</th>
-            <th>คะแนน</th>
-          </tr>
-      `;
-
-      list.forEach(s => {
-        html += `
-          <tr>
-            <td>${s.subject_name ?? s.subject ?? ""}</td>
-            <td>${s.score ?? ""}</td>
-          </tr>
-        `;
-      });
-
-      html += `</table>`;
-
+    list.forEach(s => {
       html += `
-        <div class="total-score">
-          คะแนนรวม : ${student.total_score ?? "-"}
-        </div>
+        <tr>
+          <td>${s.subject_name ?? s.subjec_name ?? s.subject ?? ""}</td>
+          <td>${s.score ?? ""}</td>
+        </tr>
       `;
+    });
 
-      result.innerHTML = html;
-    }
+    html += `</table>`;
 
-    loadData();
-  </script>
+    html += `
+      <div class="total-score">
+        คะแนนรวม : ${student.total_score ?? "-"}
+      </div>
+    `;
+
+    result.innerHTML = html;
+  }
+
+  loadData();
+</script>
 
 </body>
 </html>

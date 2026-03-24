@@ -12,7 +12,6 @@
       margin:0;
       padding:0;
     }
-
     .container{
       width:700px;
       max-width:90%;
@@ -22,14 +21,12 @@
       box-shadow:0 0 20px rgba(0,0,0,0.1);
       border-radius:10px;
     }
-
     input{
       padding:10px;
       width:60%;
       margin-top:10px;
       font-size:16px;
     }
-
     button{
       padding:10px 20px;
       background:#2e7d32;
@@ -39,69 +36,91 @@
       font-size:16px;
       margin-left:8px;
     }
-
     table{
       width:100%;
       margin-top:20px;
       border-collapse:collapse;
     }
-
     th,td{
       border:1px solid #ddd;
       padding:8px;
       text-align:center;
     }
-
     th{
       background:#2e7d32;
       color:white;
     }
-
-    h1,h2,h3{
-      margin-bottom:10px;
-    }
-
     .gpa{
       margin-top:16px;
       font-size:22px;
       font-weight:bold;
       text-align:right;
     }
-
-    .extra-result{
-      text-align:left;
-      margin-top:20px;
+    .status{
+      margin-top:12px;
+      color:#666;
     }
   </style>
 </head>
 <body>
-
   <div class="container">
     <h1>ตรวจสอบผลการเรียน</h1>
 
     <input id="searchBox" placeholder="กรอกเลขบัตรประชาชน 13 หลัก">
     <button onclick="searchStudent()">ค้นหา</button>
 
+    <div class="status" id="status">กำลังโหลดข้อมูล...</div>
     <div id="result"></div>
   </div>
 
   <script>
     let gradeData = [];
     let passfailData = [];
+    let isLoaded = false;
 
     async function loadData() {
-      const gradeRes = await fetch('data/grade_students.json');
-      gradeData = await gradeRes.json();
+      const status = document.getElementById("status");
 
-      const passRes = await fetch('data/passfail_students.json');
-      passfailData = await passRes.json();
+      try {
+        const gradeRes = await fetch('./data/grade_students.json');
+        if (!gradeRes.ok) throw new Error('โหลด grade_students.json ไม่สำเร็จ');
+        gradeData = await gradeRes.json();
+
+        const passRes = await fetch('./data/passfail_students.json');
+        if (!passRes.ok) throw new Error('โหลด passfail_students.json ไม่สำเร็จ');
+        passfailData = await passRes.json();
+
+        isLoaded = true;
+        status.innerHTML = "โหลดข้อมูลเรียบร้อย";
+        console.log("gradeData:", gradeData.length);
+        console.log("passfailData:", passfailData.length);
+      } catch (err) {
+        status.innerHTML = "โหลดข้อมูลไม่สำเร็จ";
+        console.error(err);
+      }
     }
 
     function searchStudent() {
+      const result = document.getElementById("result");
+      const status = document.getElementById("status");
       const id = document.getElementById("searchBox").value.trim();
+
+      if (!isLoaded) {
+        result.innerHTML = "กรุณารอสักครู่ ระบบกำลังโหลดข้อมูล";
+        return;
+      }
+
+      if (!id) {
+        result.innerHTML = "กรุณากรอกเลขบัตรประชาชน";
+        return;
+      }
+
       const grades = gradeData.filter(s => String(s.id).trim() === id);
       const passfails = passfailData.filter(s => String(s.id).trim() === id);
-      const result = document.getElementById("result");
+
+      console.log("ค้นหา id:", id);
+      console.log("grades:", grades);
+      console.log("passfails:", passfails);
 
       if (grades.length === 0 && passfails.length === 0) {
         result.innerHTML = "ไม่พบข้อมูล";
@@ -111,8 +130,8 @@
       const student = grades[0] || passfails[0];
 
       let html = `
-        <h2>${student.name}</h2>
-        <p>ชั้น ${student.year}</p>
+        <h2>${student.name ?? ""}</h2>
+        <p>ชั้น ${student.year ?? ""}</p>
       `;
 
       if (student.gpa !== undefined && student.gpa !== null && student.gpa !== "") {
@@ -144,13 +163,22 @@
       }
 
       if (passfails.length > 0) {
-        html += `<div class="extra-result"><h3>ผลการประเมินเพิ่มเติม</h3>`;
+        html += `<h3>ผลการประเมินเพิ่มเติม</h3><table>
+          <tr>
+            <th>ชื่อรายการ</th>
+            <th>ผลการประเมิน</th>
+          </tr>`;
 
         passfails.forEach(p => {
-          html += `<p>${p.subject_name} : ${p.result}</p>`;
+          html += `
+            <tr>
+              <td>${p.subject_name ?? ""}</td>
+              <td>${p.result ?? ""}</td>
+            </tr>
+          `;
         });
 
-        html += `</div>`;
+        html += `</table>`;
       }
 
       result.innerHTML = html;
@@ -158,6 +186,5 @@
 
     loadData();
   </script>
-
 </body>
 </html>

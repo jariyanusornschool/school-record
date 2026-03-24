@@ -178,6 +178,17 @@ async function loadData() {
 
         html += `</table>`;
       }
+      const hasR = grades.some(g => String(g.grade).trim() === "ร");
+
+if (hasR) {
+  html += `
+  <div style="margin-top:20px; text-align:right;">
+    <span style="font-size:12px; font-weight:bold; text-decoration:underline;">
+      *หมายเหตุ : นักเรียนที่มีผลการเรียน "ร" GPAจะยังไม่สมบูรณ์ จนกว่าจะแก้ไข
+    </span>
+  </div>
+`;
+}
 
       result.innerHTML = html;
     }

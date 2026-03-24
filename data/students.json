@@ -1,1 +1,163 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ตรวจสอบผลการเรียน</title>
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      background:#f5f6fa;
+      text-align:center;
+      margin:0;
+      padding:0;
+    }
 
+    .container{
+      width:700px;
+      max-width:90%;
+      margin:80px auto;
+      background:white;
+      padding:30px;
+      box-shadow:0 0 20px rgba(0,0,0,0.1);
+      border-radius:10px;
+    }
+
+    input{
+      padding:10px;
+      width:60%;
+      margin-top:10px;
+      font-size:16px;
+    }
+
+    button{
+      padding:10px 20px;
+      background:#2e7d32;
+      color:white;
+      border:none;
+      cursor:pointer;
+      font-size:16px;
+      margin-left:8px;
+    }
+
+    table{
+      width:100%;
+      margin-top:20px;
+      border-collapse:collapse;
+    }
+
+    th,td{
+      border:1px solid #ddd;
+      padding:8px;
+      text-align:center;
+    }
+
+    th{
+      background:#2e7d32;
+      color:white;
+    }
+
+    h1,h2,h3{
+      margin-bottom:10px;
+    }
+
+    .gpa{
+      margin-top:16px;
+      font-size:22px;
+      font-weight:bold;
+      text-align:right;
+    }
+
+    .extra-result{
+      text-align:left;
+      margin-top:20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>ตรวจสอบผลการเรียน</h1>
+
+    <input id="searchBox" placeholder="กรอกเลขบัตรประชาชน 13 หลัก">
+    <button onclick="searchStudent()">ค้นหา</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script>
+    let gradeData = [];
+    let passfailData = [];
+
+    async function loadData() {
+      const gradeRes = await fetch('data/grade_students.json');
+      gradeData = await gradeRes.json();
+
+      const passRes = await fetch('data/passfail_students.json');
+      passfailData = await passRes.json();
+    }
+
+    function searchStudent() {
+      const id = document.getElementById("searchBox").value.trim();
+      const grades = gradeData.filter(s => String(s.id).trim() === id);
+      const passfails = passfailData.filter(s => String(s.id).trim() === id);
+      const result = document.getElementById("result");
+
+      if (grades.length === 0 && passfails.length === 0) {
+        result.innerHTML = "ไม่พบข้อมูล";
+        return;
+      }
+
+      const student = grades[0] || passfails[0];
+
+      let html = `
+        <h2>${student.name}</h2>
+        <p>ชั้น ${student.year}</p>
+      `;
+
+      if (student.gpa !== undefined && student.gpa !== null && student.gpa !== "") {
+        html += `<div class="gpa">GPA : ${Number(student.gpa).toFixed(2)}</div>`;
+      }
+
+      if (grades.length > 0) {
+        html += `
+          <h3>ผลการเรียนรายวิชา</h3>
+          <table>
+            <tr>
+              <th>รหัสวิชา</th>
+              <th>ชื่อวิชา</th>
+              <th>เกรด</th>
+            </tr>
+        `;
+
+        grades.forEach(g => {
+          html += `
+            <tr>
+              <td>${g.subject_code ?? ""}</td>
+              <td>${g.subject_name ?? ""}</td>
+              <td>${g.grade ?? ""}</td>
+            </tr>
+          `;
+        });
+
+        html += `</table>`;
+      }
+
+      if (passfails.length > 0) {
+        html += `<div class="extra-result"><h3>ผลการประเมินเพิ่มเติม</h3>`;
+
+        passfails.forEach(p => {
+          html += `<p>${p.subject_name} : ${p.result}</p>`;
+        });
+
+        html += `</div>`;
+      }
+
+      result.innerHTML = html;
+    }
+
+    loadData();
+  </script>
+
+</body>
+</html>

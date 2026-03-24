@@ -1,133 +1,78 @@
-<!DOCTYPE html>
-<html lang="th">
-<head>
-<meta charset="UTF-8">
-<title>ตรวจสอบผลการเรียน</title>
+let gradeData = []
+let passfailData = []
 
-<style>
-body{
-font-family:Arial;
-background:#f5f6fa;
-text-align:center;
+async function loadData() {
+  const gradeRes = await fetch('data/grade_students.json')
+  gradeData = await gradeRes.json()
+
+  const passRes = await fetch('data/passfail_students.json')
+  passfailData = await passRes.json()
 }
 
-.container{
-width:700px;
-margin:auto;
-margin-top:80px;
-background:white;
-padding:30px;
-box-shadow:0 0 20px rgba(0,0,0,0.1);
-border-radius:10px;
-}
-
-input{
-padding:10px;
-width:60%;
-margin-top:10px;
-}
-
-button{
-padding:10px 20px;
-background:#2e7d32;
-color:white;
-border:none;
-}
-
-table{
-width:100%;
-margin-top:20px;
-border-collapse:collapse;
-}
-
-th,td{
-border:1px solid #ddd;
-padding:8px;
-}
-
-th{
-background:#2e7d32;
-color:white;
-}
-</style>
-
-</head>
-
-<body>
-
-<div class="container">
-
-<h1>ตรวจสอบผลการเรียน</h1>
-
-<input id="searchBox" placeholder="กรอกเลขบัตรประชาชน 13 หลัก">
-
-<button onclick="searchStudent()">ค้นหา</button>
-
-<div id="result"></div>
-
-</div>
-
-<script>
-
-let students = []
-
-async function loadData(){
-
- const res = await fetch("./data/students.json")
- students = await res.json()
-
-}
-
-function searchStudent(){
-
- const id = document.getElementById("searchBox").value.trim()
-
- const list = students.filter(s => String(s.id).trim() === id)
-
- const result = document.getElementById("result")
-
- if(list.length === 0){
-
-  result.innerHTML = "ไม่พบข้อมูล"
-  return
-
- }
-
- let html = `
- <h2>${list[0].name}</h2>
- ชั้น ${list[0].year}
-
- <table>
- <tr>
- <th>รหัสวิชา</th>
- <th>ชื่อวิชา</th>
- <th>คะแนน</th>
- <th>เกรด</th>
- </tr>
- `
-
- list.forEach(s=>{
-
- html += `
- <tr>
- <td>${s.subject_code}</td>
- <td>${s.subject_name}</td>
- <td>${s.work}</td>
- <td>${s.grade}</td>
- </tr>
- `
-
- })
-
- html += "</table>"
-
- result.innerHTML = html
-
-}
-
+// โหลดตอนเปิดเว็บ
 loadData()
 
-</script>
+function searchStudent() {
 
-</body>
-</html>
+  const id = document.getElementById("searchBox").value.trim()
+
+  const grades = gradeData.filter(s => s.id == id)
+  const passfails = passfailData.filter(s => s.id == id)
+
+  const result = document.getElementById("result")
+
+  if (grades.length === 0 && passfails.length === 0) {
+    result.innerHTML = "ไม่พบข้อมูล"
+    return
+  }
+
+  // 🧑‍🎓 ข้อมูลนักเรียน
+  const student = grades[0] || passfails[0]
+
+  let html = `
+    <h2>${student.name}</h2>
+    <p>ชั้น ${student.year}</p>
+  `
+
+  // ====================
+  // 📊 ตารางเกรด
+  // ====================
+  if (grades.length > 0) {
+    html += `
+      <table border="1">
+        <tr>
+          <th>รหัสวิชา</th>
+          <th>ชื่อวิชา</th>
+          <th>เกรด</th>
+        </tr>
+    `
+
+    grades.forEach(g => {
+      html += `
+        <tr>
+          <td>${g.subject_code}</td>
+          <td>${g.subject_name}</td>
+          <td>${g.grade}</td>
+        </tr>
+      `
+    })
+
+    html += `</table>`
+  }
+
+  // ====================
+  // ✅ ผ่าน / ไม่ผ่าน
+  // ====================
+  if (passfails.length > 0) {
+    html += `<h3>ผลการประเมินเพิ่มเติม</h3>`
+
+    passfails.forEach(p => {
+      html += `<p>${p.subject_name} : ${p.result}</p>`
+    })
+  }
+
+  result.innerHTML = html
+
+html += `<h3>GPA: ${student.gpa}</h3>`
+
+  

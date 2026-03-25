@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ระบบตรวจสอบผลการเรียน</title>
+
   <style>
     body{
       font-family: Arial, sans-serif;
@@ -12,48 +13,106 @@
       padding:0;
       text-align:center;
     }
+
     .container{
-      width:700px;
-      max-width:90%;
-      margin:120px auto;
+      width:900px;
+      max-width:95%;
+      margin:80px auto;
       background:white;
-      padding:50px 30px;
+      padding:40px 20px;
       box-shadow:0 0 20px rgba(0,0,0,0.1);
       border-radius:12px;
     }
+
     h1{
       margin-bottom:30px;
-      font-size:42px;
+      font-size:36px;
     }
-    .menu{
-      margin-top:20px;
+
+    .section{
+      margin-top:30px;
     }
+
+    .section h2{
+      margin-bottom:15px;
+      font-size:22px;
+    }
+
     .menu a{
-      padding:14px 28px;
+      padding:12px 18px;
       color:white;
       text-decoration:none;
       border-radius:8px;
       display:inline-block;
-      margin:10px;
-      font-size:22px;
+      margin:8px;
+      font-size:16px;
       font-weight:bold;
     }
-    .menu-grade{
-      background:#1976d2;
-    }
-    .menu-kinder{
-      background:#2e7d32;
-    }
+
+    /* อนุบาล */
+    .k1{ background:#ff9800; }
+    .k2{ background:#ffb74d; }
+    .k3{ background:#ffa726; }
+
+    /* ประถม */
+    .p{ background:#1976d2; }
+
+    /* มัธยมต้น */
+    .m{ background:#6a1b9a; }
+
+    /* มัธยมปลาย */
+    .mhigh{ background:#37474f; }
+
   </style>
 </head>
-<body>
-  <div class="container">
-    <h1>ระบบตรวจสอบผลการเรียน</h1>
 
-    <div class="menu">
-      <a href="grade.html" class="menu-grade">📊 ประถม / มัธยม</a>
-      <a href="kindergarten.html" class="menu-kinder">🧸 อนุบาล</a>
+<body>
+
+  <div class="container">
+    <h1>📊 ระบบตรวจสอบผลการเรียน</h1>
+
+    <!-- อนุบาล -->
+    <div class="section">
+      <h2>🧸 ระดับอนุบาล</h2>
+      <div class="menu">
+        <a href="k1.html" class="k1">🧸 อนุบาล 1</a>
+        <a href="k2.html" class="k2">🎈 อนุบาล 2</a>
+        <a href="k3.html" class="k3">🌈 อนุบาล 3</a>
+      </div>
     </div>
+
+    <!-- ประถม -->
+    <div class="section">
+      <h2>📘 ระดับประถมศึกษา</h2>
+      <div class="menu">
+        <a href="p1.html" class="p">ป.1</a>
+        <a href="p2.html" class="p">ป.2</a>
+        <a href="p3.html" class="p">ป.3</a>
+        <a href="p4.html" class="p">ป.4</a>
+        <a href="p5.html" class="p">ป.5</a>
+        <a href="p6.html" class="p">ป.6</a>
+      </div>
+    </div>
+
+    <!-- มัธยมต้น -->
+    <div class="section">
+      <h2>📗 ระดับมัธยมศึกษาตอนต้น</h2>
+      <div class="menu">
+        <a href="m1.html" class="m">ม.1</a>
+        <a href="m2.html" class="m">ม.2</a>
+        <a href="m3.html" class="m">ม.3</a>
+      </div>
+    </div>
+
+    <!-- มัธยมปลาย -->
+    <div class="section">
+      <h2>🎓 ระดับมัธยมศึกษาตอนปลาย</h2>
+      <div class="menu">
+        <a href="mhigh.html" class="mhigh">ม.4-6</a>
+      </div>
+    </div>
+
   </div>
+
 </body>
 </html>

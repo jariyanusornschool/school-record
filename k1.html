@@ -123,7 +123,10 @@ async function searchStudent() {
   document.getElementById("studentYear").innerText = "ชั้น: " + studentData[0].year;
 
   // 👉 ใช้ GPA จาก JSON โดยตรง (ไม่คำนวณ)
-  document.getElementById("studentGpa").innerText = studentData[0].gpa ?? "-";
+  document.getElementById("studentGpa").innerText =
+  studentData[0].gpa !== undefined && studentData[0].gpa !== null
+    ? Number(studentData[0].gpa).toFixed(2)
+    : "-";
 
   // แสดงรายวิชา
   studentData.forEach(item => {

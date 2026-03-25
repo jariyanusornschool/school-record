@@ -2,7 +2,7 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <title>ตรวจสอบผลการเรียน ม.4 - ม.6</title>
+  <title>ตรวจสอบผลการเรียน ม.4</title>
 
   <style>
     body{
@@ -67,7 +67,7 @@
 <body>
 
 <div class="container">
-  <h2>📘 ตรวจสอบผลการเรียน ม.4 - ม.6</h2>
+  <h2>📘 ตรวจสอบผลการเรียน ม.4</h2>
 
   <input type="text" id="studentId" placeholder="กรอกเลขบัตรประชาชน / รหัสนักเรียน">
   <br>
@@ -100,7 +100,7 @@ async function searchStudent() {
 
   const inputId = document.getElementById("studentId").value.trim();
 
-  const response = await fetch("data/mhigh.json");
+  const response = await fetch("data/m4.json");
   const data = await response.json();
 
   const studentData = data.filter(item => String(item.id) === inputId);

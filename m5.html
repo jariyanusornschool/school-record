@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ตรวจสอบผลการเรียน ม.5</title>
+
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      background:#f5f6fa;
+      text-align:center;
+      margin:0;
+      padding:0;
+    }
+
+    .container{
+      width:700px;
+      max-width:90%;
+      margin:80px auto;
+      background:white;
+      padding:30px;
+      box-shadow:0 0 15px rgba(0,0,0,0.1);
+      border-radius:10px;
+    }
+
+    input{
+      padding:10px;
+      width:70%;
+      font-size:16px;
+      margin-bottom:10px;
+    }
+
+    button{
+      padding:10px 20px;
+      background:#1976d2;
+      color:white;
+      border:none;
+      border-radius:6px;
+      cursor:pointer;
+      font-size:16px;
+    }
+
+    table{
+      width:100%;
+      border-collapse:collapse;
+      margin-top:20px;
+    }
+
+    th, td{
+      border:1px solid #ddd;
+      padding:8px;
+    }
+
+    th{
+      background:#1976d2;
+      color:white;
+    }
+
+    .info{
+      margin-top:20px;
+      font-size:18px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+  <h2>📘 ตรวจสอบผลการเรียน ม.5</h2>
+
+  <input type="text" id="studentId" placeholder="กรอกเลขบัตรประชาชน / รหัสนักเรียน">
+  <br>
+  <button onclick="searchStudent()">ค้นหา</button>
+
+  <div id="result" style="display:none;">
+
+    <div class="info">
+      <p id="studentName"></p>
+      <p id="studentYear"></p>
+      <p><b>GPA :</b> <span id="studentGpa"></span></p>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>รหัสวิชา</th>
+          <th>ชื่อวิชา</th>
+          <th>เกรด</th>
+        </tr>
+      </thead>
+      <tbody id="gradeTableBody"></tbody>
+    </table>
+
+  </div>
+</div>
+
+<script>
+async function searchStudent() {
+
+  const inputId = document.getElementById("studentId").value.trim();
+
+  const response = await fetch("data/m5.json");
+  const data = await response.json();
+
+  const studentData = data.filter(item => String(item.id) === inputId);
+
+  const resultDiv = document.getElementById("result");
+  const tableBody = document.getElementById("gradeTableBody");
+
+  tableBody.innerHTML = "";
+
+  if (studentData.length === 0) {
+    resultDiv.style.display = "block";
+    document.getElementById("studentName").innerText = "❌ ไม่พบข้อมูล";
+    document.getElementById("studentYear").innerText = "";
+    document.getElementById("studentGpa").innerText = "-";
+    return;
+  }
+
+  // แสดงข้อมูลนักเรียน
+  document.getElementById("studentName").innerText = "ชื่อ: " + studentData[0].name;
+  document.getElementById("studentYear").innerText = "ชั้น: " + studentData[0].year;
+
+  // 👉 ใช้ GPA จาก JSON โดยตรง (ไม่คำนวณ)
+  document.getElementById("studentGpa").innerText = studentData[0].gpa ?? "-";
+
+  // แสดงรายวิชา
+  studentData.forEach(item => {
+    const row = `
+      <tr>
+        <td>${item.subject_code}</td>
+        <td>${item.subject_name}</td>
+        <td>${item.grade}</td>
+      </tr>
+    `;
+    tableBody.innerHTML += row;
+  });
+
+  resultDiv.style.display = "block";
+}
+</script>
+
+</body>
+</html>

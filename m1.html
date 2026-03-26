@@ -182,14 +182,16 @@ async function searchStudent() {
       : "-";
 
   // ✅ เพิ่มตรงนี้
-  const hasR = studentGrades.some(item => item.grade?.trim() === "ร");
+  const hasR = studentGrades.some(item => item.grade === "ร");
 
   const note = document.getElementById("noteRemark");
-  if (hasR) {
-    note.style.display = "block";
-    } else {
-    note.style.display = "none";
-  }
+
+if (Array.isArray(studentGrades) && studentGrades.length > 0) {
+  const hasR = studentGrades.some(item => item.grade === "ร");
+  note.style.display = hasR ? "block" : "none";
+} else {
+  note.style.display = "none";
+}
 
   // ตารางเกรด
   studentGrades.forEach(item => {

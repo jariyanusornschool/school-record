@@ -60,6 +60,12 @@
       margin-top:20px;
       font-size:18px;
     }
+    
+    .logo{
+  width:120px;
+  margin-bottom:15px;
+  border-radius:50%;
+}
 
   </style>
 </head>
@@ -67,6 +73,7 @@
 <body>
 
 <div class="container">
+  <img src="logo.png" class="logo">
   <h2>📘 ตรวจสอบผลการเรียน อนุบาล 2</h2>
 
   <input type="text" id="studentId" placeholder="กรอกเลขบัตรประชาชน / รหัสนักเรียน">
@@ -78,15 +85,13 @@
     <div class="info">
       <p id="studentName"></p>
       <p id="studentYear"></p>
-      <p><b>GPA :</b> <span id="studentGpa"></span></p>
     </div>
 
     <table>
       <thead>
-        <tr>
-          <th>รหัสวิชา</th>
+        <tr>          
           <th>ชื่อวิชา</th>
-          <th>เกรด</th>
+          <th>คะแนน</th>
         </tr>
       </thead>
       <tbody id="gradeTableBody"></tbody>
@@ -118,29 +123,40 @@ async function searchStudent() {
     return;
   }
 
-  // แสดงข้อมูลนักเรียน
-  document.getElementById("studentName").innerText = "ชื่อ: " + studentData[0].name;
-  document.getElementById("studentYear").innerText = "ชั้น: " + studentData[0].year;
+  const student = studentData[0];
 
-  // 👉 ใช้ GPA จาก JSON โดยตรง (ไม่คำนวณ)
-  document.getElementById("studentGpa").innerText =
-  studentData[0].gpa !== undefined && studentData[0].gpa !== null
-    ? Number(studentData[0].gpa).toFixed(2)
-    : "-";
+// ✅ ชื่อ + ห้อง
+document.getElementById("studentName").innerText =
+  "ชื่อ: " + student.name + "   ชั้น: " + student.year_room;
 
-  // แสดงรายวิชา
-  studentData.forEach(item => {
-    const row = `
-      <tr>
-        <td>${item.subject_code}</td>
-        <td>${item.subject_name}</td>
-        <td>${item.grade}</td>
-      </tr>
-    `;
-    tableBody.innerHTML += row;
-  });
+// ✅ ลำดับที่
+document.getElementById("studentYear").innerText =
+  "ลำดับที่: " + student.class_rank;
 
-  resultDiv.style.display = "block";
+// ✅ แสดงรายวิชา
+studentData.forEach(item => {
+  const row = `
+    <tr>
+      <td>${item.subject_name}</td>
+      <td>${item.score}</td>
+    </tr>
+  `;
+  tableBody.innerHTML += row;
+});
+
+// ✅ ⬇️ ย้ายมาวางตรงนี้ (นอก loop)
+const totalScore = student.total_score;
+
+const totalRow = `
+  <tr style="font-weight:bold; background:#f1f1f1;">
+    <td>คะแนนรวม</td>
+    <td>${totalScore}</td>
+  </tr>
+`;
+
+tableBody.innerHTML += totalRow;
+
+resultDiv.style.display = "block";
 }
 </script>
 

@@ -122,15 +122,23 @@ async function searchStudent() {
 
   const inputId = document.getElementById("studentId").value.trim();
 
-  const response = await fetch("data/m1.json");
-  const data = await response.json();
+  const [gradeResponse, activityResponse] = await Promise.all([
+    fetch("data/m1.json"),
+    fetch("data/passfail_m1.json")
+  ]);
 
-  const studentData = data.filter(item => String(item.id) === inputId);
+  const gradeData = await gradeResponse.json();
+  const activityData = await activityResponse.json();
+
+  const studentGrades = gradeData.filter(item => String(item.id) === inputId);
+  const studentActivities = activityData.filter(item => String(item.id) === inputId);
 
   const resultDiv = document.getElementById("result");
-  const tableBody = document.getElementById("gradeTableBody");
+  const gradeTableBody = document.getElementById("gradeTableBody");
+  const activityTableBody = document.getElementById("activityTableBody");
 
-  tableBody.innerHTML = "";
+  gradeTableBody.innerHTML = "";
+  activityTableBody.innerHTML = "";
 
   if (studentData.length === 0) {
     resultDiv.style.display = "block";

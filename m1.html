@@ -105,7 +105,12 @@
       <p id="studentName"></p>
       <p id="studentYear"></p>
       <p><b>GPA :</b> <span id="studentGpa"></span></p>
+      <p id="noteRemark" style="color:red; font-size:14px; display:none;">
+        *หมายเหตุ : นักเรียนที่มีผลการเรียน "ร" GPA จะยังไม่สมบูรณ์ จนกว่าจะแก้ไข
+      </p>
     </div>
+
+    
 
     <!-- ตารางเกรด -->
     <div class="section-title">ผลการเรียนรายวิชา</div>
@@ -175,6 +180,16 @@ async function searchStudent() {
     studentGrades[0].gpa !== undefined && studentGrades[0].gpa !== null
       ? Number(studentGrades[0].gpa).toFixed(2)
       : "-";
+
+  // ✅ เพิ่มตรงนี้
+  const hasR = studentGrades.some(item => item.grade?.trim() === "ร");
+
+  const note = document.getElementById("noteRemark");
+  if (hasR) {
+    note.style.display = "block";
+    } else {
+    note.style.display = "none";
+  }
 
   // ตารางเกรด
   studentGrades.forEach(item => {

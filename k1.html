@@ -135,34 +135,25 @@ async function searchStudent() {
   document.getElementById("studentYear").innerText =
     "ลำดับที่: " + student.class_rank;
 
-  // ✅ คำนวณ GPA จาก score
-  let totalScore = 0;
-  studentData.forEach(item => {
-    totalScore += Number(item.score);
-  });
-
-  let avg = totalScore / studentData.length;
-
-  // แปลงเป็นเกรด 4.00 แบบง่าย
-  let gpa = (avg / 25); // 100 = 4.00
-
-  document.getElementById("studentGpa").innerText = gpa.toFixed(2);
-
   // ✅ แสดงรายวิชา
   studentData.forEach(item => {
 
-    let gradeText = "";
-
-    if(item.score >= 80) gradeText = "ดีมาก";
-    else if(item.score >= 70) gradeText = "ดี";
-    else if(item.score >= 60) gradeText = "พอใช้";
-    else gradeText = "ควรปรับปรุง";
+    
 
     const row = `
       <tr>
         <td>-</td>
         <td>${item.subjec_name}</td>
-        <td>${gradeText}</td>
+        <td>${item.score}</td>
+      </tr>
+    `;
+
+    const totalScore = student.total_score;
+
+    const totalRow = `
+      <tr style="font-weight:bold; background:#f1f1f1;">
+        <td colspan="2">คะแนนรวม</td>
+        <td>${totalScore}</td>
       </tr>
     `;
 

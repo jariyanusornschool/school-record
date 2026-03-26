@@ -127,40 +127,39 @@ async function searchStudent() {
 
   const student = studentData[0];
 
-  // ✅ บรรทัดที่ 1 (ชื่อ + ห้อง)
-  document.getElementById("studentName").innerText =
-    "ชื่อ: " + student.name + "   ชั้น: " + student.year_room;
+// ✅ ชื่อ + ห้อง
+document.getElementById("studentName").innerText =
+  "ชื่อ: " + student.name + "   ชั้น: " + student.year_room;
 
-  // ✅ บรรทัดที่ 2 (ลำดับที่)
-  document.getElementById("studentYear").innerText =
-    "ลำดับที่: " + student.class_rank;
+// ✅ ลำดับที่
+document.getElementById("studentYear").innerText =
+  "ลำดับที่: " + student.class_rank;
 
-  // ✅ แสดงรายวิชา
-  studentData.forEach(item => {
+// ✅ แสดงรายวิชา
+studentData.forEach(item => {
+  const row = `
+    <tr>
+      <td>-</td>
+      <td>${item.subject_name}</td>
+      <td>${item.score}</td>
+    </tr>
+  `;
+  tableBody.innerHTML += row;
+});
 
-    
+// ✅ ⬇️ ย้ายมาวางตรงนี้ (นอก loop)
+const totalScore = student.total_score;
 
-    const row = `
-      <tr>
-        <td>-</td>
-        <td>${item.subject_name}</td>
-        <td>${item.score}</td>
-      </tr>
-    `;
+const totalRow = `
+  <tr style="font-weight:bold; background:#f1f1f1;">
+    <td colspan="2">คะแนนรวม</td>
+    <td>${totalScore}</td>
+  </tr>
+`;
 
-    const totalScore = student.total_score;
+tableBody.innerHTML += totalRow;
 
-    const totalRow = `
-      <tr style="font-weight:bold; background:#f1f1f1;">
-        <td colspan="2">คะแนนรวม</td>
-        <td>${totalScore}</td>
-      </tr>
-    `;
-
-    tableBody.innerHTML += row;
-  });
-
-  resultDiv.style.display = "block";
+resultDiv.style.display = "block";
 }
 </script>
 

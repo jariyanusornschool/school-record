@@ -125,25 +125,47 @@ async function searchStudent() {
     return;
   }
 
-  // แสดงข้อมูลนักเรียน
-  document.getElementById("studentName").innerText = "ชื่อ: " + studentData[0].name;
-  document.getElementById("studentYear").innerText = "ชั้น: " + studentData[0].year;
+  const student = studentData[0];
 
-  // 👉 ใช้ GPA จาก JSON โดยตรง (ไม่คำนวณ)
-  document.getElementById("studentGpa").innerText =
-  studentData[0].gpa !== undefined && studentData[0].gpa !== null
-    ? Number(studentData[0].gpa).toFixed(2)
-    : "-";
+  // ✅ บรรทัดที่ 1 (ชื่อ + ห้อง)
+  document.getElementById("studentName").innerText =
+    "ชื่อ: " + student.name + "   ชั้น: " + student.year_room;
 
-  // แสดงรายวิชา
+  // ✅ บรรทัดที่ 2 (ลำดับที่)
+  document.getElementById("studentYear").innerText =
+    "ลำดับที่: " + student.class_rank;
+
+  // ✅ คำนวณ GPA จาก score
+  let totalScore = 0;
   studentData.forEach(item => {
+    totalScore += Number(item.score);
+  });
+
+  let avg = totalScore / studentData.length;
+
+  // แปลงเป็นเกรด 4.00 แบบง่าย
+  let gpa = (avg / 25); // 100 = 4.00
+
+  document.getElementById("studentGpa").innerText = gpa.toFixed(2);
+
+  // ✅ แสดงรายวิชา
+  studentData.forEach(item => {
+
+    let gradeText = "";
+
+    if(item.score >= 80) gradeText = "ดีมาก";
+    else if(item.score >= 70) gradeText = "ดี";
+    else if(item.score >= 60) gradeText = "พอใช้";
+    else gradeText = "ควรปรับปรุง";
+
     const row = `
       <tr>
-        <td>${item.subject_code}</td>
-        <td>${item.subject_name}</td>
-        <td>${item.grade}</td>
+        <td>-</td>
+        <td>${item.subjec_name}</td>
+        <td>${gradeText}</td>
       </tr>
     `;
+
     tableBody.innerHTML += row;
   });
 

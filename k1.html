@@ -89,8 +89,7 @@
 
     <table>
       <thead>
-        <tr>
-          <th>รหัสวิชา</th>
+        <tr>          
           <th>ชื่อวิชา</th>
           <th>คะแนน</th>
         </tr>
@@ -138,7 +137,6 @@ document.getElementById("studentYear").innerText =
 studentData.forEach(item => {
   const row = `
     <tr>
-      <td>-</td>
       <td>${item.subject_name}</td>
       <td>${item.score}</td>
     </tr>
@@ -151,7 +149,6 @@ const totalScore = student.total_score;
 
 const totalRow = `
   <tr style="font-weight:bold; background:#f1f1f1;">
-    <td></td>
     <td>คะแนนรวม</td>
     <td>${totalScore}</td>
   </tr>

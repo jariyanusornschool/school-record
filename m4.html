@@ -79,6 +79,16 @@
       color:red;
       font-weight:bold;
     }
+
+    .ms{
+      color: orange;
+      font-weight: bold;
+    }
+
+    .absent{
+      color: gray;
+      font-weight: bold;
+    }
     
     .logo{
   width:120px;
@@ -106,7 +116,7 @@
       <p id="studentYear"></p>
       <p><b>GPA :</b> <span id="studentGpa"></span></p>
       <p id="noteRemark" style="color:red; font-size:14px; display:none;">
-        *หมายเหตุ : นักเรียนที่มีผลการเรียน "ร" GPA จะยังไม่สมบูรณ์ จนกว่าจะแก้ไข
+        *หมายเหตุ : นักเรียนที่มีผลการเรียน "ร", "มส" หรือ "ขส" GPA จะยังไม่สมบูรณ์ จนกว่าจะแก้ไข
       </p>
     </div>
 
@@ -182,28 +192,66 @@ async function searchStudent() {
       : "-";
 
   // ✅ เพิ่มตรงนี้
-  const hasR = studentGrades.some(item => item.grade === "ร");
-
   const note = document.getElementById("noteRemark");
 
-if (Array.isArray(studentGrades) && studentGrades.length > 0) {
-  const hasR = studentGrades.some(item => item.grade === "ร");
-  note.style.display = hasR ? "block" : "none";
-} else {
-  note.style.display = "none";
+const hasSpecial = studentGrades.some(item => 
+  item.remark === "มส" ||
+  item.remark === "ขส" ||
+  item.grade === "ร" ||
+  item.grade === 0 ||
+  item.grade === "0"
+);
+
+note.style.display = hasSpecial ? "block" : "none";
 }
 
   // ตารางเกรด
-  studentGrades.forEach(item => {
-    const row = `
-      <tr>
-        <td>${item.subject_code ?? "-"}</td>
-        <td>${item.subject_name ?? "-"}</td>
-        <td>${item.grade ?? "-"}</td>
-      </tr>
-    `;
-    gradeTableBody.innerHTML += row;
-  });
+  let gradeRows = "";
+
+studentGrades.forEach(item => {
+
+  let gradeText = "-";
+  let className = "";
+
+  // ⭐ priority 1: มส
+  if (item.remark === "มส") {
+    gradeText = "🟠 มส";
+    className = "ms";
+  } 
+
+  // ⭐ priority 2: ขส
+  else if (item.remark === "ขส") {
+    gradeText = "⚫ ขส";
+    className = "absent";
+  }
+
+  // ⭐ priority 3: ร (เดิม)
+  else if (item.grade === "ร") {
+    gradeText = "🔴 ร";
+    className = "fail";
+  } 
+
+  // ⭐ priority 4: grade = 0 → ร
+  else if (item.grade === 0 || item.grade === "0") {
+    gradeText = "🔴 ร";
+    className = "fail";
+  }
+
+  // ⭐ ปกติ
+  else {
+    gradeText = item.grade ?? "-";
+  }
+
+  gradeRows += `
+    <tr>
+      <td>${item.subject_code ?? "-"}</td>
+      <td>${item.subject_name ?? "-"}</td>
+      <td class="${className}">${gradeText}</td>
+    </tr>
+  `;
+});
+
+gradeTableBody.innerHTML = gradeRows;
 
   // ตารางกิจกรรม
   if (studentActivities.length > 0) {

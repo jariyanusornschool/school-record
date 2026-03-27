@@ -203,7 +203,7 @@ const hasSpecial = studentGrades.some(item =>
 );
 
 note.style.display = hasSpecial ? "block" : "none";
-}
+
 
   // ตารางเกรด
   let gradeRows = "";
@@ -255,9 +255,9 @@ gradeTableBody.innerHTML = gradeRows;
 
   // ตารางกิจกรรม
   if (studentActivities.length > 0) {
+    let activityRows = "";
 
     studentActivities.forEach(item => {
-
       let resultText = item.result ?? "-";
       let className = "";
 
@@ -269,16 +269,16 @@ gradeTableBody.innerHTML = gradeRows;
         resultText = "🔴 ไม่ผ่าน";
       }
 
-      const row = `
+      activityRows += `
         <tr>
           <td>${item.subject_code ?? "-"}</td>
           <td>${item.subject_name ?? "-"}</td>
           <td class="${className}">${resultText}</td>
         </tr>
       `;
-
-      activityTableBody.innerHTML += row;
     });
+
+    activityTableBody.innerHTML = activityRows;
 
   } else {
     activityTableBody.innerHTML = `

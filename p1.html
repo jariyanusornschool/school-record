@@ -176,7 +176,7 @@ async function searchStudent() {
   "ภาคเรียนที่ 2 ปีการศึกษา 2568";
 
   document.getElementById("studentRank").innerText =
-    `อันดับที่ ${rank}/${total}`;
+    `อันดับที่/ห้อง ${rank}/${total}`;
 
   const hasSpecial = studentGrades.some(item =>
     item.remark === "มส" ||

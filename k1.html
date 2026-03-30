@@ -138,11 +138,9 @@ async function searchStudent() {
 // ✅ ชื่อ + ห้อง
 document.getElementById("studentName").innerText =
   "ชื่อ: " + student.name + "   ชั้น: " + student.year_room;
-  "ภาคเรียนที่ 2 ปีการศึกษา 2568" ;
   
-// ✅ ลำดับที่
-document.getElementById("studentYear").innerText =
-  "ลำดับที่: " + student.class_rank;
+document.getElementById("studentName").innerText =
+  "ภาคเรียนที่ 2 ปีการศึกษา 2568" ;
 
 // ✅ แสดงรายวิชา
 studentData.forEach(item => {
@@ -164,8 +162,17 @@ const totalRow = `
     <td>${totalScore}</td>
   </tr>
 `;
+const rank = student.class_rank;
+const totalStudents = student.total_students;
 
-tableBody.innerHTML += totalRow;
+const rankRow = `
+  <tr style="font-weight:bold;">
+    <td>อันดับที่</td>
+    <td>${rank}/${totalStudents}</td>
+  </tr>
+`;
+
+tableBody.innerHTML += rankRow;
 
 resultDiv.style.display = "block";
 }

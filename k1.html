@@ -184,9 +184,10 @@ async function searchStudent() {
 
     if (studentData.length === 0) {
       messageBox.innerText = "❌ ไม่พบข้อมูลนักเรียน";
-      return;
+
     }
 
+    
     const student = studentData[0];
 
     // บรรทัดแรกใต้ปุ่มค้นหา: ชื่อนักเรียน + ระดับชั้น

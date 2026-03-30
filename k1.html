@@ -197,24 +197,37 @@ async function searchStudent() {
     studentYearEl.innerText = "ภาคเรียนที่ 2 ปีการศึกษา 2568";
 
     // แสดงตารางเกรด
-    studentData.forEach(item => {
-      const row = `
-        <tr>
-          <td>${item.subject_name}</td>
-          <td>${item.score}</td>
-        </tr>
-      `;
-      // แถวคะแนนรวม (ต้องอยู่นอก loop)
-      const totalScore = student.total_score;
+    const studentData = data.filter(item => String(item.id) === inputId);
 
-      const totalRow = `
-      <tr style="font-weight:bold; background:#f1f1f1;">
-        <td>คะแนนรวม</td>
-        <td>${totalScore}</td>
-      </tr>
-      `;
-      tableBody.innerHTML += row;
-    });
+if (studentData.length === 0) {
+  // ...
+  return;
+}
+
+// ✅ ต้องมีบรรทัดนี้ก่อนใช้ total_score
+const student = studentData[0];
+
+studentData.forEach(item => {
+  const row = `
+    <tr>
+      <td>${item.subject_name}</td>
+      <td>${item.score}</td>
+    </tr>
+  `;
+  tableBody.innerHTML += row;
+});
+
+// ✅ แถวคะแนนรวม
+const totalScore = student.total_score;
+
+const totalRow = `
+  <tr style="font-weight:bold; background:#f1f1f1;">
+    <td>คะแนนรวม</td>
+    <td>${totalScore}</td>
+  </tr>
+`;
+
+tableBody.innerHTML += totalRow;
 
     gradeTable.style.display = "table";
 

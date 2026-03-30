@@ -95,9 +95,10 @@
       border-radius:50%;
     }
     .gpa-text{
-      text-align:right;   /* ชิดขวา */
-      font-weight:bold;   /* ตัวหนาทั้งบรรทัด */
-      font-size:18px;     /* (เพิ่มขนาดนิดนึง) */
+      text-align:left;    /* ✅ เปลี่ยนเป็นชิดซ้าย */
+      font-weight:bold;
+      font-size:18px;
+      padding-left:5px;   /* (เสริมให้ตรงกับตาราง) */
     }
     /* รหัสวิชา (คอลัมน์ 1) */
       td:nth-child(1),
@@ -157,8 +158,8 @@
       <tbody id="gradeTableBody"></tbody>
     </table>
     <p class="gpa-text"><b>GPA :</b> <span id="studentGpa"></span></p>
-      <p id="noteRemark" style="color:red; font-size:14px; display:none;">
-        *หมายเหตุ : นักเรียนที่มีผลการเรียน "ร", "มส" หรือ "ขส" GPA จะยังไม่สมบูรณ์ จนกว่าจะแก้ไข
+      <p id="noteRemark" style="color:red; font-size:18px; text-align:left; padding-left:5px; display:none;">
+        *หมายเหตุ : GPA จะถูกคำนวณใหม่ เมื่อแก้ไข ร , มส , ขส เรียบร้อยแล้ว
       </p>
 
 </div>

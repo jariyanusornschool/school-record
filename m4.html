@@ -54,10 +54,9 @@
     }
 
     th{
-      background:#1976d2;
-      color:white;
+      background:#ffd700;  /* สีเหลือง */
+      color:black;        /* ตัวหนังสือดำ อ่านชัด */
     }
-
     .info{
       margin-top:20px;
       font-size:18px;
@@ -91,10 +90,15 @@
     }
     
     .logo{
-  width:120px;
-  margin-bottom:15px;
-  border-radius:50%;
-}
+      width:120px;
+      margin-bottom:15px;
+      border-radius:50%;
+    }
+    .gpa-text{
+      text-align:right;   /* ชิดขวา */
+      font-weight:bold;   /* ตัวหนาทั้งบรรทัด */
+      font-size:18px;     /* (เพิ่มขนาดนิดนึง) */
+    }
 
   </style>
 </head>
@@ -131,7 +135,7 @@
       </thead>
       <tbody id="gradeTableBody"></tbody>
     </table>
-    <p><b>GPA :</b> <span id="studentGpa"></span></p>
+    <p class="gpa-text"><b>GPA :</b> <span id="studentGpa"></span></p>
       <p id="noteRemark" style="color:red; font-size:14px; display:none;">
         *หมายเหตุ : นักเรียนที่มีผลการเรียน "ร", "มส" หรือ "ขส" GPA จะยังไม่สมบูรณ์ จนกว่าจะแก้ไข
       </p>

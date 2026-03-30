@@ -60,18 +60,8 @@
 
     .info{
       margin-top:20px;
-      font-size:18px;
-      font-weight:bold;
-    }
-
-    .semester{
-      margin-top:10px;
-      font-size:18px;
-    }
-
-    .section-title{
-      margin-top:30px;
-      font-size:22px;
+      margin-bottom:10px;
+      font-size:20px;
       font-weight:bold;
     }
 
@@ -142,11 +132,9 @@
   <div id="result" style="display:none;">
 
     <div class="info">
-      <p id="studentName"></p>
-      <p id="studentYear"></p>
+      <p id="studentInfo"></p>
     </div>
 
-    <div class="section-title">ผลการเรียนรายวิชา</div>
     <table>
       <thead>
         <tr>
@@ -189,15 +177,21 @@ async function searchStudent() {
 
   if (studentGrades.length === 0) {
     resultDiv.style.display = "block";
-    document.getElementById("studentName").innerText = "❌ ไม่พบข้อมูล";
-    document.getElementById("studentYear").innerText = "";
+    document.getElementById("studentInfo").innerText = "❌ ไม่พบข้อมูล";
     document.getElementById("studentRank").innerText = "-";
     document.getElementById("noteRemark").style.display = "none";
     return;
   }
 
-  document.getElementById("studentName").innerText = "ชื่อ: " + studentGrades[0].name;
-  document.getElementById("studentYear").innerText = "ชั้น: " + studentGrades[0].year_room;
+  const studentName = studentGrades[0].name ?? "-";
+  const studentYearRoom =
+    studentGrades[0].year_room ??
+    ((studentGrades[0].year && studentGrades[0].room)
+      ? `ป.${studentGrades[0].year}/${studentGrades[0].room}`
+      : "-");
+
+  document.getElementById("studentInfo").innerText =
+    `ชื่อ: ${studentName}   ชั้น: ${studentYearRoom}`;
 
   document.getElementById("studentRank").innerText =
     studentGrades[0].class_rank !== undefined && studentGrades[0].total_students !== undefined
@@ -254,7 +248,7 @@ async function searchStudent() {
     if(item.result === "ผ่าน"){
       resultText = "ผ่าน";
       className = "pass";
-    }else if(item.result === "ไม่ผ่าน"){
+    } else if(item.result === "ไม่ผ่าน"){
       resultText = "ไม่ผ่าน";
       className = "fail";
     }

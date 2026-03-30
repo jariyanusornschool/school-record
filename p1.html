@@ -65,32 +65,6 @@
       font-weight:bold;
     }
 
-    .pass{
-      color:black;
-      font-weight:bold;
-    }
-
-    .fail{
-      color:red;
-      font-weight:bold;
-    }
-
-    .ms{
-      color:red;
-      font-weight:bold;
-    }
-
-    .absent{
-      color:red;
-      font-weight:bold;
-    }
-    
-    .logo{
-      width:120px;
-      margin-bottom:15px;
-      border-radius:50%;
-    }
-
     .rank-text{
       text-align:left;
       font-weight:bold;
@@ -98,23 +72,20 @@
       margin-top:12px;
     }
 
-    td:nth-child(1),
-    th:nth-child(1){
-      text-align:center;
-    }
+    .pass{ font-weight:bold; }
+    .fail{ color:red; font-weight:bold; }
+    .ms{ color:red; font-weight:bold; }
+    .absent{ color:red; font-weight:bold; }
 
-    th:nth-child(2){
-      text-align:center;
-    }
+    td:nth-child(1), th:nth-child(1){ text-align:center; }
+    th:nth-child(2){ text-align:center; }
+    td:nth-child(2){ text-align:left; padding-left:15px; }
+    td:nth-child(3), th:nth-child(3){ text-align:center; }
 
-    td:nth-child(2){
-      text-align:left;
-      padding-left:15px;
-    }
-
-    td:nth-child(3),
-    th:nth-child(3){
-      text-align:center;
+    .logo{
+      width:120px;
+      margin-bottom:15px;
+      border-radius:50%;
     }
   </style>
 </head>
@@ -131,25 +102,28 @@
 
   <div id="result" style="display:none;">
 
+    <!-- ชื่อ + ชั้น -->
     <div class="info">
-  <p id="studentInfo"></p>
-</div>
+      <p id="studentInfo"></p>
+    </div>
 
-<table>
-  <thead>
-    <tr>
-      <th style="width:20%;">รหัสวิชา</th>
-      <th style="width:50%;">ชื่อวิชา</th>
-      <th style="width:30%;">เกรด</th>
-    </tr>
-  </thead>
-  <tbody id="gradeTableBody"></tbody>
-</table>
+    <!-- ตาราง -->
+    <table>
+      <thead>
+        <tr>
+          <th style="width:20%;">รหัสวิชา</th>
+          <th style="width:50%;">ชื่อวิชา</th>
+          <th style="width:30%;">เกรด</th>
+        </tr>
+      </thead>
+      <tbody id="gradeTableBody"></tbody>
+    </table>
 
-<p class="rank-text" id="studentRank"></p>
+    <!-- อันดับ -->
+    <p class="rank-text" id="studentRank"></p>
 
     <p id="noteRemark" style="color:red; font-size:14px; display:none;">
-      *หมายเหตุ : นักเรียนที่มีผลการเรียน "ร", "มส" หรือ "ขส" GPA จะยังไม่สมบูรณ์ จนกว่าจะแก้ไข
+      *หมายเหตุ : นักเรียนที่มีผลการเรียน "ร", "มส" หรือ "ขส" GPA จะยังไม่สมบูรณ์
     </p>
 
   </div>
@@ -157,6 +131,7 @@
 
 <script>
 async function searchStudent() {
+
   const inputId = document.getElementById("studentId").value.trim();
 
   const [gradeResponse, activityResponse] = await Promise.all([
@@ -175,26 +150,33 @@ async function searchStudent() {
 
   gradeTableBody.innerHTML = "";
 
+  // ❌ ไม่พบข้อมูล
   if (studentGrades.length === 0) {
-  resultDiv.style.display = "block";
-  document.getElementById("studentInfo").innerText = "❌ ไม่พบข้อมูล";
-  document.getElementById("studentRank").innerText = "-";
-  document.getElementById("noteRemark").style.display = "none";
-  return;
-}
+    resultDiv.style.display = "block";
+    document.getElementById("studentInfo").innerText = "❌ ไม่พบข้อมูล";
+    document.getElementById("studentRank").innerText = "-";
+    document.getElementById("noteRemark").style.display = "none";
+    return;
+  }
 
-const studentName = studentGrades[0].name || "-";
-const studentYearRoom = studentGrades[0].year_room || `ป.${studentGrades[0].year}/${studentGrades[0].room}`;
+  // ✅ ดึงข้อมูลหลัก
+  const student = studentGrades[0];
 
-document.getElementById("studentInfo").innerText =
-  `ชื่อ: ${studentName}   ชั้น: ${studentYearRoom}`;
+  const name = student.name || "-";
+  const yearRoom = student.year_room || "-";
+  const rank = student.class_rank ?? "-";
+  const total = student.total_students ?? "-";
 
-document.getElementById("studentRank").innerText =
-  `อันดับที่ ${studentGrades[0].class_rank}/${studentGrades[0].total_students}`;
-  
-  const note = document.getElementById("noteRemark");
+  // แสดงชื่อ + ชั้น
+  document.getElementById("studentInfo").innerText =
+    `ชื่อ: ${name}   ชั้น: ${yearRoom}`;
 
-  const hasSpecial = studentGrades.some(item => 
+  // แสดงอันดับ
+  document.getElementById("studentRank").innerText =
+    `อันดับที่ ${rank}/${total}`;
+
+  // เช็คหมายเหตุ
+  const hasSpecial = studentGrades.some(item =>
     item.remark === "มส" ||
     item.remark === "ขส" ||
     item.grade === "ร" ||
@@ -202,31 +184,27 @@ document.getElementById("studentRank").innerText =
     item.grade === "0"
   );
 
-  note.style.display = hasSpecial ? "block" : "none";
+  document.getElementById("noteRemark").style.display =
+    hasSpecial ? "block" : "none";
 
-  let gradeRows = "";
+  // สร้างตาราง
+  let rows = "";
 
   studentGrades.forEach(item => {
     let gradeText = "-";
     let className = "";
 
     if (item.remark === "มส") {
-      gradeText = "มส";
-      className = "ms";
-    } 
-    else if (item.remark === "ขส") {
-      gradeText = "ขส";
-      className = "absent";
-    }
-    else if (item.grade === "ร" || item.grade === 0 || item.grade === "0") {
-      gradeText = "ร";
-      className = "fail";
-    }
-    else {
+      gradeText = "มส"; className = "ms";
+    } else if (item.remark === "ขส") {
+      gradeText = "ขส"; className = "absent";
+    } else if (item.grade === "ร" || item.grade === 0 || item.grade === "0") {
+      gradeText = "ร"; className = "fail";
+    } else {
       gradeText = item.grade ?? "-";
     }
 
-    gradeRows += `
+    rows += `
       <tr>
         <td>${item.subject_code ?? "-"}</td>
         <td>${item.subject_name ?? "-"}</td>
@@ -236,27 +214,22 @@ document.getElementById("studentRank").innerText =
   });
 
   studentActivities.forEach(item => {
-    let resultText = "-";
-    let className = "";
+    let text = "-";
+    let cls = "";
 
-    if(item.result === "ผ่าน"){
-      resultText = "ผ่าน";
-      className = "pass";
-    } else if(item.result === "ไม่ผ่าน"){
-      resultText = "ไม่ผ่าน";
-      className = "fail";
-    }
+    if(item.result === "ผ่าน"){ text = "ผ่าน"; cls = "pass"; }
+    else if(item.result === "ไม่ผ่าน"){ text = "ไม่ผ่าน"; cls = "fail"; }
 
-    gradeRows += `
+    rows += `
       <tr>
         <td>${item.subject_code ?? "-"}</td>
         <td>${item.subject_name ?? "-"}</td>
-        <td class="${className}">${resultText}</td>
+        <td class="${cls}">${text}</td>
       </tr>
     `;
   });
 
-  gradeTableBody.innerHTML = gradeRows;
+  gradeTableBody.innerHTML = rows;
   resultDiv.style.display = "block";
 }
 </script>

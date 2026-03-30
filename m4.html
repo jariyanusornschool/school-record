@@ -161,20 +161,6 @@
         *หมายเหตุ : นักเรียนที่มีผลการเรียน "ร", "มส" หรือ "ขส" GPA จะยังไม่สมบูรณ์ จนกว่าจะแก้ไข
       </p>
 
-    <!-- ตารางกิจกรรม -->
-    <div class="section-title">ผลการประเมินกิจกรรม</div>
-    <table>
-      <thead>
-        <tr>
-          <th style="width:20%;">รหัสกิจกรรม</th>
-          <th style="width:50%;">ชื่อกิจกรรม</th>
-          <th style="width:30%;">ผลการประเมิน</th>
-        </tr>
-      </thead>
-      <tbody id="activityTableBody"></tbody>
-    </table>
-
-  </div>
 </div>
 
 <script>
@@ -231,39 +217,26 @@ const hasSpecial = studentGrades.some(item =>
 note.style.display = hasSpecial ? "block" : "none";
 
 
-  // ตารางเกรด
   let gradeRows = "";
 
+/* 🔹 1. วิชาปกติ */
 studentGrades.forEach(item => {
 
   let gradeText = "-";
   let className = "";
 
-  // ⭐ priority 1: มส
   if (item.remark === "มส") {
     gradeText = "มส";
     className = "ms";
   } 
-
-  // ⭐ priority 2: ขส
   else if (item.remark === "ขส") {
     gradeText = "ขส";
     className = "absent";
   }
-
-  // ⭐ priority 3: ร (เดิม)
-  else if (item.grade === "ร") {
-    gradeText = "ร";
-    className = "fail";
-  } 
-
-  // ⭐ priority 4: grade = 0 → ร
-  else if (item.grade === 0 || item.grade === "0") {
+  else if (item.grade === "ร" || item.grade === 0 || item.grade === "0") {
     gradeText = "ร";
     className = "fail";
   }
-
-  // ⭐ ปกติ
   else {
     gradeText = item.grade ?? "-";
   }
@@ -277,23 +250,30 @@ studentGrades.forEach(item => {
   `;
 });
 
+/* 🔹 2. ต่อด้วยกิจกรรม */
+studentActivities.forEach(item => {
+
+  let resultText = "-";
+  let className = "";
+
+  if(item.result === "ผ่าน"){
+    resultText = "ผ่าน";
+    className = "pass";
+  }else if(item.result === "ไม่ผ่าน"){
+    resultText = "ไม่ผ่าน";
+    className = "fail";
+  }
+
+  gradeRows += `
+    <tr>
+      <td>${item.subject_code ?? "-"}</td>
+      <td>${item.subject_name ?? "-"}</td>
+      <td class="${className}">${resultText}</td>
+    </tr>
+  `;
+});
+
 gradeTableBody.innerHTML = gradeRows;
-
-  // ตารางกิจกรรม
-  if (studentActivities.length > 0) {
-    let activityRows = "";
-
-    studentActivities.forEach(item => {
-      let resultText = item.result ?? "-";
-      let className = "";
-
-      if(resultText === "ผ่าน"){
-        className = "pass";
-        resultText = "ผ่าน";
-      }else if(resultText === "ไม่ผ่าน"){
-        className = "fail";
-        resultText = "ไม่ผ่าน";
-      }
 
       activityRows += `
         <tr>

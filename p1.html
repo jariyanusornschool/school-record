@@ -104,6 +104,7 @@
 
     <div class="info">
       <p id="studentInfo"></p>
+      <p id="studentYear"></p>
     </div>
 
     <table>
@@ -163,6 +164,8 @@ async function searchStudent() {
 
   document.getElementById("studentInfo").innerText =
     `ชื่อ: ${name}   ชั้น: ${yearRoom}`;
+  document.getElementById("studentYear").innerText =
+  "ภาคเรียนที่ 2 ปีการศึกษา 2568";
 
   document.getElementById("studentRank").innerText =
     `อันดับที่ ${rank}/${total}`;

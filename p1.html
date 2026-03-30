@@ -102,12 +102,10 @@
 
   <div id="result" style="display:none;">
 
-    <!-- ชื่อ + ชั้น -->
     <div class="info">
       <p id="studentInfo"></p>
     </div>
 
-    <!-- ตาราง -->
     <table>
       <thead>
         <tr>
@@ -119,7 +117,6 @@
       <tbody id="gradeTableBody"></tbody>
     </table>
 
-    <!-- อันดับ -->
     <p class="rank-text" id="studentRank"></p>
 
     <p id="noteRemark" style="color:red; font-size:14px; display:none;">
@@ -131,7 +128,6 @@
 
 <script>
 async function searchStudent() {
-
   const inputId = document.getElementById("studentId").value.trim();
 
   const [gradeResponse, activityResponse] = await Promise.all([
@@ -150,7 +146,6 @@ async function searchStudent() {
 
   gradeTableBody.innerHTML = "";
 
-  // ❌ ไม่พบข้อมูล
   if (studentGrades.length === 0) {
     resultDiv.style.display = "block";
     document.getElementById("studentInfo").innerText = "❌ ไม่พบข้อมูล";
@@ -159,23 +154,19 @@ async function searchStudent() {
     return;
   }
 
-  // ✅ ดึงข้อมูลหลัก
   const student = studentGrades[0];
 
   const name = student.name || "-";
-  const yearRoom = student.year_room || "-";
+  const yearRoom = student.year_room || (student.year && student.room ? `ป.${student.year}/${student.room}` : "-");
   const rank = student.class_rank ?? "-";
   const total = student.total_students ?? "-";
 
-  // แสดงชื่อ + ชั้น
   document.getElementById("studentInfo").innerText =
-    `ชื่อ: ${name}   ชั้น: ${year_room}`;
+    `ชื่อ: ${name}   ชั้น: ${yearRoom}`;
 
-  // แสดงอันดับ
   document.getElementById("studentRank").innerText =
     `อันดับที่ ${rank}/${total}`;
 
-  // เช็คหมายเหตุ
   const hasSpecial = studentGrades.some(item =>
     item.remark === "มส" ||
     item.remark === "ขส" ||
@@ -187,7 +178,6 @@ async function searchStudent() {
   document.getElementById("noteRemark").style.display =
     hasSpecial ? "block" : "none";
 
-  // สร้างตาราง
   let rows = "";
 
   studentGrades.forEach(item => {
@@ -195,11 +185,14 @@ async function searchStudent() {
     let className = "";
 
     if (item.remark === "มส") {
-      gradeText = "มส"; className = "ms";
+      gradeText = "มส";
+      className = "ms";
     } else if (item.remark === "ขส") {
-      gradeText = "ขส"; className = "absent";
+      gradeText = "ขส";
+      className = "absent";
     } else if (item.grade === "ร" || item.grade === 0 || item.grade === "0") {
-      gradeText = "ร"; className = "fail";
+      gradeText = "ร";
+      className = "fail";
     } else {
       gradeText = item.grade ?? "-";
     }
@@ -217,8 +210,13 @@ async function searchStudent() {
     let text = "-";
     let cls = "";
 
-    if(item.result === "ผ่าน"){ text = "ผ่าน"; cls = "pass"; }
-    else if(item.result === "ไม่ผ่าน"){ text = "ไม่ผ่าน"; cls = "fail"; }
+    if (item.result === "ผ่าน") {
+      text = "ผ่าน";
+      cls = "pass";
+    } else if (item.result === "ไม่ผ่าน") {
+      text = "ไม่ผ่าน";
+      cls = "fail";
+    }
 
     rows += `
       <tr>

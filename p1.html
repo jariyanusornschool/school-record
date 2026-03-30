@@ -132,21 +132,21 @@
   <div id="result" style="display:none;">
 
     <div class="info">
-      <p id="studentInfo"></p>
-    </div>
+  <p id="studentInfo"></p>
+</div>
 
-    <table>
-      <thead>
-        <tr>
-          <th style="width:20%;">รหัสวิชา</th>
-          <th style="width:50%;">ชื่อวิชา</th>
-          <th style="width:30%;">เกรด</th>
-        </tr>
-      </thead>
-      <tbody id="gradeTableBody"></tbody>
-    </table>
+<table>
+  <thead>
+    <tr>
+      <th style="width:20%;">รหัสวิชา</th>
+      <th style="width:50%;">ชื่อวิชา</th>
+      <th style="width:30%;">เกรด</th>
+    </tr>
+  </thead>
+  <tbody id="gradeTableBody"></tbody>
+</table>
 
-   <p class="rank-text"><b>อันดับที่ </b> <span id="studentRank"></span></p>
+<p class="rank-text" id="studentRank"></p>
 
     <p id="noteRemark" style="color:red; font-size:14px; display:none;">
       *หมายเหตุ : นักเรียนที่มีผลการเรียน "ร", "มส" หรือ "ขส" GPA จะยังไม่สมบูรณ์ จนกว่าจะแก้ไข
@@ -176,28 +176,22 @@ async function searchStudent() {
   gradeTableBody.innerHTML = "";
 
   if (studentGrades.length === 0) {
-    resultDiv.style.display = "block";
-    document.getElementById("studentInfo").innerText = "❌ ไม่พบข้อมูล";
-    document.getElementById("studentRank").innerText = "-";
-    document.getElementById("noteRemark").style.display = "none";
-    return;
-  }
+  resultDiv.style.display = "block";
+  document.getElementById("studentInfo").innerText = "❌ ไม่พบข้อมูล";
+  document.getElementById("studentRank").innerText = "-";
+  document.getElementById("noteRemark").style.display = "none";
+  return;
+}
 
-  const studentName = studentGrades[0].name ?? "-";
-  const studentYearRoom =
-    studentGrades[0].year_room ??
-    ((studentGrades[0].year && studentGrades[0].room)
-      ? `ป.${studentGrades[0].year}/${studentGrades[0].room}`
-      : "-");
+const studentName = studentGrades[0].name || "-";
+const studentYearRoom = studentGrades[0].year_room || `ป.${studentGrades[0].year}/${studentGrades[0].room}`;
 
-  document.getElementById("studentInfo").innerText =
-    `ชื่อ: ${studentName}   ชั้น: ${studentYearRoom}`;
+document.getElementById("studentInfo").innerText =
+  `ชื่อ: ${studentName}   ชั้น: ${studentYearRoom}`;
 
-  document.getElementById("studentRank").innerText =
-    studentGrades[0].class_rank !== undefined && studentGrades[0].total_students !== undefined
-      ? `${studentGrades[0].class_rank}/${studentGrades[0].total_students}`
-      : "-";
-
+document.getElementById("studentRank").innerText =
+  `อันดับที่ ${studentGrades[0].class_rank}/${studentGrades[0].total_students}`;
+  
   const note = document.getElementById("noteRemark");
 
   const hasSpecial = studentGrades.some(item => 

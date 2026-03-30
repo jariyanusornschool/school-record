@@ -215,7 +215,7 @@ async function searchStudent() {
     gradeTable.style.display = "table";
 
     // อันดับ
-    studentRankEl.innerText = `อันดับที่/ห้อง ${student.class_rank}/${student.total_students}`;
+    studentRankEl.innerText = `อันดับที่/ห้อง : ${student.class_rank}/${student.total_students}`;
 
   } catch (error) {
     messageBox.innerText = "เกิดข้อผิดพลาดในการโหลดข้อมูล";

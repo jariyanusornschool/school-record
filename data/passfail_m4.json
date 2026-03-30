@@ -31,8 +31,8 @@
     "name": "ชื่อ-นามสกุล",
     "year": "ชั้น",
     "student_code": "รหัสประจำตัวนักเรียน",
-    "subject_code": "วิชา",
-    "subject_name": "รหัสวิชา",
+    "subject_code": "รหัสวิชา",
+    "subject_name": "วิชา",
     "result": "คะแนนรวม"
   },
   {
@@ -40,8 +40,8 @@
     "name": "นายวิทยา พลชัยเรือน",
     "year": 4,
     "student_code": 9450,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -49,8 +49,8 @@
     "name": "นายวิทยา พลชัยเรือน",
     "year": 4,
     "student_code": 9450,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -58,8 +58,8 @@
     "name": "นายวิทยา พลชัยเรือน",
     "year": 4,
     "student_code": 9450,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -67,8 +67,8 @@
     "name": "นายวีระชัย บัวหนอง",
     "year": 4,
     "student_code": 10161,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -76,8 +76,8 @@
     "name": "นายวีระชัย บัวหนอง",
     "year": 4,
     "student_code": 10161,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -85,8 +85,8 @@
     "name": "นายวีระชัย บัวหนอง",
     "year": 4,
     "student_code": 10161,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -94,8 +94,8 @@
     "name": "นายศุภกฤต จิตเจริญ",
     "year": 4,
     "student_code": 10181,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -103,8 +103,8 @@
     "name": "นายศุภกฤต จิตเจริญ",
     "year": 4,
     "student_code": 10181,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -112,8 +112,8 @@
     "name": "นายศุภกฤต จิตเจริญ",
     "year": 4,
     "student_code": 10181,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -121,8 +121,8 @@
     "name": "นายศุกลณวัฒน์ จูมพันธ์",
     "year": 4,
     "student_code": 10328,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -130,8 +130,8 @@
     "name": "นายศุกลณวัฒน์ จูมพันธ์",
     "year": 4,
     "student_code": 10328,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -139,8 +139,8 @@
     "name": "นายศุกลณวัฒน์ จูมพันธ์",
     "year": 4,
     "student_code": 10328,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -148,8 +148,8 @@
     "name": "นายวิทยา ศรีอ่อน",
     "year": 4,
     "student_code": 10884,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -157,8 +157,8 @@
     "name": "นายวิทยา ศรีอ่อน",
     "year": 4,
     "student_code": 10884,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -166,8 +166,8 @@
     "name": "นายวิทยา ศรีอ่อน",
     "year": 4,
     "student_code": 10884,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -175,8 +175,8 @@
     "name": "น.ส.ธิดารัตน์ ฐานะ",
     "year": 4,
     "student_code": 10887,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -184,8 +184,8 @@
     "name": "น.ส.ธิดารัตน์ ฐานะ",
     "year": 4,
     "student_code": 10887,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -193,8 +193,8 @@
     "name": "น.ส.ธิดารัตน์ ฐานะ",
     "year": 4,
     "student_code": 10887,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -202,8 +202,8 @@
     "name": "น.ส.รุ่งนภา พันธ์คำภา",
     "year": 4,
     "student_code": 11356,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -211,8 +211,8 @@
     "name": "น.ส.รุ่งนภา พันธ์คำภา",
     "year": 4,
     "student_code": 11356,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -220,8 +220,8 @@
     "name": "น.ส.รุ่งนภา พันธ์คำภา",
     "year": 4,
     "student_code": 11356,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -229,8 +229,8 @@
     "name": "น.ส.ธัญญรัตน์ ลีเลิศ",
     "year": 4,
     "student_code": 11360,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -238,8 +238,8 @@
     "name": "น.ส.ธัญญรัตน์ ลีเลิศ",
     "year": 4,
     "student_code": 11360,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -247,8 +247,8 @@
     "name": "น.ส.ธัญญรัตน์ ลีเลิศ",
     "year": 4,
     "student_code": 11360,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -256,8 +256,8 @@
     "name": "นายเดเนียล ดักลาส ครูเกอร์",
     "year": 4,
     "student_code": 11701,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -265,8 +265,8 @@
     "name": "นายเดเนียล ดักลาส ครูเกอร์",
     "year": 4,
     "student_code": 11701,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -274,8 +274,8 @@
     "name": "นายเดเนียล ดักลาส ครูเกอร์",
     "year": 4,
     "student_code": 11701,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -283,8 +283,8 @@
     "name": "นายวรากร ฝาชัยภูมิ",
     "year": 4,
     "student_code": 11725,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -292,8 +292,8 @@
     "name": "นายวรากร ฝาชัยภูมิ",
     "year": 4,
     "student_code": 11725,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -301,8 +301,8 @@
     "name": "นายวรากร ฝาชัยภูมิ",
     "year": 4,
     "student_code": 11725,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -310,8 +310,8 @@
     "name": "นายวรากร ฝาชัยภูมิ",
     "year": 4,
     "student_code": 11725,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -319,8 +319,8 @@
     "name": "น.ส.นัทฐวิกา คำดวง",
     "year": 4,
     "student_code": 11727,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -328,8 +328,8 @@
     "name": "น.ส.นัทฐวิกา คำดวง",
     "year": 4,
     "student_code": 11727,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -337,8 +337,8 @@
     "name": "นายณัฐกิตติ์ โยงรัมย์",
     "year": 4,
     "student_code": 12453,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -346,8 +346,8 @@
     "name": "นายณัฐกิตติ์ โยงรัมย์",
     "year": 4,
     "student_code": 12453,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -355,8 +355,8 @@
     "name": "นายณัฐกิตติ์ โยงรัมย์",
     "year": 4,
     "student_code": 12453,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -364,8 +364,8 @@
     "name": "น.ส.ภิชานันท์ แก่นชัย",
     "year": 4,
     "student_code": 12454,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -373,8 +373,8 @@
     "name": "น.ส.ภิชานันท์ แก่นชัย",
     "year": 4,
     "student_code": 12454,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -382,8 +382,8 @@
     "name": "น.ส.ภิชานันท์ แก่นชัย",
     "year": 4,
     "student_code": 12454,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -391,8 +391,8 @@
     "name": "น.ส.พฤษภา หลักคำ",
     "year": 4,
     "student_code": 12455,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -400,8 +400,8 @@
     "name": "น.ส.พฤษภา หลักคำ",
     "year": 4,
     "student_code": 12455,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -409,8 +409,8 @@
     "name": "น.ส.พฤษภา หลักคำ",
     "year": 4,
     "student_code": 12455,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -418,8 +418,8 @@
     "name": "นายอภิรัตน์ สิทธิ",
     "year": 4,
     "student_code": 12461,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -427,8 +427,8 @@
     "name": "นายอภิรัตน์ สิทธิ",
     "year": 4,
     "student_code": 12461,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -436,8 +436,8 @@
     "name": "นายอภิรัตน์ สิทธิ",
     "year": 4,
     "student_code": 12461,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -445,8 +445,8 @@
     "name": "น.ส.พัชรพร หวังแอบกลาง",
     "year": 4,
     "student_code": 12465,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -454,8 +454,8 @@
     "name": "น.ส.พัชรพร หวังแอบกลาง",
     "year": 4,
     "student_code": 12465,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -463,8 +463,8 @@
     "name": "น.ส.พัชรพร หวังแอบกลาง",
     "year": 4,
     "student_code": 12465,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -472,8 +472,8 @@
     "name": "น.ส.ธัญภัทร์ สรรเสริญ",
     "year": 4,
     "student_code": 12471,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -481,8 +481,8 @@
     "name": "น.ส.ธัญภัทร์ สรรเสริญ",
     "year": 4,
     "student_code": 12471,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -490,8 +490,8 @@
     "name": "น.ส.ธัญภัทร์ สรรเสริญ",
     "year": 4,
     "student_code": 12471,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -499,8 +499,8 @@
     "name": "น.ส.ธันยพร สรรเสริญ",
     "year": 4,
     "student_code": 12472,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -508,8 +508,8 @@
     "name": "น.ส.ธันยพร สรรเสริญ",
     "year": 4,
     "student_code": 12472,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -517,8 +517,8 @@
     "name": "น.ส.ธันยพร สรรเสริญ",
     "year": 4,
     "student_code": 12472,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -526,8 +526,8 @@
     "name": "นายดัสกร พลไธสง",
     "year": 4,
     "student_code": 12477,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -535,8 +535,8 @@
     "name": "นายดัสกร พลไธสง",
     "year": 4,
     "student_code": 12477,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -544,8 +544,8 @@
     "name": "นายดัสกร พลไธสง",
     "year": 4,
     "student_code": 12477,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -553,8 +553,8 @@
     "name": "น.ส.ธัญญา โพธิ์หล้า",
     "year": 4,
     "student_code": 12490,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -562,8 +562,8 @@
     "name": "น.ส.ธัญญา โพธิ์หล้า",
     "year": 4,
     "student_code": 12490,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -571,8 +571,8 @@
     "name": "น.ส.ธัญญา โพธิ์หล้า",
     "year": 4,
     "student_code": 12490,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -580,8 +580,8 @@
     "name": "น.ส.รุ่งนภา สีพบ",
     "year": 4,
     "student_code": 12491,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -589,26 +589,17 @@
     "name": "น.ส.รุ่งนภา สีพบ",
     "year": 4,
     "student_code": 12491,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
-    "result": "ไม่ผ่าน"
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
+    "result": "ผ่าน"
   },
   {
     "id": 1119902496676,
     "name": "น.ส.รุ่งนภา สีพบ",
     "year": 4,
     "student_code": 12491,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
-    "result": "ไม่ผ่าน"
-  },
-  {
-    "id": 1399900370177,
-    "name": "น.ส.พิมพ์ประมัย บริบูรณ์",
-    "year": 4,
-    "student_code": 12503,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -616,26 +607,26 @@
     "name": "น.ส.พิมพ์ประมัย บริบูรณ์",
     "year": 4,
     "student_code": 12503,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
-    "result": "ไม่ผ่าน"
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
+    "result": "ผ่าน"
   },
   {
     "id": 1399900370177,
     "name": "น.ส.พิมพ์ประมัย บริบูรณ์",
     "year": 4,
     "student_code": 12503,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
-    "result": "ไม่ผ่าน"
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
+    "result": "ผ่าน"
   },
   {
-    "id": 1103704354209,
-    "name": "นายรัฐภูมิ แสนชัย",
+    "id": 1399900370177,
+    "name": "น.ส.พิมพ์ประมัย บริบูรณ์",
     "year": 4,
-    "student_code": 12507,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "student_code": 12503,
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -643,8 +634,8 @@
     "name": "นายรัฐภูมิ แสนชัย",
     "year": 4,
     "student_code": 12507,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -652,8 +643,17 @@
     "name": "นายรัฐภูมิ แสนชัย",
     "year": 4,
     "student_code": 12507,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
+    "result": "ผ่าน"
+  },
+  {
+    "id": 1103704354209,
+    "name": "นายรัฐภูมิ แสนชัย",
+    "year": 4,
+    "student_code": 12507,
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -661,8 +661,8 @@
     "name": "นายสิทธิพร หาญบำราช",
     "year": 4,
     "student_code": 12614,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -670,26 +670,17 @@
     "name": "นายสิทธิพร หาญบำราช",
     "year": 4,
     "student_code": 12614,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
-    "result": "ไม่ผ่าน"
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
+    "result": "ผ่าน"
   },
   {
     "id": 1399900391948,
     "name": "นายสิทธิพร หาญบำราช",
     "year": 4,
     "student_code": 12614,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
-    "result": "ไม่ผ่าน"
-  },
-  {
-    "id": 1390300100375,
-    "name": "น.ส.ธนพร ดอนเทพพล",
-    "year": 4,
-    "student_code": 13573,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -697,8 +688,8 @@
     "name": "น.ส.ธนพร ดอนเทพพล",
     "year": 4,
     "student_code": 13573,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -706,8 +697,17 @@
     "name": "น.ส.ธนพร ดอนเทพพล",
     "year": 4,
     "student_code": 13573,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
+    "result": "ผ่าน"
+  },
+  {
+    "id": 1390300100375,
+    "name": "น.ส.ธนพร ดอนเทพพล",
+    "year": 4,
+    "student_code": 13573,
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -715,8 +715,8 @@
     "name": "น.ส.ณัฐฐินันท์ หาญสุโพธิ์",
     "year": 4,
     "student_code": 13574,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -724,8 +724,8 @@
     "name": "น.ส.ณัฐฐินันท์ หาญสุโพธิ์",
     "year": 4,
     "student_code": 13574,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -733,8 +733,8 @@
     "name": "น.ส.ณัฐฐินันท์ หาญสุโพธิ์",
     "year": 4,
     "student_code": 13574,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -742,8 +742,8 @@
     "name": "น.ส.พรพรรณ ขานมา",
     "year": 4,
     "student_code": 13575,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -751,8 +751,8 @@
     "name": "น.ส.พรพรรณ ขานมา",
     "year": 4,
     "student_code": 13575,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -760,8 +760,8 @@
     "name": "น.ส.พรพรรณ ขานมา",
     "year": 4,
     "student_code": 13575,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -769,8 +769,8 @@
     "name": "นายจักรพรรดิ์ คึขุนทด",
     "year": 4,
     "student_code": 13576,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -778,8 +778,8 @@
     "name": "นายจักรพรรดิ์ คึขุนทด",
     "year": 4,
     "student_code": 13576,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -787,8 +787,8 @@
     "name": "นายจักรพรรดิ์ คึขุนทด",
     "year": 4,
     "student_code": 13576,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -796,8 +796,8 @@
     "name": "นายจักรพรรดิ์ คึขุนทด",
     "year": 4,
     "student_code": 13576,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -805,8 +805,8 @@
     "name": "นายจักรพรรดิ์ คึขุนทด",
     "year": 4,
     "student_code": 13576,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -814,8 +814,8 @@
     "name": "นายจักรพรรดิ์ คึขุนทด",
     "year": 4,
     "student_code": 13576,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -823,8 +823,8 @@
     "name": "น.ส.วิกานดา จันทร์รอน",
     "year": 4,
     "student_code": 13577,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -832,8 +832,8 @@
     "name": "น.ส.วิกานดา จันทร์รอน",
     "year": 4,
     "student_code": 13577,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -841,8 +841,8 @@
     "name": "น.ส.วิกานดา จันทร์รอน",
     "year": 4,
     "student_code": 13577,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -850,8 +850,8 @@
     "name": "น.ส.วิมลสิริ ทองเจียว",
     "year": 4,
     "student_code": 13578,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -859,8 +859,8 @@
     "name": "น.ส.วิมลสิริ ทองเจียว",
     "year": 4,
     "student_code": 13578,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -868,8 +868,8 @@
     "name": "น.ส.วิมลสิริ ทองเจียว",
     "year": 4,
     "student_code": 13578,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -877,8 +877,8 @@
     "name": "น.ส.ศรัญญา เงินลา",
     "year": 4,
     "student_code": 13579,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -886,8 +886,8 @@
     "name": "น.ส.ศรัญญา เงินลา",
     "year": 4,
     "student_code": 13579,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -895,8 +895,8 @@
     "name": "น.ส.ศรัญญา เงินลา",
     "year": 4,
     "student_code": 13579,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -904,8 +904,8 @@
     "name": "นายธนดล วันทะมาตร์",
     "year": 4,
     "student_code": 13580,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -913,8 +913,8 @@
     "name": "นายธนดล วันทะมาตร์",
     "year": 4,
     "student_code": 13580,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -922,8 +922,8 @@
     "name": "นายธนดล วันทะมาตร์",
     "year": 4,
     "student_code": 13580,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -931,8 +931,8 @@
     "name": "นายชัยสุกานต์ เนาวงศ์",
     "year": 4,
     "student_code": 13582,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -940,8 +940,8 @@
     "name": "นายชัยสุกานต์ เนาวงศ์",
     "year": 4,
     "student_code": 13582,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -949,8 +949,8 @@
     "name": "นายชัยสุกานต์ เนาวงศ์",
     "year": 4,
     "student_code": 13582,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -958,8 +958,8 @@
     "name": "น.ส.วรรณธิดา หวานแท้",
     "year": 4,
     "student_code": 13583,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -967,8 +967,8 @@
     "name": "น.ส.วรรณธิดา หวานแท้",
     "year": 4,
     "student_code": 13583,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -976,8 +976,8 @@
     "name": "น.ส.วรรณธิดา หวานแท้",
     "year": 4,
     "student_code": 13583,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -985,8 +985,8 @@
     "name": "น.ส.ฐิติกาญจน์ มะยมหิน",
     "year": 4,
     "student_code": 13596,
-    "subject_code": "แนะแนว",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "แนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -994,8 +994,8 @@
     "name": "น.ส.ฐิติกาญจน์ มะยมหิน",
     "year": 4,
     "student_code": 13596,
-    "subject_code": "ชุมนุม",
-    "subject_name": "ก31102",
+    "subject_code": "ก31102",
+    "subject_name": "ชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1003,8 +1003,8 @@
     "name": "น.ส.ฐิติกาญจน์ มะยมหิน",
     "year": 4,
     "student_code": 13596,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
-    "subject_name": "ก31402",
+    "subject_code": "ก31402",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธารณประโยชน์",
     "result": "ผ่าน"
   }
 ]

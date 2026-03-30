@@ -275,25 +275,6 @@ studentActivities.forEach(item => {
 
 gradeTableBody.innerHTML = gradeRows;
 
-      activityRows += `
-        <tr>
-          <td>${item.subject_code ?? "-"}</td>
-          <td>${item.subject_name ?? "-"}</td>
-          <td class="${className}">${resultText}</td>
-        </tr>
-      `;
-    });
-
-    activityTableBody.innerHTML = activityRows;
-
-  } else {
-    activityTableBody.innerHTML = `
-      <tr>
-        <td colspan="3">ไม่พบข้อมูลกิจกรรม</td>
-      </tr>
-    `;
-  }
-
   resultDiv.style.display = "block";
 }
 </script>

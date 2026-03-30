@@ -195,9 +195,12 @@ async function searchStudent() {
     return;
   }
 
-  // ข้อมูลนักเรียน
-  document.getElementById("studentName").innerText = "ชื่อ: " + studentGrades[0].name;
-  document.getElementById("studentYear").innerText = "ชั้น: " + studentGrades[0].year;
+  // ข้อมูลนักเรียน (แก้ตรงนี้)
+document.getElementById("studentName").innerText =
+  "ชื่อ: " + studentGrades[0].name + "   ชั้น: " + studentGrades[0].year;
+
+document.getElementById("studentYear").innerText =
+  "ภาคเรียนที่ 2 ปีการศึกษา 2568";
 
   document.getElementById("studentGpa").innerText =
     studentGrades[0].gpa !== undefined && studentGrades[0].gpa !== null

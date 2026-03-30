@@ -92,12 +92,10 @@
       border-radius:50%;
     }
 
-    /* หัวตาราง (ชื่อวิชา) ให้อยู่กลาง */
     th:nth-child(1){
       text-align:center;
     }
 
-    /* ข้อมูลในตาราง (ชื่อวิชา) ให้ชิดซ้าย */
     td:nth-child(1){
       text-align:left;
       padding-left:15px;
@@ -117,12 +115,10 @@
 
   <div id="result" style="display:none;">
 
-    <!-- บรรทัดแรกใต้ปุ่มค้นหา -->
     <div class="info">
       <p id="studentName"></p>
     </div>
 
-    <!-- บรรทัดถัดมา -->
     <div class="semester">
       <p id="studentYear"></p>
     </div>
@@ -137,10 +133,8 @@
       <tbody id="gradeTableBody"></tbody>
     </table>
 
-    <!-- อันดับไว้นอกตาราง -->
     <div class="rank-text" id="studentRank"></div>
 
-    <!-- ข้อความแจ้งเตือน -->
     <div class="message" id="messageBox"></div>
 
   </div>
@@ -176,62 +170,49 @@ async function searchStudent() {
     const response = await fetch("data/k1.json");
 
     if (!response.ok) {
-      throw new Error("ไม่สามารถโหลดไฟล์ JSON ได้");
+      throw new Error("โหลดข้อมูลไม่สำเร็จ");
     }
 
     const data = await response.json();
+
     const studentData = data.filter(item => String(item.id) === inputId);
 
     if (studentData.length === 0) {
       messageBox.innerText = "❌ ไม่พบข้อมูลนักเรียน";
-
+      return;
     }
 
-    
     const student = studentData[0];
 
-    // บรรทัดแรกใต้ปุ่มค้นหา: ชื่อนักเรียน + ระดับชั้น
+    // ชื่อ + ชั้น
     studentNameEl.innerText = `ชื่อ: ${student.name}   ชั้น: ${student.year_room}`;
 
-    // บรรทัดถัดมา
+    // ภาคเรียน
     studentYearEl.innerText = "ภาคเรียนที่ 2 ปีการศึกษา 2568";
 
-    // แสดงตารางเกรด
-    const studentData = data.filter(item => String(item.id) === inputId);
+    // ตารางคะแนน
+    studentData.forEach(item => {
+      const row = `
+        <tr>
+          <td>${item.subject_name}</td>
+          <td>${item.score}</td>
+        </tr>
+      `;
+      tableBody.innerHTML += row;
+    });
 
-if (studentData.length === 0) {
-  // ...
-  return;
-}
-
-// ✅ ต้องมีบรรทัดนี้ก่อนใช้ total_score
-const student = studentData[0];
-
-studentData.forEach(item => {
-  const row = `
-    <tr>
-      <td>${item.subject_name}</td>
-      <td>${item.score}</td>
-    </tr>
-  `;
-  tableBody.innerHTML += row;
-});
-
-// ✅ แถวคะแนนรวม
-const totalScore = student.total_score;
-
-const totalRow = `
-  <tr style="font-weight:bold; background:#f1f1f1;">
-    <td>คะแนนรวม</td>
-    <td>${totalScore}</td>
-  </tr>
-`;
-
-tableBody.innerHTML += totalRow;
+    // ✅ แถวคะแนนรวม
+    const totalRow = `
+      <tr style="font-weight:bold; background:#f1f1f1;">
+        <td>คะแนนรวม</td>
+        <td>${student.total_score}</td>
+      </tr>
+    `;
+    tableBody.innerHTML += totalRow;
 
     gradeTable.style.display = "table";
 
-    // แสดงอันดับนอกตาราง
+    // อันดับ
     studentRankEl.innerText = `อันดับที่ ${student.class_rank}/${student.total_students}`;
 
   } catch (error) {

@@ -54,8 +54,8 @@
     }
 
     th{
-      background:#1976d2;
-      color:white;
+      background:#ffd700;  /* สีเหลือง หัวตาราง */
+      color:black;         /* เปลี่ยนตัวอักษรเป็นสีดำจะอ่านชัด */
     }
 
     .info{
@@ -124,21 +124,6 @@
       </thead>
       <tbody id="gradeTableBody"></tbody>
     </table>
-
-    <!-- ตารางกิจกรรม -->
-    <div class="section-title">ผลการประเมินกิจกรรม</div>
-    <table>
-      <thead>
-        <tr>
-          <th style="width:20%;">รหัสกิจกรรม</th>
-          <th style="width:50%;">ชื่อกิจกรรม</th>
-          <th style="width:30%;">ผลการประเมิน</th>
-        </tr>
-      </thead>
-      <tbody id="activityTableBody"></tbody>
-    </table>
-
-  </div>
 </div>
 
 <script>
@@ -195,42 +180,36 @@ if (Array.isArray(studentGrades) && studentGrades.length > 0) {
 
   // ตารางเกรด
   studentGrades.forEach(item => {
-    const row = `
-      <tr>
-        <td>${item.subject_code ?? "-"}</td>
-        <td>${item.subject_name ?? "-"}</td>
-        <td>${item.grade ?? "-"}</td>
-      </tr>
-    `;
-    gradeTableBody.innerHTML += row;
-  });
 
-  // ตารางกิจกรรม
-  if (studentActivities.length > 0) {
+  // หา pass/fail
+  const activity = studentActivities.find(a => a.subject_code === item.subject_code);
 
-    studentActivities.forEach(item => {
+  let gradeText = item.grade ?? "-";
+  let className = "";
 
-      let resultText = item.result ?? "-";
-      let className = "";
-
-      if(resultText === "ผ่าน"){
+  // ถ้า "ไม่มีเกรด" ให้ใช้ผ่าน/ไม่ผ่านแทน
+  if(!item.grade || item.grade === "-"){
+    if(activity){
+      if(activity.result === "ผ่าน"){
+        gradeText = "ผ่าน";
         className = "pass";
-        resultText = "🟢 ผ่าน";
-      }else if(resultText === "ไม่ผ่าน"){
+      }else if(activity.result === "ไม่ผ่าน"){
+        gradeText = "ไม่ผ่าน";
         className = "fail";
-        resultText = "🔴 ไม่ผ่าน";
       }
+    }
+  }
 
-      const row = `
-        <tr>
-          <td>${item.subject_code ?? "-"}</td>
-          <td>${item.subject_name ?? "-"}</td>
-          <td class="${className}">${resultText}</td>
-        </tr>
-      `;
+  const row = `
+    <tr>
+      <td>${item.subject_code ?? "-"}</td>
+      <td>${item.subject_name ?? "-"}</td>
+      <td class="${className}">${gradeText}</td>
+    </tr>
+  `;
 
-      activityTableBody.innerHTML += row;
-    });
+  gradeTableBody.innerHTML += row;
+});
 
   } else {
     activityTableBody.innerHTML = `

@@ -77,8 +77,8 @@
       font-size:20px;
       font-weight:bold;
       color:#222;
-      text-align:left;        /* 👈 เพิ่มบรรทัดนี้ */
-      padding-left:5px;       /* 👈 (เสริม) ขยับนิดนึงให้สวย */
+      text-align:left;
+      padding-left:5px;
     }
 
     .message{
@@ -143,8 +143,32 @@
 </div>
 
 <script>
+function normalizeId(id) {
+  if (!id) return "";
+
+  const thaiToArabic = {
+    "๐": "0",
+    "๑": "1",
+    "๒": "2",
+    "๓": "3",
+    "๔": "4",
+    "๕": "5",
+    "๖": "6",
+    "๗": "7",
+    "๘": "8",
+    "๙": "9"
+  };
+
+  return String(id)
+    .trim()
+    .replace(/\s+/g, "")
+    .replace(/[๐-๙]/g, function(ch) {
+      return thaiToArabic[ch];
+    });
+}
+
 async function searchStudent() {
-  const inputId = document.getElementById("studentId").value.trim();
+  const inputId = normalizeId(document.getElementById("studentId").value);
 
   const resultDiv = document.getElementById("result");
   const gradeTable = document.getElementById("gradeTable");
@@ -154,7 +178,6 @@ async function searchStudent() {
   const studentRankEl = document.getElementById("studentRank");
   const messageBox = document.getElementById("messageBox");
 
-  // reset ค่าเดิม
   resultDiv.style.display = "block";
   gradeTable.style.display = "none";
   tableBody.innerHTML = "";
@@ -177,7 +200,9 @@ async function searchStudent() {
 
     const data = await response.json();
 
-    const studentData = data.filter(item => String(item.id) === inputId);
+    const studentData = data.filter(item => {
+      return normalizeId(item.id) === inputId && item.subject_name !== "คะแนนรวม";
+    });
 
     if (studentData.length === 0) {
       messageBox.innerText = "❌ ไม่พบข้อมูลนักเรียน";
@@ -186,13 +211,9 @@ async function searchStudent() {
 
     const student = studentData[0];
 
-    // ชื่อ + ชั้น
     studentNameEl.innerText = `ชื่อ: ${student.name}   ชั้น: ${student.year_room}`;
-
-    // ภาคเรียน
     studentYearEl.innerText = "ภาคเรียนที่ 2 ปีการศึกษา 2568";
 
-    // ตารางคะแนน
     studentData.forEach(item => {
       const row = `
         <tr>
@@ -203,7 +224,6 @@ async function searchStudent() {
       tableBody.innerHTML += row;
     });
 
-    // ✅ แถวคะแนนรวม
     const totalRow = `
       <tr style="font-weight:bold; background:#f1f1f1;">
         <td>คะแนนรวม</td>
@@ -213,8 +233,6 @@ async function searchStudent() {
     tableBody.innerHTML += totalRow;
 
     gradeTable.style.display = "table";
-
-    // อันดับ
     studentRankEl.innerText = `อันดับที่/ห้อง : ${student.class_rank}/${student.total_students}`;
 
   } catch (error) {

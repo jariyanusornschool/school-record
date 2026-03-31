@@ -54,38 +54,46 @@
     }
 
     th{
-      background:#1976d2;
-      color:white;
+      background:#7CFC00;
+      color:black;
     }
 
     .info{
       margin-top:20px;
+      margin-bottom:10px;
+      font-size:20px;
+      font-weight:bold;
+    }
+
+    #studentYear{
+      font-size:16px;
+      font-weight:normal;
+      margin-top:5px;
+      margin-bottom:15px;
+    }
+
+    .rank-text{
+      text-align:left;
+      font-weight:bold;
       font-size:18px;
+      margin-top:12px;
     }
 
-    .section-title{
-      margin-top:30px;
-      font-size:22px;
-      font-weight:bold;
-    }
+    .pass{ font-weight:bold; }
+    .fail{ color:red; font-weight:bold; }
+    .ms{ color:red; font-weight:bold; }
+    .absent{ color:red; font-weight:bold; }
 
-    /* สีผ่าน/ไม่ผ่าน */
-    .pass{
-      color:green;
-      font-weight:bold;
-    }
+    td:nth-child(1), th:nth-child(1){ text-align:center; }
+    th:nth-child(2){ text-align:center; }
+    td:nth-child(2){ text-align:left; padding-left:15px; }
+    td:nth-child(3), th:nth-child(3){ text-align:center; }
 
-    .fail{
-      color:red;
-      font-weight:bold;
-    }
-    
     .logo{
-  width:120px;
-  margin-bottom:15px;
-  border-radius:50%;
-}
-
+      width:120px;
+      margin-bottom:15px;
+      border-radius:50%;
+    }
   </style>
 </head>
 
@@ -102,13 +110,11 @@
   <div id="result" style="display:none;">
 
     <div class="info">
-      <p id="studentName"></p>
-      <p id="studentYear"></p>
-      <p><b>GPA :</b> <span id="studentGpa"></span></p>
-    </div>
+  <p id="studentInfo"></p>
+</div>
 
-    <!-- ตารางเกรด -->
-    <div class="section-title">ผลการเรียนรายวิชา</div>
+<p id="studentYear"></p>
+    
     <table>
       <thead>
         <tr>
@@ -120,25 +126,17 @@
       <tbody id="gradeTableBody"></tbody>
     </table>
 
-    <!-- ตารางกิจกรรม -->
-    <div class="section-title">ผลการประเมินกิจกรรม</div>
-    <table>
-      <thead>
-        <tr>
-          <th style="width:20%;">รหัสกิจกรรม</th>
-          <th style="width:50%;">ชื่อกิจกรรม</th>
-          <th style="width:30%;">ผลการประเมิน</th>
-        </tr>
-      </thead>
-      <tbody id="activityTableBody"></tbody>
-    </table>
+    <p class="rank-text" id="studentRank"></p>
+
+    <p id="noteRemark" style="color:red; font-size:14px; display:none;">
+      *หมายเหตุ : นักเรียนที่มีผลการเรียน "ร", "มส" หรือ "ขส" GPA จะยังไม่สมบูรณ์
+    </p>
 
   </div>
 </div>
 
 <script>
 async function searchStudent() {
-
   const inputId = document.getElementById("studentId").value.trim();
 
   const [gradeResponse, activityResponse] = await Promise.all([
@@ -154,75 +152,93 @@ async function searchStudent() {
 
   const resultDiv = document.getElementById("result");
   const gradeTableBody = document.getElementById("gradeTableBody");
-  const activityTableBody = document.getElementById("activityTableBody");
 
   gradeTableBody.innerHTML = "";
-  activityTableBody.innerHTML = "";
 
   if (studentGrades.length === 0) {
     resultDiv.style.display = "block";
-    document.getElementById("studentName").innerText = "❌ ไม่พบข้อมูล";
-    document.getElementById("studentYear").innerText = "";
-    document.getElementById("studentGpa").innerText = "-";
+    document.getElementById("studentInfo").innerText = "❌ ไม่พบข้อมูล";
+    document.getElementById("studentRank").innerText = "-";
+    document.getElementById("noteRemark").style.display = "none";
     return;
   }
 
-  // ข้อมูลนักเรียน
-  document.getElementById("studentName").innerText = "ชื่อ: " + studentGrades[0].name;
-  document.getElementById("studentYear").innerText = "ชั้น: " + studentGrades[0].year;
+  const student = studentGrades[0];
 
-  document.getElementById("studentGpa").innerText =
-    studentGrades[0].gpa !== undefined && studentGrades[0].gpa !== null
-      ? Number(studentGrades[0].gpa).toFixed(2)
-      : "-";
+  const name = student.name || "-";
+  const yearRoom = student.year_room || (student.year && student.room ? `ป.${student.year}/${student.room}` : "-");
+  const rank = student.class_rank ?? "-";
+  const total = student.total_students ?? "-";
 
-  // ตารางเกรด
+  document.getElementById("studentInfo").innerText =
+    `ชื่อ: ${name}   ชั้น: ${yearRoom}`;
+  document.getElementById("studentYear").innerText =
+  "ภาคเรียนที่ 2 ปีการศึกษา 2568";
+
+  document.getElementById("studentRank").innerText =
+    `อันดับที่/ห้อง : ${rank}/${total}`;
+
+  const hasSpecial = studentGrades.some(item =>
+    item.remark === "มส" ||
+    item.remark === "ขส" ||
+    item.grade === "ร" ||
+    item.grade === 0 ||
+    item.grade === "0"
+  );
+
+  document.getElementById("noteRemark").style.display =
+    hasSpecial ? "block" : "none";
+
+  let rows = "";
+
   studentGrades.forEach(item => {
-    const row = `
+    let gradeText = "-";
+    let className = "";
+
+    if (item.remark === "มส") {
+      gradeText = "มส";
+      className = "ms";
+    } else if (item.remark === "ขส") {
+      gradeText = "ขส";
+      className = "absent";
+    } else if (item.grade === "ร" || item.grade === 0 || item.grade === "0") {
+      gradeText = "ร";
+      className = "fail";
+    } else {
+      gradeText = item.grade ?? "-";
+    }
+
+    rows += `
       <tr>
         <td>${item.subject_code ?? "-"}</td>
         <td>${item.subject_name ?? "-"}</td>
-        <td>${item.grade ?? "-"}</td>
+        <td class="${className}">${gradeText}</td>
       </tr>
     `;
-    gradeTableBody.innerHTML += row;
   });
 
-  // ตารางกิจกรรม
-  if (studentActivities.length > 0) {
+  studentActivities.forEach(item => {
+    let text = "-";
+    let cls = "";
 
-    studentActivities.forEach(item => {
+    if (item.result === "ผ่าน") {
+      text = "ผ่าน";
+      cls = "pass";
+    } else if (item.result === "ไม่ผ่าน") {
+      text = "ไม่ผ่าน";
+      cls = "fail";
+    }
 
-      let resultText = item.result ?? "-";
-      let className = "";
-
-      if(resultText === "ผ่าน"){
-        className = "pass";
-        resultText = "🟢 ผ่าน";
-      }else if(resultText === "ไม่ผ่าน"){
-        className = "fail";
-        resultText = "🔴 ไม่ผ่าน";
-      }
-
-      const row = `
-        <tr>
-          <td>${item.subject_code ?? "-"}</td>
-          <td>${item.subject_name ?? "-"}</td>
-          <td class="${className}">${resultText}</td>
-        </tr>
-      `;
-
-      activityTableBody.innerHTML += row;
-    });
-
-  } else {
-    activityTableBody.innerHTML = `
+    rows += `
       <tr>
-        <td colspan="3">ไม่พบข้อมูลกิจกรรม</td>
+        <td>${item.subject_code ?? "-"}</td>
+        <td>${item.subject_name ?? "-"}</td>
+        <td class="${cls}">${text}</td>
       </tr>
     `;
-  }
+  });
 
+  gradeTableBody.innerHTML = rows;
   resultDiv.style.display = "block";
 }
 </script>

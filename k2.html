@@ -2,6 +2,7 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ตรวจสอบผลการเรียน อนุบาล 2</title>
 
   <style>
@@ -40,6 +41,10 @@
       font-size:16px;
     }
 
+    button:hover{
+      background:#125ea7;
+    }
+
     table{
       width:100%;
       border-collapse:collapse;
@@ -48,32 +53,62 @@
 
     th, td{
       border:1px solid #ddd;
-      padding:8px;
+      padding:10px 8px;
     }
 
     th{
-      background:#1976d2;
+      background:#228B22;
       color:white;
     }
 
     .info{
       margin-top:20px;
       font-size:18px;
+      font-weight:bold;
     }
-    
-    .logo{
-  width:120px;
-  margin-bottom:15px;
-  border-radius:50%;
-}
 
+    .semester{
+      margin-top:10px;
+      font-size:18px;
+    }
+
+    .rank-text{
+      margin-top:20px;
+      font-size:20px;
+      font-weight:bold;
+      color:#222;
+      text-align:left;        /* 👈 เพิ่มบรรทัดนี้ */
+      padding-left:5px;       /* 👈 (เสริม) ขยับนิดนึงให้สวย */
+    }
+
+    .message{
+      margin-top:20px;
+      font-size:18px;
+      color:red;
+      font-weight:bold;
+    }
+
+    .logo{
+      width:120px;
+      margin-bottom:15px;
+      border-radius:50%;
+    }
+
+    th:nth-child(1){
+      text-align:center;
+    }
+
+    td:nth-child(1){
+      text-align:left;
+      padding-left:15px;
+    }
   </style>
 </head>
 
 <body>
 
 <div class="container">
-  <img src="logo.png" class="logo">
+  <img src="logo.png" class="logo" alt="โลโก้โรงเรียน">
   <h2>📘 ตรวจสอบผลการเรียน อนุบาล 2</h2>
 
   <input type="text" id="studentId" placeholder="กรอกเลขบัตรประชาชน / รหัสนักเรียน">
@@ -84,12 +119,15 @@
 
     <div class="info">
       <p id="studentName"></p>
+    </div>
+
+    <div class="semester">
       <p id="studentYear"></p>
     </div>
 
-    <table>
+    <table id="gradeTable" style="display:none;">
       <thead>
-        <tr>          
+        <tr>
           <th>ชื่อวิชา</th>
           <th>คะแนน</th>
         </tr>
@@ -97,66 +135,92 @@
       <tbody id="gradeTableBody"></tbody>
     </table>
 
+    <div class="rank-text" id="studentRank"></div>
+
+    <div class="message" id="messageBox"></div>
+
   </div>
 </div>
 
 <script>
 async function searchStudent() {
-
   const inputId = document.getElementById("studentId").value.trim();
 
-  const response = await fetch("data/k2.json");
-  const data = await response.json();
-
-  const studentData = data.filter(item => String(item.id) === inputId);
-
   const resultDiv = document.getElementById("result");
+  const gradeTable = document.getElementById("gradeTable");
   const tableBody = document.getElementById("gradeTableBody");
+  const studentNameEl = document.getElementById("studentName");
+  const studentYearEl = document.getElementById("studentYear");
+  const studentRankEl = document.getElementById("studentRank");
+  const messageBox = document.getElementById("messageBox");
 
+  // reset ค่าเดิม
+  resultDiv.style.display = "block";
+  gradeTable.style.display = "none";
   tableBody.innerHTML = "";
+  studentNameEl.innerText = "";
+  studentYearEl.innerText = "";
+  studentRankEl.innerText = "";
+  messageBox.innerText = "";
 
-  if (studentData.length === 0) {
-    resultDiv.style.display = "block";
-    document.getElementById("studentName").innerText = "❌ ไม่พบข้อมูล";
-    document.getElementById("studentYear").innerText = "";
-    document.getElementById("studentGpa").innerText = "-";
+  if (!inputId) {
+    messageBox.innerText = "กรุณากรอกรหัสนักเรียน";
     return;
   }
 
-  const student = studentData[0];
+  try {
+    const response = await fetch("data/k2.json");
 
-// ✅ ชื่อ + ห้อง
-document.getElementById("studentName").innerText =
-  "ชื่อ: " + student.name + "   ชั้น: " + student.year_room;
+    if (!response.ok) {
+      throw new Error("โหลดข้อมูลไม่สำเร็จ");
+    }
 
-// ✅ ลำดับที่
-document.getElementById("studentYear").innerText =
-  "ลำดับที่: " + student.class_rank;
+    const data = await response.json();
 
-// ✅ แสดงรายวิชา
-studentData.forEach(item => {
-  const row = `
-    <tr>
-      <td>${item.subject_name}</td>
-      <td>${item.score}</td>
-    </tr>
-  `;
-  tableBody.innerHTML += row;
-});
+    const studentData = data.filter(item => String(item.id) === inputId);
 
-// ✅ ⬇️ ย้ายมาวางตรงนี้ (นอก loop)
-const totalScore = student.total_score;
+    if (studentData.length === 0) {
+      messageBox.innerText = "❌ ไม่พบข้อมูลนักเรียน";
+      return;
+    }
 
-const totalRow = `
-  <tr style="font-weight:bold; background:#f1f1f1;">
-    <td>คะแนนรวม</td>
-    <td>${totalScore}</td>
-  </tr>
-`;
+    const student = studentData[0];
 
-tableBody.innerHTML += totalRow;
+    // ชื่อ + ชั้น
+    studentNameEl.innerText = `ชื่อ: ${student.name}   ชั้น: ${student.year_room}`;
 
-resultDiv.style.display = "block";
+    // ภาคเรียน
+    studentYearEl.innerText = "ภาคเรียนที่ 2 ปีการศึกษา 2568";
+
+    // ตารางคะแนน
+    studentData.forEach(item => {
+      const row = `
+        <tr>
+          <td>${item.subject_name}</td>
+          <td>${item.score}</td>
+        </tr>
+      `;
+      tableBody.innerHTML += row;
+    });
+
+    // ✅ แถวคะแนนรวม
+    const totalRow = `
+      <tr style="font-weight:bold; background:#f1f1f1;">
+        <td>คะแนนรวม</td>
+        <td>${student.total_score}</td>
+      </tr>
+    `;
+    tableBody.innerHTML += totalRow;
+
+    gradeTable.style.display = "table";
+
+    // อันดับ
+    studentRankEl.innerText = `อันดับที่/ห้อง : ${student.class_rank}/${student.total_students}`;
+
+  } catch (error) {
+    messageBox.innerText = "เกิดข้อผิดพลาดในการโหลดข้อมูล";
+    console.error(error);
+  }
 }
 </script>
 

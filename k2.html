@@ -1,226 +1,98 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ตรวจสอบผลการเรียน อนุบาล 2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ตรวจสอบผลการเรียน อนุบาล 2</title>
 
-  <style>
-    body{
-      font-family: Arial, sans-serif;
-      background:#f5f6fa;
-      text-align:center;
-      margin:0;
-      padding:0;
-    }
-
-    .container{
-      width:700px;
-      max-width:90%;
-      margin:80px auto;
-      background:white;
-      padding:30px;
-      box-shadow:0 0 15px rgba(0,0,0,0.1);
-      border-radius:10px;
-    }
-
-    input{
-      padding:10px;
-      width:70%;
-      font-size:16px;
-      margin-bottom:10px;
-    }
-
-    button{
-      padding:10px 20px;
-      background:#1976d2;
-      color:white;
-      border:none;
-      border-radius:6px;
-      cursor:pointer;
-      font-size:16px;
-    }
-
-    button:hover{
-      background:#125ea7;
-    }
-
-    table{
-      width:100%;
-      border-collapse:collapse;
-      margin-top:20px;
-    }
-
-    th, td{
-      border:1px solid #ddd;
-      padding:10px 8px;
-    }
-
-    th{
-      background:#228B22;
-      color:white;
-    }
-
-    .info{
-      margin-top:20px;
-      font-size:18px;
-      font-weight:bold;
-    }
-
-    .semester{
-      margin-top:10px;
-      font-size:18px;
-    }
-
-    .rank-text{
-      margin-top:20px;
-      font-size:20px;
-      font-weight:bold;
-      color:#222;
-      text-align:left;        /* 👈 เพิ่มบรรทัดนี้ */
-      padding-left:5px;       /* 👈 (เสริม) ขยับนิดนึงให้สวย */
-    }
-
-    .message{
-      margin-top:20px;
-      font-size:18px;
-      color:red;
-      font-weight:bold;
-    }
-
-    .logo{
-      width:120px;
-      margin-bottom:15px;
-      border-radius:50%;
-    }
-
-    th:nth-child(1){
-      text-align:center;
-    }
-
-    td:nth-child(1){
-      text-align:left;
-      padding-left:15px;
-    }
-  </style>
+<style>
+body{font-family:Arial;background:#f5f6fa;text-align:center;}
+.container{width:700px;max-width:90%;margin:80px auto;background:white;padding:30px;box-shadow:0 0 15px rgba(0,0,0,0.1);border-radius:10px;}
+input{padding:10px;width:70%;font-size:16px;}
+button{padding:10px 20px;background:#1976d2;color:white;border:none;border-radius:6px;}
+table{width:100%;border-collapse:collapse;margin-top:20px;}
+th,td{border:1px solid #ddd;padding:10px;}
+th{background:#228B22;color:white;}
+.rank-text{margin-top:20px;font-size:20px;font-weight:bold;text-align:left;}
+.message{margin-top:20px;color:red;font-weight:bold;}
+</style>
 </head>
 
 <body>
 
 <div class="container">
-  <img src="logo.png" class="logo" alt="โลโก้โรงเรียน">
-  <h2>📘 ตรวจสอบผลการเรียน อนุบาล 2</h2>
+<h2>📘 ตรวจสอบผลการเรียน อนุบาล 2</h2>
 
-  <input type="text" id="studentId" placeholder="กรอกเลขบัตรประชาชน / รหัสนักเรียน">
-  <br>
-  <button onclick="searchStudent()">ค้นหา</button>
+<input type="text" id="studentId" placeholder="กรอกเลขบัตรประชาชน / รหัสนักเรียน">
+<br><br>
+<button onclick="searchStudent()">ค้นหา</button>
 
-  <div id="result" style="display:none;">
+<div id="result" style="display:none;">
+<p id="studentName"></p>
+<p id="studentYear"></p>
 
-    <div class="info">
-      <p id="studentName"></p>
-    </div>
+<table id="gradeTable" style="display:none;">
+<thead>
+<tr><th>ชื่อวิชา</th><th>คะแนน</th></tr>
+</thead>
+<tbody id="gradeTableBody"></tbody>
+</table>
 
-    <div class="semester">
-      <p id="studentYear"></p>
-    </div>
-
-    <table id="gradeTable" style="display:none;">
-      <thead>
-        <tr>
-          <th>ชื่อวิชา</th>
-          <th>คะแนน</th>
-        </tr>
-      </thead>
-      <tbody id="gradeTableBody"></tbody>
-    </table>
-
-    <div class="rank-text" id="studentRank"></div>
-
-    <div class="message" id="messageBox"></div>
-
-  </div>
+<div class="rank-text" id="studentRank"></div>
+<div class="message" id="messageBox"></div>
+</div>
 </div>
 
 <script>
-async function searchStudent() {
-  const inputId = document.getElementById("studentId").value.trim();
+function normalizeId(id){
+const map={"๐":"0","๑":"1","๒":"2","๓":"3","๔":"4","๕":"5","๖":"6","๗":"7","๘":"8","๙":"9"};
+return String(id).trim().replace(/\s+/g,"").replace(/[๐-๙]/g,d=>map[d]);
+}
 
-  const resultDiv = document.getElementById("result");
-  const gradeTable = document.getElementById("gradeTable");
-  const tableBody = document.getElementById("gradeTableBody");
-  const studentNameEl = document.getElementById("studentName");
-  const studentYearEl = document.getElementById("studentYear");
-  const studentRankEl = document.getElementById("studentRank");
-  const messageBox = document.getElementById("messageBox");
+async function searchStudent(){
+const inputId=normalizeId(document.getElementById("studentId").value);
 
-  // reset ค่าเดิม
-  resultDiv.style.display = "block";
-  gradeTable.style.display = "none";
-  tableBody.innerHTML = "";
-  studentNameEl.innerText = "";
-  studentYearEl.innerText = "";
-  studentRankEl.innerText = "";
-  messageBox.innerText = "";
+const result=document.getElementById("result");
+const table=document.getElementById("gradeTable");
+const body=document.getElementById("gradeTableBody");
+const name=document.getElementById("studentName");
+const year=document.getElementById("studentYear");
+const rank=document.getElementById("studentRank");
+const msg=document.getElementById("messageBox");
 
-  if (!inputId) {
-    messageBox.innerText = "กรุณากรอกรหัสนักเรียน";
-    return;
-  }
+result.style.display="block";
+table.style.display="none";
+body.innerHTML="";
+name.innerText="";
+year.innerText="";
+rank.innerText="";
+msg.innerText="";
 
-  try {
-    const response = await fetch("data/k2.json");
+if(!inputId){msg.innerText="กรุณากรอกรหัสนักเรียน";return;}
 
-    if (!response.ok) {
-      throw new Error("โหลดข้อมูลไม่สำเร็จ");
-    }
+try{
+const res=await fetch("data/k2.json");
+const data=await res.json();
 
-    const data = await response.json();
+const studentData=data.filter(i=>normalizeId(i.id)===inputId && i.subject_name!=="คะแนนรวม");
 
-    const studentData = data.filter(item => String(item.id) === inputId);
+if(studentData.length===0){msg.innerText="❌ ไม่พบข้อมูลนักเรียน";return;}
 
-    if (studentData.length === 0) {
-      messageBox.innerText = "❌ ไม่พบข้อมูลนักเรียน";
-      return;
-    }
+const s=studentData[0];
 
-    const student = studentData[0];
+name.innerText=`ชื่อ: ${s.name} ชั้น: ${s.year_room}`;
+year.innerText="ภาคเรียนที่ 2 ปีการศึกษา 2568";
 
-    // ชื่อ + ชั้น
-    studentNameEl.innerText = `ชื่อ: ${student.name}   ชั้น: ${student.year_room}`;
+studentData.forEach(i=>{
+body.innerHTML+=`<tr><td>${i.subject_name}</td><td>${i.score}</td></tr>`;
+});
 
-    // ภาคเรียน
-    studentYearEl.innerText = "ภาคเรียนที่ 2 ปีการศึกษา 2568";
+body.innerHTML+=`<tr style="font-weight:bold;background:#eee;"><td>คะแนนรวม</td><td>${s.total_score}</td></tr>`;
 
-    // ตารางคะแนน
-    studentData.forEach(item => {
-      const row = `
-        <tr>
-          <td>${item.subject_name}</td>
-          <td>${item.score}</td>
-        </tr>
-      `;
-      tableBody.innerHTML += row;
-    });
+table.style.display="table";
+rank.innerText=`อันดับที่/ห้อง : ${s.class_rank}/${s.total_students}`;
 
-    // ✅ แถวคะแนนรวม
-    const totalRow = `
-      <tr style="font-weight:bold; background:#f1f1f1;">
-        <td>คะแนนรวม</td>
-        <td>${student.total_score}</td>
-      </tr>
-    `;
-    tableBody.innerHTML += totalRow;
-
-    gradeTable.style.display = "table";
-
-    // อันดับ
-    studentRankEl.innerText = `อันดับที่/ห้อง : ${student.class_rank}/${student.total_students}`;
-
-  } catch (error) {
-    messageBox.innerText = "เกิดข้อผิดพลาดในการโหลดข้อมูล";
-    console.error(error);
-  }
+}catch(e){msg.innerText="โหลดข้อมูลผิดพลาด";}
 }
 </script>
 

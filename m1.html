@@ -54,12 +54,17 @@
     }
 
     th{
-      background:#ffd700;  /* สีเหลือง หัวตาราง */
-      color:black;         /* เปลี่ยนตัวอักษรเป็นสีดำจะอ่านชัด */
+      background:#ffd700;  /* สีเหลือง */
+      color:black;        /* ตัวหนังสือดำ อ่านชัด */
     }
-
     .info{
       margin-top:20px;
+      font-size:18px;
+      font-weight:bold;
+    }
+
+    .semester{
+      margin-top:10px;
       font-size:18px;
     }
 
@@ -71,7 +76,7 @@
 
     /* สีผ่าน/ไม่ผ่าน */
     .pass{
-      color:green;
+      color:black;
       font-weight:bold;
     }
 
@@ -79,12 +84,49 @@
       color:red;
       font-weight:bold;
     }
+
+    .ms{
+      color: red;
+      font-weight: bold;
+    }
+
+    .absent{
+      color: red;
+      font-weight: bold;
+    }
     
     .logo{
-  width:120px;
-  margin-bottom:15px;
-  border-radius:50%;
-}
+      width:120px;
+      margin-bottom:15px;
+      border-radius:50%;
+    }
+    .gpa-text{
+      text-align:left;    /* ✅ เปลี่ยนเป็นชิดซ้าย */
+      font-weight:bold;
+      font-size:18px;
+      padding-left:5px;   /* (เสริมให้ตรงกับตาราง) */
+    }
+    /* รหัสวิชา (คอลัมน์ 1) */
+      td:nth-child(1),
+      th:nth-child(1){
+      text-align:center;
+    }
+
+    /* หัวตาราง (ชื่อวิชา) ให้อยู่กลาง */
+      th:nth-child(2){
+      text-align:center;
+    }
+
+    /* ข้อมูลในตาราง (ชื่อวิชา) ให้ชิดซ้าย */
+      td:nth-child(2){
+      text-align:left;
+      padding-left:15px;
+    }
+    /* เกรด (คอลัมน์ 3) */
+      td:nth-child(3),
+      th:nth-child(3){
+      text-align:center;
+    }
 
   </style>
 </head>
@@ -102,18 +144,16 @@
   <div id="result" style="display:none;">
 
     <div class="info">
-      <p id="studentName"></p>
-      <p id="studentYear"></p>
-      <p><b>GPA :</b> <span id="studentGpa"></span></p>
-      <p id="noteRemark" style="color:red; font-size:14px; display:none;">
-        *หมายเหตุ : นักเรียนที่มีผลการเรียน "ร" GPA จะยังไม่สมบูรณ์ จนกว่าจะแก้ไข
-      </p>
-    </div>
+  <p id="studentName"></p>
+</div>
+
+<div class="semester">
+  <p id="studentYear"></p>
+</div>
 
     
 
     <!-- ตารางเกรด -->
-    <div class="section-title">ผลการเรียนรายวิชา</div>
     <table>
       <thead>
         <tr>
@@ -124,6 +164,11 @@
       </thead>
       <tbody id="gradeTableBody"></tbody>
     </table>
+    <p class="gpa-text"><b>GPA :</b> <span id="studentGpa"></span></p>
+      <p id="noteRemark" style="color:red; font-size:18px; text-align:left; padding-left:5px; display:none;">
+        *หมายเหตุ : GPA จะถูกคำนวณใหม่ เมื่อแก้ไข ร , มส , ขส เรียบร้อยแล้ว
+      </p>
+
 </div>
 
 <script>
@@ -144,10 +189,10 @@ async function searchStudent() {
 
   const resultDiv = document.getElementById("result");
   const gradeTableBody = document.getElementById("gradeTableBody");
-  const activityTableBody = document.getElementById("activityTableBody");
+  
 
   gradeTableBody.innerHTML = "";
-  activityTableBody.innerHTML = "";
+  
 
   if (studentGrades.length === 0) {
     resultDiv.style.display = "block";
@@ -157,9 +202,12 @@ async function searchStudent() {
     return;
   }
 
-  // ข้อมูลนักเรียน
-  document.getElementById("studentName").innerText = "ชื่อ: " + studentGrades[0].name;
-  document.getElementById("studentYear").innerText = "ชั้น: " + studentGrades[0].year;
+  // ข้อมูลนักเรียน (แก้ตรงนี้)
+document.getElementById("studentName").innerText =
+  "ชื่อ: " + studentGrades[0].name + "   ชั้น: " + studentGrades[0].year;
+
+document.getElementById("studentYear").innerText =
+  "ภาคเรียนที่ 2 ปีการศึกษา 2568";
 
   document.getElementById("studentGpa").innerText =
     studentGrades[0].gpa !== undefined && studentGrades[0].gpa !== null
@@ -167,57 +215,76 @@ async function searchStudent() {
       : "-";
 
   // ✅ เพิ่มตรงนี้
-  const hasR = studentGrades.some(item => item.grade === "ร");
-
   const note = document.getElementById("noteRemark");
 
-if (Array.isArray(studentGrades) && studentGrades.length > 0) {
-  const hasR = studentGrades.some(item => item.grade === "ร");
-  note.style.display = hasR ? "block" : "none";
-} else {
-  note.style.display = "none";
-}
+const hasSpecial = studentGrades.some(item => 
+  item.remark === "มส" ||
+  item.remark === "ขส" ||
+  item.grade === "ร" ||
+  item.grade === 0 ||
+  item.grade === "0"
+);
 
-  // ตารางเกรด
-  studentGrades.forEach(item => {
+note.style.display = hasSpecial ? "block" : "none";
 
-  // หา pass/fail
-  const activity = studentActivities.find(a => a.subject_code === item.subject_code);
 
-  let gradeText = item.grade ?? "-";
+  let gradeRows = "";
+
+/* 🔹 1. วิชาปกติ */
+studentGrades.forEach(item => {
+
+  let gradeText = "-";
   let className = "";
 
-  // ถ้า "ไม่มีเกรด" ให้ใช้ผ่าน/ไม่ผ่านแทน
-  if(!item.grade || item.grade === "-"){
-    if(activity){
-      if(activity.result === "ผ่าน"){
-        gradeText = "ผ่าน";
-        className = "pass";
-      }else if(activity.result === "ไม่ผ่าน"){
-        gradeText = "ไม่ผ่าน";
-        className = "fail";
-      }
-    }
+  if (item.remark === "มส") {
+    gradeText = "มส";
+    className = "ms";
+  } 
+  else if (item.remark === "ขส") {
+    gradeText = "ขส";
+    className = "absent";
+  }
+  else if (item.grade === "ร" || item.grade === 0 || item.grade === "0") {
+    gradeText = "ร";
+    className = "fail";
+  }
+  else {
+    gradeText = item.grade ?? "-";
   }
 
-  const row = `
+  gradeRows += `
     <tr>
       <td>${item.subject_code ?? "-"}</td>
       <td>${item.subject_name ?? "-"}</td>
       <td class="${className}">${gradeText}</td>
     </tr>
   `;
-
-  gradeTableBody.innerHTML += row;
 });
 
-  } else {
-    activityTableBody.innerHTML = `
-      <tr>
-        <td colspan="3">ไม่พบข้อมูลกิจกรรม</td>
-      </tr>
-    `;
+/* 🔹 2. ต่อด้วยกิจกรรม */
+studentActivities.forEach(item => {
+
+  let resultText = "-";
+  let className = "";
+
+  if(item.result === "ผ่าน"){
+    resultText = "ผ่าน";
+    className = "pass";
+  }else if(item.result === "ไม่ผ่าน"){
+    resultText = "ไม่ผ่าน";
+    className = "fail";
   }
+
+  gradeRows += `
+    <tr>
+      <td>${item.subject_code ?? "-"}</td>
+      <td>${item.subject_name ?? "-"}</td>
+      <td class="${className}">${resultText}</td>
+    </tr>
+  `;
+});
+
+gradeTableBody.innerHTML = gradeRows;
 
   resultDiv.style.display = "block";
 }

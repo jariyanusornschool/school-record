@@ -40,8 +40,8 @@
     "name": "ชื่อ-นามสกุล",
     "year": "ชั้น",
     "student_code": "รหัสประจำตัวนักเรียน",
-    "subject_code": "วิชา",
-    "subject_name": "รหัสวิชา",
+    "subject_code": "รหัสวิชา",
+    "subject_name": "วิชา",
     "result": "คะแนนรวม"
   },
   {
@@ -49,8 +49,8 @@
     "name": "เด็กหญิง ไอรดา ภูผาเพชร",
     "year": "ป.4/3",
     "student_code": 11168,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -58,8 +58,8 @@
     "name": "เด็กหญิง ไอรดา ภูผาเพชร",
     "year": "ป.4/3",
     "student_code": 11168,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -67,8 +67,8 @@
     "name": "เด็กหญิง ไอรดา ภูผาเพชร",
     "year": "ป.4/3",
     "student_code": 11168,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -76,8 +76,8 @@
     "name": "เด็กหญิง ไอรดา ภูผาเพชร",
     "year": "ป.4/3",
     "student_code": 11168,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -85,8 +85,8 @@
     "name": "เด็กชาย พิพัฒน์พงษ์ นิยมเหลา",
     "year": "ป.4/3",
     "student_code": 11576,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -94,8 +94,8 @@
     "name": "เด็กชาย พิพัฒน์พงษ์ นิยมเหลา",
     "year": "ป.4/3",
     "student_code": 11576,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -103,8 +103,8 @@
     "name": "เด็กชาย พิพัฒน์พงษ์ นิยมเหลา",
     "year": "ป.4/3",
     "student_code": 11576,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -112,8 +112,8 @@
     "name": "เด็กชาย พิพัฒน์พงษ์ นิยมเหลา",
     "year": "ป.4/3",
     "student_code": 11576,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -121,8 +121,8 @@
     "name": "เด็กชาย วีรวุฒิ สุภา",
     "year": "ป.4/3",
     "student_code": 11579,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -130,8 +130,8 @@
     "name": "เด็กชาย วีรวุฒิ สุภา",
     "year": "ป.4/3",
     "student_code": 11579,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -139,8 +139,8 @@
     "name": "เด็กชาย วีรวุฒิ สุภา",
     "year": "ป.4/3",
     "student_code": 11579,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -148,8 +148,8 @@
     "name": "เด็กชาย วีรวุฒิ สุภา",
     "year": "ป.4/3",
     "student_code": 11579,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -157,8 +157,8 @@
     "name": "เด็กชาย เจษฎา วงษ์ยา",
     "year": "ป.4/3",
     "student_code": 11582,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -166,8 +166,8 @@
     "name": "เด็กชาย เจษฎา วงษ์ยา",
     "year": "ป.4/3",
     "student_code": 11582,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -175,8 +175,8 @@
     "name": "เด็กชาย เจษฎา วงษ์ยา",
     "year": "ป.4/3",
     "student_code": 11582,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -184,8 +184,8 @@
     "name": "เด็กชาย เจษฎา วงษ์ยา",
     "year": "ป.4/3",
     "student_code": 11582,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -193,8 +193,8 @@
     "name": "เด็กชาย ณัฐพงษ์ บุญเจริญ",
     "year": "ป.4/3",
     "student_code": 11615,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -202,8 +202,8 @@
     "name": "เด็กชาย ณัฐพงษ์ บุญเจริญ",
     "year": "ป.4/3",
     "student_code": 11615,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -211,8 +211,8 @@
     "name": "เด็กชาย ณัฐพงษ์ บุญเจริญ",
     "year": "ป.4/3",
     "student_code": 11615,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -220,8 +220,8 @@
     "name": "เด็กชาย ณัฐพงษ์ บุญเจริญ",
     "year": "ป.4/3",
     "student_code": 11615,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -229,8 +229,8 @@
     "name": "เด็กชาย ภูผา ไชยพรหม",
     "year": "ป.4/3",
     "student_code": 11617,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -238,8 +238,8 @@
     "name": "เด็กชาย ภูผา ไชยพรหม",
     "year": "ป.4/3",
     "student_code": 11617,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -247,8 +247,8 @@
     "name": "เด็กชาย ภูผา ไชยพรหม",
     "year": "ป.4/3",
     "student_code": 11617,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -256,8 +256,8 @@
     "name": "เด็กชาย ภูผา ไชยพรหม",
     "year": "ป.4/3",
     "student_code": 11617,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -265,8 +265,8 @@
     "name": "เด็กชาย ปิติภัทร รับรอง",
     "year": "ป.4/3",
     "student_code": 11618,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -274,8 +274,8 @@
     "name": "เด็กชาย ปิติภัทร รับรอง",
     "year": "ป.4/3",
     "student_code": 11618,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -283,8 +283,8 @@
     "name": "เด็กชาย ปิติภัทร รับรอง",
     "year": "ป.4/3",
     "student_code": 11618,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -292,8 +292,8 @@
     "name": "เด็กชาย ปิติภัทร รับรอง",
     "year": "ป.4/3",
     "student_code": 11618,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -301,8 +301,8 @@
     "name": "เด็กหญิง กวินตา โพธิ์ศรีหา",
     "year": "ป.4/3",
     "student_code": 11621,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -310,8 +310,8 @@
     "name": "เด็กหญิง กวินตา โพธิ์ศรีหา",
     "year": "ป.4/3",
     "student_code": 11621,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -319,8 +319,8 @@
     "name": "เด็กหญิง กวินตา โพธิ์ศรีหา",
     "year": "ป.4/3",
     "student_code": 11621,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -328,8 +328,8 @@
     "name": "เด็กหญิง กวินตา โพธิ์ศรีหา",
     "year": "ป.4/3",
     "student_code": 11621,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -337,8 +337,8 @@
     "name": "เด็กหญิง ปวริศา ยิ่งยอด",
     "year": "ป.4/3",
     "student_code": 11624,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -346,8 +346,8 @@
     "name": "เด็กหญิง ปวริศา ยิ่งยอด",
     "year": "ป.4/3",
     "student_code": 11624,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -355,8 +355,8 @@
     "name": "เด็กหญิง ปวริศา ยิ่งยอด",
     "year": "ป.4/3",
     "student_code": 11624,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -364,8 +364,8 @@
     "name": "เด็กหญิง ปวริศา ยิ่งยอด",
     "year": "ป.4/3",
     "student_code": 11624,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -373,8 +373,8 @@
     "name": "เด็กชาย ณัฐฐาพล เขียวอ่อน",
     "year": "ป.4/3",
     "student_code": 11625,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -382,8 +382,8 @@
     "name": "เด็กชาย ณัฐฐาพล เขียวอ่อน",
     "year": "ป.4/3",
     "student_code": 11625,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -391,8 +391,8 @@
     "name": "เด็กชาย ณัฐฐาพล เขียวอ่อน",
     "year": "ป.4/3",
     "student_code": 11625,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -400,8 +400,8 @@
     "name": "เด็กชาย ณัฐฐาพล เขียวอ่อน",
     "year": "ป.4/3",
     "student_code": 11625,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -409,8 +409,8 @@
     "name": "เด็กหญิง ฐิติกาญจน์ ทองโคตร",
     "year": "ป.4/3",
     "student_code": 11629,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -418,8 +418,8 @@
     "name": "เด็กหญิง ฐิติกาญจน์ ทองโคตร",
     "year": "ป.4/3",
     "student_code": 11629,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -427,8 +427,8 @@
     "name": "เด็กหญิง ฐิติกาญจน์ ทองโคตร",
     "year": "ป.4/3",
     "student_code": 11629,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -436,8 +436,8 @@
     "name": "เด็กหญิง ฐิติกาญจน์ ทองโคตร",
     "year": "ป.4/3",
     "student_code": 11629,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -445,8 +445,8 @@
     "name": "เด็กชาย คณาธิป ทูลธรรม",
     "year": "ป.4/3",
     "student_code": 11845,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -454,8 +454,8 @@
     "name": "เด็กชาย คณาธิป ทูลธรรม",
     "year": "ป.4/3",
     "student_code": 11845,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -463,8 +463,8 @@
     "name": "เด็กชาย คณาธิป ทูลธรรม",
     "year": "ป.4/3",
     "student_code": 11845,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -472,8 +472,8 @@
     "name": "เด็กชาย คณาธิป ทูลธรรม",
     "year": "ป.4/3",
     "student_code": 11845,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -481,8 +481,8 @@
     "name": "เด็กหญิง กัญญาพร อินทะวงค์",
     "year": "ป.4/3",
     "student_code": 11860,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -490,8 +490,8 @@
     "name": "เด็กหญิง กัญญาพร อินทะวงค์",
     "year": "ป.4/3",
     "student_code": 11860,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -499,8 +499,8 @@
     "name": "เด็กหญิง กัญญาพร อินทะวงค์",
     "year": "ป.4/3",
     "student_code": 11860,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -508,8 +508,8 @@
     "name": "เด็กหญิง กัญญาพร อินทะวงค์",
     "year": "ป.4/3",
     "student_code": 11860,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -517,8 +517,8 @@
     "name": "เด็กชาย จิรายุ หมื่นคีรี",
     "year": "ป.4/3",
     "student_code": 11871,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -526,8 +526,8 @@
     "name": "เด็กชาย จิรายุ หมื่นคีรี",
     "year": "ป.4/3",
     "student_code": 11871,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -535,8 +535,8 @@
     "name": "เด็กชาย จิรายุ หมื่นคีรี",
     "year": "ป.4/3",
     "student_code": 11871,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -544,8 +544,8 @@
     "name": "เด็กชาย จิรายุ หมื่นคีรี",
     "year": "ป.4/3",
     "student_code": 11871,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -553,8 +553,8 @@
     "name": "เด็กชายณัฏฐภูมิ คำวัน",
     "year": "ป.4/3",
     "student_code": 11880,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -562,8 +562,8 @@
     "name": "เด็กชายณัฏฐภูมิ คำวัน",
     "year": "ป.4/3",
     "student_code": 11880,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -571,8 +571,8 @@
     "name": "เด็กชายณัฏฐภูมิ คำวัน",
     "year": "ป.4/3",
     "student_code": 11880,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -580,8 +580,8 @@
     "name": "เด็กชายณัฏฐภูมิ คำวัน",
     "year": "ป.4/3",
     "student_code": 11880,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -589,8 +589,8 @@
     "name": "เด็กชาย ธีรภัทร พิลากุล",
     "year": "ป.4/3",
     "student_code": 11884,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -598,8 +598,8 @@
     "name": "เด็กชาย ธีรภัทร พิลากุล",
     "year": "ป.4/3",
     "student_code": 11884,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -607,8 +607,8 @@
     "name": "เด็กชาย ธีรภัทร พิลากุล",
     "year": "ป.4/3",
     "student_code": 11884,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -616,8 +616,8 @@
     "name": "เด็กชาย ธีรภัทร พิลากุล",
     "year": "ป.4/3",
     "student_code": 11884,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -625,8 +625,8 @@
     "name": "เด็กชาย ณัฐพงษ์ โชติบ้านขาม",
     "year": "ป.4/3",
     "student_code": 11948,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -634,8 +634,8 @@
     "name": "เด็กชาย ณัฐพงษ์ โชติบ้านขาม",
     "year": "ป.4/3",
     "student_code": 11948,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -643,8 +643,8 @@
     "name": "เด็กชาย ณัฐพงษ์ โชติบ้านขาม",
     "year": "ป.4/3",
     "student_code": 11948,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -652,8 +652,8 @@
     "name": "เด็กชาย ณัฐพงษ์ โชติบ้านขาม",
     "year": "ป.4/3",
     "student_code": 11948,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -661,8 +661,8 @@
     "name": "เด็กหญิง กชนิภา จุฑาภูวดล",
     "year": "ป.4/3",
     "student_code": 11955,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -670,8 +670,8 @@
     "name": "เด็กหญิง กชนิภา จุฑาภูวดล",
     "year": "ป.4/3",
     "student_code": 11955,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -679,8 +679,8 @@
     "name": "เด็กหญิง กชนิภา จุฑาภูวดล",
     "year": "ป.4/3",
     "student_code": 11955,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -688,8 +688,8 @@
     "name": "เด็กหญิง กชนิภา จุฑาภูวดล",
     "year": "ป.4/3",
     "student_code": 11955,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -697,8 +697,8 @@
     "name": "เด็กหญิง พุฒิธาดา บุญทิพย์",
     "year": "ป.4/3",
     "student_code": 12325,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -706,8 +706,8 @@
     "name": "เด็กหญิง พุฒิธาดา บุญทิพย์",
     "year": "ป.4/3",
     "student_code": 12325,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -715,8 +715,8 @@
     "name": "เด็กหญิง พุฒิธาดา บุญทิพย์",
     "year": "ป.4/3",
     "student_code": 12325,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -724,8 +724,8 @@
     "name": "เด็กหญิง พุฒิธาดา บุญทิพย์",
     "year": "ป.4/3",
     "student_code": 12325,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -733,8 +733,8 @@
     "name": "เด็กหญิง ปภาดา เจริญสุข",
     "year": "ป.4/3",
     "student_code": 12348,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -742,8 +742,8 @@
     "name": "เด็กหญิง ปภาดา เจริญสุข",
     "year": "ป.4/3",
     "student_code": 12348,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -751,8 +751,8 @@
     "name": "เด็กหญิง ปภาดา เจริญสุข",
     "year": "ป.4/3",
     "student_code": 12348,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -760,8 +760,8 @@
     "name": "เด็กหญิง ปภาดา เจริญสุข",
     "year": "ป.4/3",
     "student_code": 12348,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -769,8 +769,8 @@
     "name": "เด็กชาย ภัทรพล ศรีกุล",
     "year": "ป.4/3",
     "student_code": 12349,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -778,8 +778,8 @@
     "name": "เด็กชาย ภัทรพล ศรีกุล",
     "year": "ป.4/3",
     "student_code": 12349,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -787,8 +787,8 @@
     "name": "เด็กชาย ภัทรพล ศรีกุล",
     "year": "ป.4/3",
     "student_code": 12349,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -796,8 +796,8 @@
     "name": "เด็กชาย ภัทรพล ศรีกุล",
     "year": "ป.4/3",
     "student_code": 12349,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -805,8 +805,8 @@
     "name": "เด็กชาย ปรวิศร บุญวิเทียน",
     "year": "ป.4/3",
     "student_code": 12350,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -814,8 +814,8 @@
     "name": "เด็กชาย ปรวิศร บุญวิเทียน",
     "year": "ป.4/3",
     "student_code": 12350,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -823,8 +823,8 @@
     "name": "เด็กชาย ปรวิศร บุญวิเทียน",
     "year": "ป.4/3",
     "student_code": 12350,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -832,8 +832,8 @@
     "name": "เด็กชาย ปรวิศร บุญวิเทียน",
     "year": "ป.4/3",
     "student_code": 12350,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -841,8 +841,8 @@
     "name": "เด็กหญิง ธัญญาภรณ์ ภูลับ",
     "year": "ป.4/3",
     "student_code": 12351,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -850,8 +850,8 @@
     "name": "เด็กหญิง ธัญญาภรณ์ ภูลับ",
     "year": "ป.4/3",
     "student_code": 12351,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -859,8 +859,8 @@
     "name": "เด็กหญิง ธัญญาภรณ์ ภูลับ",
     "year": "ป.4/3",
     "student_code": 12351,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -868,8 +868,8 @@
     "name": "เด็กหญิง ธัญญาภรณ์ ภูลับ",
     "year": "ป.4/3",
     "student_code": 12351,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -877,8 +877,8 @@
     "name": "เด็กหญิง ปนัดดา วงกัณหา",
     "year": "ป.4/3",
     "student_code": 12352,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -886,8 +886,8 @@
     "name": "เด็กหญิง ปนัดดา วงกัณหา",
     "year": "ป.4/3",
     "student_code": 12352,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -895,8 +895,8 @@
     "name": "เด็กหญิง ปนัดดา วงกัณหา",
     "year": "ป.4/3",
     "student_code": 12352,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -904,8 +904,8 @@
     "name": "เด็กหญิง ปนัดดา วงกัณหา",
     "year": "ป.4/3",
     "student_code": 12352,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -913,8 +913,8 @@
     "name": "เด็กชาย ณัฐวุฒิ แสงคำ",
     "year": "ป.4/3",
     "student_code": 12353,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -922,8 +922,8 @@
     "name": "เด็กชาย ณัฐวุฒิ แสงคำ",
     "year": "ป.4/3",
     "student_code": 12353,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -931,8 +931,8 @@
     "name": "เด็กชาย ณัฐวุฒิ แสงคำ",
     "year": "ป.4/3",
     "student_code": 12353,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -940,8 +940,8 @@
     "name": "เด็กชาย ณัฐวุฒิ แสงคำ",
     "year": "ป.4/3",
     "student_code": 12353,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -949,8 +949,8 @@
     "name": "เด็กชาย กิตติกานต์ ญาติปราโมทย์",
     "year": "ป.4/3",
     "student_code": 12354,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -958,8 +958,8 @@
     "name": "เด็กชาย กิตติกานต์ ญาติปราโมทย์",
     "year": "ป.4/3",
     "student_code": 12354,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -967,8 +967,8 @@
     "name": "เด็กชาย กิตติกานต์ ญาติปราโมทย์",
     "year": "ป.4/3",
     "student_code": 12354,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -976,8 +976,8 @@
     "name": "เด็กชาย กิตติกานต์ ญาติปราโมทย์",
     "year": "ป.4/3",
     "student_code": 12354,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -985,8 +985,8 @@
     "name": "เด็กหญิง ศิรินธร ยศปัญญา",
     "year": "ป.4/3",
     "student_code": 12705,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -994,8 +994,8 @@
     "name": "เด็กหญิง ศิรินธร ยศปัญญา",
     "year": "ป.4/3",
     "student_code": 12705,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1003,8 +1003,8 @@
     "name": "เด็กหญิง ศิรินธร ยศปัญญา",
     "year": "ป.4/3",
     "student_code": 12705,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1012,8 +1012,8 @@
     "name": "เด็กหญิง ศิรินธร ยศปัญญา",
     "year": "ป.4/3",
     "student_code": 12705,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1021,8 +1021,8 @@
     "name": "เด็กชาย พงษ์พัฒน์ อุปฮาด",
     "year": "ป.4/3",
     "student_code": 12706,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1030,8 +1030,8 @@
     "name": "เด็กชาย พงษ์พัฒน์ อุปฮาด",
     "year": "ป.4/3",
     "student_code": 12706,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1039,8 +1039,8 @@
     "name": "เด็กชาย พงษ์พัฒน์ อุปฮาด",
     "year": "ป.4/3",
     "student_code": 12706,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1048,8 +1048,8 @@
     "name": "เด็กชาย พงษ์พัฒน์ อุปฮาด",
     "year": "ป.4/3",
     "student_code": 12706,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1057,8 +1057,8 @@
     "name": "เด็กชาย ศุภชัย จันดา",
     "year": "ป.4/3",
     "student_code": 12999,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1066,8 +1066,8 @@
     "name": "เด็กชาย ศุภชัย จันดา",
     "year": "ป.4/3",
     "student_code": 12999,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1075,8 +1075,8 @@
     "name": "เด็กชาย ศุภชัย จันดา",
     "year": "ป.4/3",
     "student_code": 12999,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1084,8 +1084,8 @@
     "name": "เด็กชาย ศุภชัย จันดา",
     "year": "ป.4/3",
     "student_code": 12999,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1093,8 +1093,8 @@
     "name": "เด็กหญิง ธนพร คางกาวง",
     "year": "ป.4/3",
     "student_code": 13050,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1102,8 +1102,8 @@
     "name": "เด็กหญิง ธนพร คางกาวง",
     "year": "ป.4/3",
     "student_code": 13050,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1111,8 +1111,8 @@
     "name": "เด็กหญิง ธนพร คางกาวง",
     "year": "ป.4/3",
     "student_code": 13050,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1120,8 +1120,8 @@
     "name": "เด็กหญิง ธนพร คางกาวง",
     "year": "ป.4/3",
     "student_code": 13050,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1129,8 +1129,8 @@
     "name": "เด็กชาย กิตติพล ดีสร้อย",
     "year": "ป.4/3",
     "student_code": 13051,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1138,8 +1138,8 @@
     "name": "เด็กชาย กิตติพล ดีสร้อย",
     "year": "ป.4/3",
     "student_code": 13051,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1147,8 +1147,8 @@
     "name": "เด็กชาย กิตติพล ดีสร้อย",
     "year": "ป.4/3",
     "student_code": 13051,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1156,8 +1156,8 @@
     "name": "เด็กชาย กิตติพล ดีสร้อย",
     "year": "ป.4/3",
     "student_code": 13051,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1165,8 +1165,8 @@
     "name": "เด็กชาย วีรภัทร ปานาลาด",
     "year": "ป.4/3",
     "student_code": 13052,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1174,8 +1174,8 @@
     "name": "เด็กชาย วีรภัทร ปานาลาด",
     "year": "ป.4/3",
     "student_code": 13052,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1183,8 +1183,8 @@
     "name": "เด็กชาย วีรภัทร ปานาลาด",
     "year": "ป.4/3",
     "student_code": 13052,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1192,8 +1192,8 @@
     "name": "เด็กชาย วีรภัทร ปานาลาด",
     "year": "ป.4/3",
     "student_code": 13052,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1201,8 +1201,8 @@
     "name": "เด็กชาย ภัควัฒน์ ยศประสงค์",
     "year": "ป.4/3",
     "student_code": 13054,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1210,8 +1210,8 @@
     "name": "เด็กชาย ภัควัฒน์ ยศประสงค์",
     "year": "ป.4/3",
     "student_code": 13054,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1219,8 +1219,8 @@
     "name": "เด็กชาย ภัควัฒน์ ยศประสงค์",
     "year": "ป.4/3",
     "student_code": 13054,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1228,8 +1228,8 @@
     "name": "เด็กชาย ภัควัฒน์ ยศประสงค์",
     "year": "ป.4/3",
     "student_code": 13054,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1237,8 +1237,8 @@
     "name": "เด็กหญิง กัลยรัตน์ เปรยะโพธิเดชะ",
     "year": "ป.4/3",
     "student_code": 13499,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1246,8 +1246,8 @@
     "name": "เด็กหญิง กัลยรัตน์ เปรยะโพธิเดชะ",
     "year": "ป.4/3",
     "student_code": 13499,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1255,8 +1255,8 @@
     "name": "เด็กหญิง กัลยรัตน์ เปรยะโพธิเดชะ",
     "year": "ป.4/3",
     "student_code": 13499,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1264,8 +1264,8 @@
     "name": "เด็กหญิง กัลยรัตน์ เปรยะโพธิเดชะ",
     "year": "ป.4/3",
     "student_code": 13499,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1273,8 +1273,8 @@
     "name": "เด็กหญิง ปรีญาวดี บุญกว้าง",
     "year": "ป.4/3",
     "student_code": 13500,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1282,8 +1282,8 @@
     "name": "เด็กหญิง ปรีญาวดี บุญกว้าง",
     "year": "ป.4/3",
     "student_code": 13500,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1291,8 +1291,8 @@
     "name": "เด็กหญิง ปรีญาวดี บุญกว้าง",
     "year": "ป.4/3",
     "student_code": 13500,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1300,8 +1300,8 @@
     "name": "เด็กหญิง ปรีญาวดี บุญกว้าง",
     "year": "ป.4/3",
     "student_code": 13500,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1309,8 +1309,8 @@
     "name": "เด็กชาย ภานุวัชร ศรีเมือง",
     "year": "ป.4/3",
     "student_code": 13603,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1318,8 +1318,8 @@
     "name": "เด็กชาย ภานุวัชร ศรีเมือง",
     "year": "ป.4/3",
     "student_code": 13603,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1327,8 +1327,8 @@
     "name": "เด็กชาย ภานุวัชร ศรีเมือง",
     "year": "ป.4/3",
     "student_code": 13603,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1336,8 +1336,8 @@
     "name": "เด็กชาย ภานุวัชร ศรีเมือง",
     "year": "ป.4/3",
     "student_code": 13603,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1345,8 +1345,8 @@
     "name": "เด็กหญิง อรปรียา เข็มพันธ์",
     "year": "ป.4/3",
     "student_code": 13607,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1354,8 +1354,8 @@
     "name": "เด็กหญิง อรปรียา เข็มพันธ์",
     "year": "ป.4/3",
     "student_code": 13607,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1363,8 +1363,8 @@
     "name": "เด็กหญิง อรปรียา เข็มพันธ์",
     "year": "ป.4/3",
     "student_code": 13607,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1372,8 +1372,8 @@
     "name": "เด็กหญิง อรปรียา เข็มพันธ์",
     "year": "ป.4/3",
     "student_code": 13607,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1390,8 +1390,8 @@
     "name": "ชื่อ-นามสกุล",
     "year": "ชั้น",
     "student_code": "รหัสประจำตัวนักเรียน",
-    "subject_code": "วิชา",
-    "subject_name": "รหัสวิชา",
+    "subject_code": "รหัสวิชา",
+    "subject_name": "วิชา",
     "result": "คะแนนรวม"
   },
   {
@@ -1399,8 +1399,8 @@
     "name": "เด็กชายพลวรรธน์ ทิศเพ็ญ",
     "year": "ป.4",
     "student_code": 11457,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1408,8 +1408,8 @@
     "name": "เด็กชายพลวรรธน์ ทิศเพ็ญ",
     "year": "ป.4",
     "student_code": 11457,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1417,8 +1417,8 @@
     "name": "เด็กชายพลวรรธน์ ทิศเพ็ญ",
     "year": "ป.4",
     "student_code": 11457,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1426,8 +1426,8 @@
     "name": "เด็กชายพลวรรธน์ ทิศเพ็ญ",
     "year": "ป.4",
     "student_code": 11457,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1435,8 +1435,8 @@
     "name": "เด็กชายธนาธิป อินทร์สุข",
     "year": "ป.4",
     "student_code": 11466,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1444,8 +1444,8 @@
     "name": "เด็กชายธนาธิป อินทร์สุข",
     "year": "ป.4",
     "student_code": 11466,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1453,8 +1453,8 @@
     "name": "เด็กชายธนาธิป อินทร์สุข",
     "year": "ป.4",
     "student_code": 11466,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1462,8 +1462,8 @@
     "name": "เด็กชายธนาธิป อินทร์สุข",
     "year": "ป.4",
     "student_code": 11466,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1471,8 +1471,8 @@
     "name": "เด็กหญิงวรัญญา อินทองสุข",
     "year": "ป.4",
     "student_code": 11467,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1480,8 +1480,8 @@
     "name": "เด็กหญิงวรัญญา อินทองสุข",
     "year": "ป.4",
     "student_code": 11467,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1489,8 +1489,8 @@
     "name": "เด็กหญิงวรัญญา อินทองสุข",
     "year": "ป.4",
     "student_code": 11467,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1498,8 +1498,8 @@
     "name": "เด็กหญิงวรัญญา อินทองสุข",
     "year": "ป.4",
     "student_code": 11467,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1507,8 +1507,8 @@
     "name": "เด็กหญิงอัญญาดา เปดี",
     "year": "ป.4",
     "student_code": 11469,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1516,8 +1516,8 @@
     "name": "เด็กหญิงอัญญาดา เปดี",
     "year": "ป.4",
     "student_code": 11469,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1525,8 +1525,8 @@
     "name": "เด็กหญิงอัญญาดา เปดี",
     "year": "ป.4",
     "student_code": 11469,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1534,8 +1534,8 @@
     "name": "เด็กหญิงอัญญาดา เปดี",
     "year": "ป.4",
     "student_code": 11469,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1543,8 +1543,8 @@
     "name": "เด็กหญิงจรรยาภรณ์ แสงจันดา",
     "year": "ป.4",
     "student_code": 11475,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1552,8 +1552,8 @@
     "name": "เด็กหญิงจรรยาภรณ์ แสงจันดา",
     "year": "ป.4",
     "student_code": 11475,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1561,8 +1561,8 @@
     "name": "เด็กหญิงจรรยาภรณ์ แสงจันดา",
     "year": "ป.4",
     "student_code": 11475,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1570,8 +1570,8 @@
     "name": "เด็กหญิงจรรยาภรณ์ แสงจันดา",
     "year": "ป.4",
     "student_code": 11475,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1579,8 +1579,8 @@
     "name": "เด็กหญิงณิชา ขุนจ่าเมือง",
     "year": "ป.4",
     "student_code": 11476,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1588,8 +1588,8 @@
     "name": "เด็กหญิงณิชา ขุนจ่าเมือง",
     "year": "ป.4",
     "student_code": 11476,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1597,8 +1597,8 @@
     "name": "เด็กหญิงณิชา ขุนจ่าเมือง",
     "year": "ป.4",
     "student_code": 11476,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1606,8 +1606,8 @@
     "name": "เด็กหญิงณิชา ขุนจ่าเมือง",
     "year": "ป.4",
     "student_code": 11476,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1615,8 +1615,8 @@
     "name": "เด็กหญิงสุดารักษ์ อามาตทัศน์",
     "year": "ป.4",
     "student_code": 11481,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1624,8 +1624,8 @@
     "name": "เด็กหญิงสุดารักษ์ อามาตทัศน์",
     "year": "ป.4",
     "student_code": 11481,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1633,8 +1633,8 @@
     "name": "เด็กหญิงสุดารักษ์ อามาตทัศน์",
     "year": "ป.4",
     "student_code": 11481,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1642,8 +1642,8 @@
     "name": "เด็กหญิงสุดารักษ์ อามาตทัศน์",
     "year": "ป.4",
     "student_code": 11481,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1651,8 +1651,8 @@
     "name": "เด็กหญิงพรชนก นาคาอินทร์",
     "year": "ป.4",
     "student_code": 11483,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1660,8 +1660,8 @@
     "name": "เด็กหญิงพรชนก นาคาอินทร์",
     "year": "ป.4",
     "student_code": 11483,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1669,8 +1669,8 @@
     "name": "เด็กหญิงพรชนก นาคาอินทร์",
     "year": "ป.4",
     "student_code": 11483,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1678,8 +1678,8 @@
     "name": "เด็กหญิงพรชนก นาคาอินทร์",
     "year": "ป.4",
     "student_code": 11483,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1687,8 +1687,8 @@
     "name": "เด็กหญิงวรัญญา กำนา",
     "year": "ป.4",
     "student_code": 11484,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1696,8 +1696,8 @@
     "name": "เด็กหญิงวรัญญา กำนา",
     "year": "ป.4",
     "student_code": 11484,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1705,8 +1705,8 @@
     "name": "เด็กหญิงวรัญญา กำนา",
     "year": "ป.4",
     "student_code": 11484,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1714,8 +1714,8 @@
     "name": "เด็กหญิงวรัญญา กำนา",
     "year": "ป.4",
     "student_code": 11484,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1723,8 +1723,8 @@
     "name": "เด็กหญิงวริศรา แก้วกล้า",
     "year": "ป.4",
     "student_code": 11488,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1732,8 +1732,8 @@
     "name": "เด็กหญิงวริศรา แก้วกล้า",
     "year": "ป.4",
     "student_code": 11488,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1741,8 +1741,8 @@
     "name": "เด็กหญิงวริศรา แก้วกล้า",
     "year": "ป.4",
     "student_code": 11488,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1750,8 +1750,8 @@
     "name": "เด็กหญิงวริศรา แก้วกล้า",
     "year": "ป.4",
     "student_code": 11488,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1759,8 +1759,8 @@
     "name": "เด็กชายอัมรินทร์ ชินศรี",
     "year": "ป.4",
     "student_code": 11604,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1768,8 +1768,8 @@
     "name": "เด็กชายอัมรินทร์ ชินศรี",
     "year": "ป.4",
     "student_code": 11604,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1777,8 +1777,8 @@
     "name": "เด็กชายอัมรินทร์ ชินศรี",
     "year": "ป.4",
     "student_code": 11604,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1786,8 +1786,8 @@
     "name": "เด็กชายอัมรินทร์ ชินศรี",
     "year": "ป.4",
     "student_code": 11604,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1795,8 +1795,8 @@
     "name": "เด็กหญิงวิชญาดา พรหมศร",
     "year": "ป.4",
     "student_code": 11605,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1804,8 +1804,8 @@
     "name": "เด็กหญิงวิชญาดา พรหมศร",
     "year": "ป.4",
     "student_code": 11605,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1813,8 +1813,8 @@
     "name": "เด็กหญิงวิชญาดา พรหมศร",
     "year": "ป.4",
     "student_code": 11605,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1822,8 +1822,8 @@
     "name": "เด็กหญิงวิชญาดา พรหมศร",
     "year": "ป.4",
     "student_code": 11605,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1831,8 +1831,8 @@
     "name": "เด็กชายปิยพัทธ์ ภู่พิพัฒน์",
     "year": "ป.4",
     "student_code": 11607,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1840,8 +1840,8 @@
     "name": "เด็กชายปิยพัทธ์ ภู่พิพัฒน์",
     "year": "ป.4",
     "student_code": 11607,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1849,8 +1849,8 @@
     "name": "เด็กชายปิยพัทธ์ ภู่พิพัฒน์",
     "year": "ป.4",
     "student_code": 11607,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1858,8 +1858,8 @@
     "name": "เด็กชายปิยพัทธ์ ภู่พิพัฒน์",
     "year": "ป.4",
     "student_code": 11607,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1867,8 +1867,8 @@
     "name": "เด็กชายธีรนพ อุตระศรี",
     "year": "ป.4",
     "student_code": 11608,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1876,8 +1876,8 @@
     "name": "เด็กชายธีรนพ อุตระศรี",
     "year": "ป.4",
     "student_code": 11608,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1885,8 +1885,8 @@
     "name": "เด็กชายธีรนพ อุตระศรี",
     "year": "ป.4",
     "student_code": 11608,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1894,8 +1894,8 @@
     "name": "เด็กชายธีรนพ อุตระศรี",
     "year": "ป.4",
     "student_code": 11608,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1903,8 +1903,8 @@
     "name": "เด็กชายเมธาวิน สีหลิ่ง",
     "year": "ป.4",
     "student_code": 11616,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1912,8 +1912,8 @@
     "name": "เด็กชายเมธาวิน สีหลิ่ง",
     "year": "ป.4",
     "student_code": 11616,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1921,8 +1921,8 @@
     "name": "เด็กชายเมธาวิน สีหลิ่ง",
     "year": "ป.4",
     "student_code": 11616,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1930,8 +1930,8 @@
     "name": "เด็กชายเมธาวิน สีหลิ่ง",
     "year": "ป.4",
     "student_code": 11616,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1939,8 +1939,8 @@
     "name": "เด็กหญิงณฐพร ประชามอญ",
     "year": "ป.4",
     "student_code": 11627,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1948,8 +1948,8 @@
     "name": "เด็กหญิงณฐพร ประชามอญ",
     "year": "ป.4",
     "student_code": 11627,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1957,8 +1957,8 @@
     "name": "เด็กหญิงณฐพร ประชามอญ",
     "year": "ป.4",
     "student_code": 11627,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -1966,8 +1966,8 @@
     "name": "เด็กหญิงณฐพร ประชามอญ",
     "year": "ป.4",
     "student_code": 11627,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -1975,8 +1975,8 @@
     "name": "เด็กหญิงออมประภา ชานลา",
     "year": "ป.4",
     "student_code": 11879,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -1984,8 +1984,8 @@
     "name": "เด็กหญิงออมประภา ชานลา",
     "year": "ป.4",
     "student_code": 11879,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -1993,8 +1993,8 @@
     "name": "เด็กหญิงออมประภา ชานลา",
     "year": "ป.4",
     "student_code": 11879,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2002,8 +2002,8 @@
     "name": "เด็กหญิงออมประภา ชานลา",
     "year": "ป.4",
     "student_code": 11879,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2011,8 +2011,8 @@
     "name": "เด็กชายปรวรรษ กุฬาอินทร์",
     "year": "ป.4",
     "student_code": 12037,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2020,8 +2020,8 @@
     "name": "เด็กชายปรวรรษ กุฬาอินทร์",
     "year": "ป.4",
     "student_code": 12037,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2029,8 +2029,8 @@
     "name": "เด็กชายปรวรรษ กุฬาอินทร์",
     "year": "ป.4",
     "student_code": 12037,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2038,8 +2038,8 @@
     "name": "เด็กชายปรวรรษ กุฬาอินทร์",
     "year": "ป.4",
     "student_code": 12037,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2047,8 +2047,8 @@
     "name": "เด็กหญิงวรัญญา สร้อยวิเชียร",
     "year": "ป.4",
     "student_code": 12216,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2056,8 +2056,8 @@
     "name": "เด็กหญิงวรัญญา สร้อยวิเชียร",
     "year": "ป.4",
     "student_code": 12216,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2065,8 +2065,8 @@
     "name": "เด็กหญิงวรัญญา สร้อยวิเชียร",
     "year": "ป.4",
     "student_code": 12216,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2074,8 +2074,8 @@
     "name": "เด็กหญิงวรัญญา สร้อยวิเชียร",
     "year": "ป.4",
     "student_code": 12216,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2083,8 +2083,8 @@
     "name": "เด็กชายภูมินันท์ อินทร์พิมพ์",
     "year": "ป.4",
     "student_code": 12217,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2092,8 +2092,8 @@
     "name": "เด็กชายภูมินันท์ อินทร์พิมพ์",
     "year": "ป.4",
     "student_code": 12217,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2101,8 +2101,8 @@
     "name": "เด็กชายภูมินันท์ อินทร์พิมพ์",
     "year": "ป.4",
     "student_code": 12217,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2110,8 +2110,8 @@
     "name": "เด็กชายภูมินันท์ อินทร์พิมพ์",
     "year": "ป.4",
     "student_code": 12217,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2119,8 +2119,8 @@
     "name": "เด็กหญิงศรัญญา ศรีสุธรรม",
     "year": "ป.4",
     "student_code": 12220,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2128,8 +2128,8 @@
     "name": "เด็กหญิงศรัญญา ศรีสุธรรม",
     "year": "ป.4",
     "student_code": 12220,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2137,8 +2137,8 @@
     "name": "เด็กหญิงศรัญญา ศรีสุธรรม",
     "year": "ป.4",
     "student_code": 12220,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2146,8 +2146,8 @@
     "name": "เด็กหญิงศรัญญา ศรีสุธรรม",
     "year": "ป.4",
     "student_code": 12220,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2155,8 +2155,8 @@
     "name": "เด็กชายภูวนัย บุญประคม",
     "year": "ป.4",
     "student_code": 12302,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2164,8 +2164,8 @@
     "name": "เด็กชายภูวนัย บุญประคม",
     "year": "ป.4",
     "student_code": 12302,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2173,8 +2173,8 @@
     "name": "เด็กชายภูวนัย บุญประคม",
     "year": "ป.4",
     "student_code": 12302,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2182,8 +2182,8 @@
     "name": "เด็กชายภูวนัย บุญประคม",
     "year": "ป.4",
     "student_code": 12302,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2191,8 +2191,8 @@
     "name": "เด็กหญิงฐิฏิกรณ์ ทาตะคุณ",
     "year": "ป.4",
     "student_code": 12338,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2200,8 +2200,8 @@
     "name": "เด็กหญิงฐิฏิกรณ์ ทาตะคุณ",
     "year": "ป.4",
     "student_code": 12338,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2209,8 +2209,8 @@
     "name": "เด็กหญิงฐิฏิกรณ์ ทาตะคุณ",
     "year": "ป.4",
     "student_code": 12338,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2218,8 +2218,8 @@
     "name": "เด็กหญิงฐิฏิกรณ์ ทาตะคุณ",
     "year": "ป.4",
     "student_code": 12338,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2227,8 +2227,8 @@
     "name": "เด็กหญิงวีรัญญา โสโท",
     "year": "ป.4",
     "student_code": 12340,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2236,8 +2236,8 @@
     "name": "เด็กหญิงวีรัญญา โสโท",
     "year": "ป.4",
     "student_code": 12340,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2245,8 +2245,8 @@
     "name": "เด็กหญิงวีรัญญา โสโท",
     "year": "ป.4",
     "student_code": 12340,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2254,8 +2254,8 @@
     "name": "เด็กหญิงวีรัญญา โสโท",
     "year": "ป.4",
     "student_code": 12340,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2263,8 +2263,8 @@
     "name": "เด็กชายภูวนัย คำแสน",
     "year": "ป.4",
     "student_code": 12629,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2272,8 +2272,8 @@
     "name": "เด็กชายภูวนัย คำแสน",
     "year": "ป.4",
     "student_code": 12629,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2281,8 +2281,8 @@
     "name": "เด็กชายภูวนัย คำแสน",
     "year": "ป.4",
     "student_code": 12629,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2290,8 +2290,8 @@
     "name": "เด็กชายภูวนัย คำแสน",
     "year": "ป.4",
     "student_code": 12629,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2299,8 +2299,8 @@
     "name": "เด็กชายวรินทร นารี",
     "year": "ป.4",
     "student_code": 12630,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2308,8 +2308,8 @@
     "name": "เด็กชายวรินทร นารี",
     "year": "ป.4",
     "student_code": 12630,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2317,8 +2317,8 @@
     "name": "เด็กชายวรินทร นารี",
     "year": "ป.4",
     "student_code": 12630,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2326,8 +2326,8 @@
     "name": "เด็กชายวรินทร นารี",
     "year": "ป.4",
     "student_code": 12630,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2335,8 +2335,8 @@
     "name": "เด็กชายพีรพัฒน์ วังพรม",
     "year": "ป.4",
     "student_code": 12693,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2344,8 +2344,8 @@
     "name": "เด็กชายพีรพัฒน์ วังพรม",
     "year": "ป.4",
     "student_code": 12693,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2353,8 +2353,8 @@
     "name": "เด็กชายพีรพัฒน์ วังพรม",
     "year": "ป.4",
     "student_code": 12693,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2362,8 +2362,8 @@
     "name": "เด็กชายพีรพัฒน์ วังพรม",
     "year": "ป.4",
     "student_code": 12693,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2371,8 +2371,8 @@
     "name": "เด็กหญิงกานต์ธิดา คะนองมาก",
     "year": "ป.4",
     "student_code": 12694,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2380,8 +2380,8 @@
     "name": "เด็กหญิงกานต์ธิดา คะนองมาก",
     "year": "ป.4",
     "student_code": 12694,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2389,8 +2389,8 @@
     "name": "เด็กหญิงกานต์ธิดา คะนองมาก",
     "year": "ป.4",
     "student_code": 12694,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2398,8 +2398,8 @@
     "name": "เด็กหญิงกานต์ธิดา คะนองมาก",
     "year": "ป.4",
     "student_code": 12694,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2407,8 +2407,8 @@
     "name": "เด็กชายนฐวัช ชาระ",
     "year": "ป.4",
     "student_code": 12695,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2416,8 +2416,8 @@
     "name": "เด็กชายนฐวัช ชาระ",
     "year": "ป.4",
     "student_code": 12695,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2425,8 +2425,8 @@
     "name": "เด็กชายนฐวัช ชาระ",
     "year": "ป.4",
     "student_code": 12695,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2434,8 +2434,8 @@
     "name": "เด็กชายนฐวัช ชาระ",
     "year": "ป.4",
     "student_code": 12695,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2443,8 +2443,8 @@
     "name": "เด็กหญิงเฌอญดา พลโยธา",
     "year": "ป.4",
     "student_code": 12696,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2452,8 +2452,8 @@
     "name": "เด็กหญิงเฌอญดา พลโยธา",
     "year": "ป.4",
     "student_code": 12696,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2461,8 +2461,8 @@
     "name": "เด็กหญิงเฌอญดา พลโยธา",
     "year": "ป.4",
     "student_code": 12696,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2470,8 +2470,8 @@
     "name": "เด็กหญิงเฌอญดา พลโยธา",
     "year": "ป.4",
     "student_code": 12696,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2479,8 +2479,8 @@
     "name": "เด็กชายธราเทพ บุญลือ",
     "year": "ป.4",
     "student_code": 12697,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2488,8 +2488,8 @@
     "name": "เด็กชายธราเทพ บุญลือ",
     "year": "ป.4",
     "student_code": 12697,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2497,8 +2497,8 @@
     "name": "เด็กชายธราเทพ บุญลือ",
     "year": "ป.4",
     "student_code": 12697,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2506,8 +2506,8 @@
     "name": "เด็กชายธราเทพ บุญลือ",
     "year": "ป.4",
     "student_code": 12697,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2515,8 +2515,8 @@
     "name": "เด็กชายนัธทวัฒน์ ดวงทาแสง",
     "year": "ป.4",
     "student_code": 13042,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2524,8 +2524,8 @@
     "name": "เด็กชายนัธทวัฒน์ ดวงทาแสง",
     "year": "ป.4",
     "student_code": 13042,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2533,8 +2533,8 @@
     "name": "เด็กชายนัธทวัฒน์ ดวงทาแสง",
     "year": "ป.4",
     "student_code": 13042,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2542,8 +2542,8 @@
     "name": "เด็กชายนัธทวัฒน์ ดวงทาแสง",
     "year": "ป.4",
     "student_code": 13042,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2551,8 +2551,8 @@
     "name": "เด็กชายพิชญะ วัดสา",
     "year": "ป.4",
     "student_code": 13043,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2560,8 +2560,8 @@
     "name": "เด็กชายพิชญะ วัดสา",
     "year": "ป.4",
     "student_code": 13043,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2569,8 +2569,8 @@
     "name": "เด็กชายพิชญะ วัดสา",
     "year": "ป.4",
     "student_code": 13043,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2578,8 +2578,8 @@
     "name": "เด็กชายพิชญะ วัดสา",
     "year": "ป.4",
     "student_code": 13043,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2587,8 +2587,8 @@
     "name": "เด็กหญิงกนกวรรณ บุญหล้า",
     "year": "ป.4",
     "student_code": 13044,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2596,8 +2596,8 @@
     "name": "เด็กหญิงกนกวรรณ บุญหล้า",
     "year": "ป.4",
     "student_code": 13044,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2605,8 +2605,8 @@
     "name": "เด็กหญิงกนกวรรณ บุญหล้า",
     "year": "ป.4",
     "student_code": 13044,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2614,8 +2614,8 @@
     "name": "เด็กหญิงกนกวรรณ บุญหล้า",
     "year": "ป.4",
     "student_code": 13044,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2623,8 +2623,8 @@
     "name": "เด็กหญิงปวีณ์ธิดา กองทรัพย์",
     "year": "ป.4",
     "student_code": 13490,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2632,8 +2632,8 @@
     "name": "เด็กหญิงปวีณ์ธิดา กองทรัพย์",
     "year": "ป.4",
     "student_code": 13490,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2641,8 +2641,8 @@
     "name": "เด็กหญิงปวีณ์ธิดา กองทรัพย์",
     "year": "ป.4",
     "student_code": 13490,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2650,8 +2650,8 @@
     "name": "เด็กหญิงปวีณ์ธิดา กองทรัพย์",
     "year": "ป.4",
     "student_code": 13490,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2659,8 +2659,8 @@
     "name": "เด็กชายปริณ ฝางแก้ว",
     "year": "ป.4",
     "student_code": 13491,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2668,8 +2668,8 @@
     "name": "เด็กชายปริณ ฝางแก้ว",
     "year": "ป.4",
     "student_code": 13491,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2677,8 +2677,8 @@
     "name": "เด็กชายปริณ ฝางแก้ว",
     "year": "ป.4",
     "student_code": 13491,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2686,8 +2686,8 @@
     "name": "เด็กชายปริณ ฝางแก้ว",
     "year": "ป.4",
     "student_code": 13491,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2695,8 +2695,8 @@
     "name": "เด็กหญิงนิภาพร ตาลโกนกุล",
     "year": "ป.4",
     "student_code": 13492,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2704,8 +2704,8 @@
     "name": "เด็กหญิงนิภาพร ตาลโกนกุล",
     "year": "ป.4",
     "student_code": 13492,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2713,8 +2713,8 @@
     "name": "เด็กหญิงนิภาพร ตาลโกนกุล",
     "year": "ป.4",
     "student_code": 13492,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2722,8 +2722,8 @@
     "name": "เด็กหญิงนิภาพร ตาลโกนกุล",
     "year": "ป.4",
     "student_code": 13492,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2731,8 +2731,8 @@
     "name": "เด็กหญิงณัฐณิชา สันทา",
     "year": "ป.4",
     "student_code": 13493,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2740,8 +2740,8 @@
     "name": "เด็กหญิงณัฐณิชา สันทา",
     "year": "ป.4",
     "student_code": 13493,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2749,8 +2749,8 @@
     "name": "เด็กหญิงณัฐณิชา สันทา",
     "year": "ป.4",
     "student_code": 13493,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2758,8 +2758,8 @@
     "name": "เด็กหญิงณัฐณิชา สันทา",
     "year": "ป.4",
     "student_code": 13493,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2767,8 +2767,8 @@
     "name": "เด็กหญิงบรรณฑวรรณ จำปาหอม",
     "year": "ป.4",
     "student_code": 13608,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2776,8 +2776,8 @@
     "name": "เด็กหญิงบรรณฑวรรณ จำปาหอม",
     "year": "ป.4",
     "student_code": 13608,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2785,8 +2785,8 @@
     "name": "เด็กหญิงบรรณฑวรรณ จำปาหอม",
     "year": "ป.4",
     "student_code": 13608,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2794,8 +2794,8 @@
     "name": "เด็กหญิงบรรณฑวรรณ จำปาหอม",
     "year": "ป.4",
     "student_code": 13608,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2821,8 +2821,8 @@
     "name": "เด็กชาย พัสกร หกขุนทด",
     "year": "ป.4",
     "student_code": 11145,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2830,8 +2830,8 @@
     "name": "เด็กชาย พัสกร หกขุนทด",
     "year": "ป.4",
     "student_code": 11145,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2839,8 +2839,8 @@
     "name": "เด็กชาย พัสกร หกขุนทด",
     "year": "ป.4",
     "student_code": 11145,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2848,8 +2848,8 @@
     "name": "เด็กชาย พัสกร หกขุนทด",
     "year": "ป.4",
     "student_code": 11145,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2857,8 +2857,8 @@
     "name": "เด็กหญิง ณิชชากร สุโพธิ์",
     "year": "ป.4",
     "student_code": 11147,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2866,8 +2866,8 @@
     "name": "เด็กหญิง ณิชชากร สุโพธิ์",
     "year": "ป.4",
     "student_code": 11147,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2875,8 +2875,8 @@
     "name": "เด็กหญิง ณิชชากร สุโพธิ์",
     "year": "ป.4",
     "student_code": 11147,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2884,8 +2884,8 @@
     "name": "เด็กหญิง ณิชชากร สุโพธิ์",
     "year": "ป.4",
     "student_code": 11147,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2893,8 +2893,8 @@
     "name": "เด็กชาย สิงห์หา ชาฎา",
     "year": "ป.4",
     "student_code": 11149,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2902,8 +2902,8 @@
     "name": "เด็กชาย สิงห์หา ชาฎา",
     "year": "ป.4",
     "student_code": 11149,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2911,8 +2911,8 @@
     "name": "เด็กชาย สิงห์หา ชาฎา",
     "year": "ป.4",
     "student_code": 11149,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2920,8 +2920,8 @@
     "name": "เด็กชาย สิงห์หา ชาฎา",
     "year": "ป.4",
     "student_code": 11149,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2929,8 +2929,8 @@
     "name": "เด็กหญิง ณัฏฐนิชา คำสีแก้ว",
     "year": "ป.4",
     "student_code": 11478,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2938,8 +2938,8 @@
     "name": "เด็กหญิง ณัฏฐนิชา คำสีแก้ว",
     "year": "ป.4",
     "student_code": 11478,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2947,8 +2947,8 @@
     "name": "เด็กหญิง ณัฏฐนิชา คำสีแก้ว",
     "year": "ป.4",
     "student_code": 11478,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2956,8 +2956,8 @@
     "name": "เด็กหญิง ณัฏฐนิชา คำสีแก้ว",
     "year": "ป.4",
     "student_code": 11478,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -2965,8 +2965,8 @@
     "name": "เด็กชาย อัครวัฒน์ ชัยชนะ",
     "year": "ป.4",
     "student_code": 11489,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -2974,8 +2974,8 @@
     "name": "เด็กชาย อัครวัฒน์ ชัยชนะ",
     "year": "ป.4",
     "student_code": 11489,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -2983,8 +2983,8 @@
     "name": "เด็กชาย อัครวัฒน์ ชัยชนะ",
     "year": "ป.4",
     "student_code": 11489,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -2992,8 +2992,8 @@
     "name": "เด็กชาย อัครวัฒน์ ชัยชนะ",
     "year": "ป.4",
     "student_code": 11489,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3001,8 +3001,8 @@
     "name": "เด็กหญิง อรนภา จารุจิตต์",
     "year": "ป.4",
     "student_code": 11491,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3010,8 +3010,8 @@
     "name": "เด็กหญิง อรนภา จารุจิตต์",
     "year": "ป.4",
     "student_code": 11491,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3019,8 +3019,8 @@
     "name": "เด็กหญิง อรนภา จารุจิตต์",
     "year": "ป.4",
     "student_code": 11491,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3028,8 +3028,8 @@
     "name": "เด็กหญิง อรนภา จารุจิตต์",
     "year": "ป.4",
     "student_code": 11491,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3037,8 +3037,8 @@
     "name": "เด็กชาย ภาคภูมิ แสนตุ้ย",
     "year": "ป.4",
     "student_code": 11492,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3046,8 +3046,8 @@
     "name": "เด็กชาย ภาคภูมิ แสนตุ้ย",
     "year": "ป.4",
     "student_code": 11492,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3055,8 +3055,8 @@
     "name": "เด็กชาย ภาคภูมิ แสนตุ้ย",
     "year": "ป.4",
     "student_code": 11492,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3064,8 +3064,8 @@
     "name": "เด็กชาย ภาคภูมิ แสนตุ้ย",
     "year": "ป.4",
     "student_code": 11492,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3073,8 +3073,8 @@
     "name": "เด็กชาย ภูวเนศวร์ พรมภักดี",
     "year": "ป.4",
     "student_code": 11494,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3082,8 +3082,8 @@
     "name": "เด็กชาย ภูวเนศวร์ พรมภักดี",
     "year": "ป.4",
     "student_code": 11494,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3091,8 +3091,8 @@
     "name": "เด็กชาย ภูวเนศวร์ พรมภักดี",
     "year": "ป.4",
     "student_code": 11494,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3100,8 +3100,8 @@
     "name": "เด็กชาย ภูวเนศวร์ พรมภักดี",
     "year": "ป.4",
     "student_code": 11494,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3109,8 +3109,8 @@
     "name": "เด็กชาย กันตพงศ์ คำเกี้ยว",
     "year": "ป.4",
     "student_code": 11500,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3118,8 +3118,8 @@
     "name": "เด็กชาย กันตพงศ์ คำเกี้ยว",
     "year": "ป.4",
     "student_code": 11500,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3127,8 +3127,8 @@
     "name": "เด็กชาย กันตพงศ์ คำเกี้ยว",
     "year": "ป.4",
     "student_code": 11500,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3136,8 +3136,8 @@
     "name": "เด็กชาย กันตพงศ์ คำเกี้ยว",
     "year": "ป.4",
     "student_code": 11500,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3145,8 +3145,8 @@
     "name": "เด็กชาย ภาคิน คำลือชา",
     "year": "ป.4",
     "student_code": 11635,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3154,8 +3154,8 @@
     "name": "เด็กชาย ภาคิน คำลือชา",
     "year": "ป.4",
     "student_code": 11635,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3163,8 +3163,8 @@
     "name": "เด็กชาย ภาคิน คำลือชา",
     "year": "ป.4",
     "student_code": 11635,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3172,8 +3172,8 @@
     "name": "เด็กชาย ภาคิน คำลือชา",
     "year": "ป.4",
     "student_code": 11635,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3181,8 +3181,8 @@
     "name": "เด็กชาย กันต์กวี สีหานาท",
     "year": "ป.4",
     "student_code": 11831,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3190,8 +3190,8 @@
     "name": "เด็กชาย กันต์กวี สีหานาท",
     "year": "ป.4",
     "student_code": 11831,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3199,8 +3199,8 @@
     "name": "เด็กชาย กันต์กวี สีหานาท",
     "year": "ป.4",
     "student_code": 11831,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3208,8 +3208,8 @@
     "name": "เด็กชาย กันต์กวี สีหานาท",
     "year": "ป.4",
     "student_code": 11831,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3217,8 +3217,8 @@
     "name": "เด็กหญิง กัญญาพร มีศิลป์",
     "year": "ป.4",
     "student_code": 11877,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3226,8 +3226,8 @@
     "name": "เด็กหญิง กัญญาพร มีศิลป์",
     "year": "ป.4",
     "student_code": 11877,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3235,8 +3235,8 @@
     "name": "เด็กหญิง กัญญาพร มีศิลป์",
     "year": "ป.4",
     "student_code": 11877,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3244,8 +3244,8 @@
     "name": "เด็กหญิง กัญญาพร มีศิลป์",
     "year": "ป.4",
     "student_code": 11877,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3253,8 +3253,8 @@
     "name": "เด็กหญิง สาวิตรี หล่อนจำปา",
     "year": "",
     "student_code": 11881,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3262,8 +3262,8 @@
     "name": "เด็กหญิง สาวิตรี หล่อนจำปา",
     "year": "",
     "student_code": 11881,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3271,8 +3271,8 @@
     "name": "เด็กหญิง สาวิตรี หล่อนจำปา",
     "year": "",
     "student_code": 11881,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3280,8 +3280,8 @@
     "name": "เด็กหญิง สาวิตรี หล่อนจำปา",
     "year": "",
     "student_code": 11881,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3289,8 +3289,8 @@
     "name": "เด็กชาย กันตพัฒน์ วรศรี",
     "year": "",
     "student_code": 12211,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3298,8 +3298,8 @@
     "name": "เด็กชาย กันตพัฒน์ วรศรี",
     "year": "",
     "student_code": 12211,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3307,8 +3307,8 @@
     "name": "เด็กชาย กันตพัฒน์ วรศรี",
     "year": "",
     "student_code": 12211,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3316,8 +3316,8 @@
     "name": "เด็กชาย กันตพัฒน์ วรศรี",
     "year": "",
     "student_code": 12211,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3325,8 +3325,8 @@
     "name": "เด็กหญิง อารดา ชัยเลิศ",
     "year": "",
     "student_code": 12215,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3334,8 +3334,8 @@
     "name": "เด็กหญิง อารดา ชัยเลิศ",
     "year": "",
     "student_code": 12215,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3343,8 +3343,8 @@
     "name": "เด็กหญิง อารดา ชัยเลิศ",
     "year": "",
     "student_code": 12215,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3352,8 +3352,8 @@
     "name": "เด็กหญิง อารดา ชัยเลิศ",
     "year": "",
     "student_code": 12215,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3361,8 +3361,8 @@
     "name": "เด็กหญิง จันทิมา บุญเสงี่ยม",
     "year": "",
     "student_code": 12341,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3370,8 +3370,8 @@
     "name": "เด็กหญิง จันทิมา บุญเสงี่ยม",
     "year": "",
     "student_code": 12341,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3379,8 +3379,8 @@
     "name": "เด็กหญิง จันทิมา บุญเสงี่ยม",
     "year": "",
     "student_code": 12341,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3388,8 +3388,8 @@
     "name": "เด็กหญิง จันทิมา บุญเสงี่ยม",
     "year": "",
     "student_code": 12341,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3397,8 +3397,8 @@
     "name": "เด็กหญิง ทิพธิดา ทนทาน",
     "year": "",
     "student_code": 12343,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3406,8 +3406,8 @@
     "name": "เด็กหญิง ทิพธิดา ทนทาน",
     "year": "",
     "student_code": 12343,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3415,8 +3415,8 @@
     "name": "เด็กหญิง ทิพธิดา ทนทาน",
     "year": "",
     "student_code": 12343,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3424,8 +3424,8 @@
     "name": "เด็กหญิง ทิพธิดา ทนทาน",
     "year": "",
     "student_code": 12343,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3433,8 +3433,8 @@
     "name": "เด็กชาย ภัทรนนท์ มากสาคร",
     "year": "",
     "student_code": 12344,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3442,8 +3442,8 @@
     "name": "เด็กชาย ภัทรนนท์ มากสาคร",
     "year": "",
     "student_code": 12344,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3451,8 +3451,8 @@
     "name": "เด็กชาย ภัทรนนท์ มากสาคร",
     "year": "",
     "student_code": 12344,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3460,8 +3460,8 @@
     "name": "เด็กชาย ภัทรนนท์ มากสาคร",
     "year": "",
     "student_code": 12344,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3469,8 +3469,8 @@
     "name": "เด็กชาย อนุชิต ประพันธมิตร",
     "year": "",
     "student_code": 12345,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3478,8 +3478,8 @@
     "name": "เด็กชาย อนุชิต ประพันธมิตร",
     "year": "",
     "student_code": 12345,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3487,8 +3487,8 @@
     "name": "เด็กชาย อนุชิต ประพันธมิตร",
     "year": "",
     "student_code": 12345,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3496,8 +3496,8 @@
     "name": "เด็กชาย อนุชิต ประพันธมิตร",
     "year": "",
     "student_code": 12345,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3505,8 +3505,8 @@
     "name": "เด็กชาย อัครวินท์ พรมโคตร",
     "year": "",
     "student_code": 12347,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3514,8 +3514,8 @@
     "name": "เด็กชาย อัครวินท์ พรมโคตร",
     "year": "",
     "student_code": 12347,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3523,8 +3523,8 @@
     "name": "เด็กชาย อัครวินท์ พรมโคตร",
     "year": "",
     "student_code": 12347,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3532,8 +3532,8 @@
     "name": "เด็กชาย อัครวินท์ พรมโคตร",
     "year": "",
     "student_code": 12347,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3541,8 +3541,8 @@
     "name": "เด็กชาย ชัชวาลย์ สีม่วง",
     "year": "",
     "student_code": 12700,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3550,8 +3550,8 @@
     "name": "เด็กชาย ชัชวาลย์ สีม่วง",
     "year": "",
     "student_code": 12700,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3559,8 +3559,8 @@
     "name": "เด็กชาย ชัชวาลย์ สีม่วง",
     "year": "",
     "student_code": 12700,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3568,8 +3568,8 @@
     "name": "เด็กชาย ชัชวาลย์ สีม่วง",
     "year": "",
     "student_code": 12700,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3577,8 +3577,8 @@
     "name": "เด็กชาย ยุทธวีย์ หอมหวล",
     "year": "",
     "student_code": 12703,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3586,8 +3586,8 @@
     "name": "เด็กชาย ยุทธวีย์ หอมหวล",
     "year": "",
     "student_code": 12703,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3595,8 +3595,8 @@
     "name": "เด็กชาย ยุทธวีย์ หอมหวล",
     "year": "",
     "student_code": 12703,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3604,8 +3604,8 @@
     "name": "เด็กชาย ยุทธวีย์ หอมหวล",
     "year": "",
     "student_code": 12703,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3613,8 +3613,8 @@
     "name": "เด็กชาย ชนายุส วันแก้ว",
     "year": "",
     "student_code": 12993,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3622,8 +3622,8 @@
     "name": "เด็กชาย ชนายุส วันแก้ว",
     "year": "",
     "student_code": 12993,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3631,8 +3631,8 @@
     "name": "เด็กชาย ชนายุส วันแก้ว",
     "year": "",
     "student_code": 12993,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3640,8 +3640,8 @@
     "name": "เด็กชาย ชนายุส วันแก้ว",
     "year": "",
     "student_code": 12993,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3649,8 +3649,8 @@
     "name": "เด็กหญิง เจสสิก้า นอร์ริส",
     "year": "",
     "student_code": 12998,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3658,8 +3658,8 @@
     "name": "เด็กหญิง เจสสิก้า นอร์ริส",
     "year": "",
     "student_code": 12998,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3667,8 +3667,8 @@
     "name": "เด็กหญิง เจสสิก้า นอร์ริส",
     "year": "",
     "student_code": 12998,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3676,8 +3676,8 @@
     "name": "เด็กหญิง เจสสิก้า นอร์ริส",
     "year": "",
     "student_code": 12998,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3685,8 +3685,8 @@
     "name": "เด็กหญิง ฐิตาพร ทองทั่ว",
     "year": "",
     "student_code": 13006,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3694,8 +3694,8 @@
     "name": "เด็กหญิง ฐิตาพร ทองทั่ว",
     "year": "",
     "student_code": 13006,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3703,8 +3703,8 @@
     "name": "เด็กหญิง ฐิตาพร ทองทั่ว",
     "year": "",
     "student_code": 13006,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3712,8 +3712,8 @@
     "name": "เด็กหญิง ฐิตาพร ทองทั่ว",
     "year": "",
     "student_code": 13006,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3721,8 +3721,8 @@
     "name": "เด็กหญิง สุริษา คาดบัว",
     "year": "",
     "student_code": 13045,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3730,8 +3730,8 @@
     "name": "เด็กหญิง สุริษา คาดบัว",
     "year": "",
     "student_code": 13045,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3739,8 +3739,8 @@
     "name": "เด็กหญิง สุริษา คาดบัว",
     "year": "",
     "student_code": 13045,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3748,8 +3748,8 @@
     "name": "เด็กหญิง สุริษา คาดบัว",
     "year": "",
     "student_code": 13045,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3757,8 +3757,8 @@
     "name": "เด็กชาย เอื้ออังกูร นามวงษา",
     "year": "",
     "student_code": 13046,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3766,8 +3766,8 @@
     "name": "เด็กชาย เอื้ออังกูร นามวงษา",
     "year": "",
     "student_code": 13046,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3775,8 +3775,8 @@
     "name": "เด็กชาย เอื้ออังกูร นามวงษา",
     "year": "",
     "student_code": 13046,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3784,8 +3784,8 @@
     "name": "เด็กชาย เอื้ออังกูร นามวงษา",
     "year": "",
     "student_code": 13046,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3793,8 +3793,8 @@
     "name": "เด็กหญิง ชาลิตา สังกุลา",
     "year": "",
     "student_code": 13047,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3802,8 +3802,8 @@
     "name": "เด็กหญิง ชาลิตา สังกุลา",
     "year": "",
     "student_code": 13047,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3811,8 +3811,8 @@
     "name": "เด็กหญิง ชาลิตา สังกุลา",
     "year": "",
     "student_code": 13047,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3820,8 +3820,8 @@
     "name": "เด็กหญิง ชาลิตา สังกุลา",
     "year": "",
     "student_code": 13047,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3829,8 +3829,8 @@
     "name": "เด็กชาย ธนกร แก้วก้ง",
     "year": "",
     "student_code": 13048,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3838,8 +3838,8 @@
     "name": "เด็กชาย ธนกร แก้วก้ง",
     "year": "",
     "student_code": 13048,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3847,8 +3847,8 @@
     "name": "เด็กชาย ธนกร แก้วก้ง",
     "year": "",
     "student_code": 13048,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3856,8 +3856,8 @@
     "name": "เด็กชาย ธนกร แก้วก้ง",
     "year": "",
     "student_code": 13048,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3865,8 +3865,8 @@
     "name": "เด็กหญิง นิชาภา อ่อนอำไพ",
     "year": "",
     "student_code": 13049,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3874,8 +3874,8 @@
     "name": "เด็กหญิง นิชาภา อ่อนอำไพ",
     "year": "",
     "student_code": 13049,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3883,8 +3883,8 @@
     "name": "เด็กหญิง นิชาภา อ่อนอำไพ",
     "year": "",
     "student_code": 13049,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3892,8 +3892,8 @@
     "name": "เด็กหญิง นิชาภา อ่อนอำไพ",
     "year": "",
     "student_code": 13049,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3901,8 +3901,8 @@
     "name": "เด็กหญิง ศรุตา เครือลี",
     "year": "",
     "student_code": 13494,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3910,8 +3910,8 @@
     "name": "เด็กหญิง ศรุตา เครือลี",
     "year": "",
     "student_code": 13494,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3919,8 +3919,8 @@
     "name": "เด็กหญิง ศรุตา เครือลี",
     "year": "",
     "student_code": 13494,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3928,8 +3928,8 @@
     "name": "เด็กหญิง ศรุตา เครือลี",
     "year": "",
     "student_code": 13494,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3937,8 +3937,8 @@
     "name": "เด็กหญิง พรณภา แนววิเศษ",
     "year": "",
     "student_code": 13495,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3946,8 +3946,8 @@
     "name": "เด็กหญิง พรณภา แนววิเศษ",
     "year": "",
     "student_code": 13495,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3955,8 +3955,8 @@
     "name": "เด็กหญิง พรณภา แนววิเศษ",
     "year": "",
     "student_code": 13495,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -3964,8 +3964,8 @@
     "name": "เด็กหญิง พรณภา แนววิเศษ",
     "year": "",
     "student_code": 13495,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -3973,8 +3973,8 @@
     "name": "เด็กหญิง พาทินธิดา แสนบุตดา",
     "year": "",
     "student_code": 13496,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -3982,8 +3982,8 @@
     "name": "เด็กหญิง พาทินธิดา แสนบุตดา",
     "year": "",
     "student_code": 13496,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -3991,8 +3991,8 @@
     "name": "เด็กหญิง พาทินธิดา แสนบุตดา",
     "year": "",
     "student_code": 13496,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -4000,8 +4000,8 @@
     "name": "เด็กหญิง พาทินธิดา แสนบุตดา",
     "year": "",
     "student_code": 13496,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -4009,8 +4009,8 @@
     "name": "เด็กชาย เอกวิญญ์ ศรีลุนทอง",
     "year": "",
     "student_code": 13497,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -4018,8 +4018,8 @@
     "name": "เด็กชาย เอกวิญญ์ ศรีลุนทอง",
     "year": "",
     "student_code": 13497,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -4027,8 +4027,8 @@
     "name": "เด็กชาย เอกวิญญ์ ศรีลุนทอง",
     "year": "",
     "student_code": 13497,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -4036,8 +4036,8 @@
     "name": "เด็กชาย เอกวิญญ์ ศรีลุนทอง",
     "year": "",
     "student_code": 13497,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -4045,8 +4045,8 @@
     "name": "เด็กหญิง พรทิวรรณ ปราณีตพลกรัง",
     "year": "",
     "student_code": 13498,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -4054,8 +4054,8 @@
     "name": "เด็กหญิง พรทิวรรณ ปราณีตพลกรัง",
     "year": "",
     "student_code": 13498,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -4063,8 +4063,8 @@
     "name": "เด็กหญิง พรทิวรรณ ปราณีตพลกรัง",
     "year": "",
     "student_code": 13498,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -4072,8 +4072,8 @@
     "name": "เด็กหญิง พรทิวรรณ ปราณีตพลกรัง",
     "year": "",
     "student_code": 13498,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   },
   {
@@ -4081,8 +4081,8 @@
     "name": "เด็กหญิง พิชญาดา ภูกิ่งดาว",
     "year": "",
     "student_code": 13617,
-    "subject_code": "กิจกรรมแนะแนว",
-    "subject_name": "ก14101",
+    "subject_code": "ก14101",
+    "subject_name": "กิจกรรมแนะแนว",
     "result": "ผ่าน"
   },
   {
@@ -4090,8 +4090,8 @@
     "name": "เด็กหญิง พิชญาดา ภูกิ่งดาว",
     "year": "",
     "student_code": 13617,
-    "subject_code": "กิจกรรมลูกเสือสำรอง",
-    "subject_name": "ก14201",
+    "subject_code": "ก14201",
+    "subject_name": "กิจกรรมลูกเสือสำรอง",
     "result": "ผ่าน"
   },
   {
@@ -4099,8 +4099,8 @@
     "name": "เด็กหญิง พิชญาดา ภูกิ่งดาว",
     "year": "",
     "student_code": 13617,
-    "subject_code": "กิจกรรมชุมนุม",
-    "subject_name": "ก14301",
+    "subject_code": "ก14301",
+    "subject_name": "กิจกรรมชุมนุม",
     "result": "ผ่าน"
   },
   {
@@ -4108,8 +4108,8 @@
     "name": "เด็กหญิง พิชญาดา ภูกิ่งดาว",
     "year": "",
     "student_code": 13617,
-    "subject_code": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
-    "subject_name": "ก14401",
+    "subject_code": "ก14401",
+    "subject_name": "กิจกรรมเพื่อสังคมและสาธาระประโยชน์",
     "result": "ผ่าน"
   }
 ]

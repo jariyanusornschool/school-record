@@ -1,105 +1,453 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ตรวจสอบผลการเรียน อนุบาล 1</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ตรวจสอบผลการเรียน อนุบาล 1</title>
 
-<style>
-body{font-family:Arial;background:#f5f6fa;text-align:center;}
-.container{width:700px;max-width:90%;margin:80px auto;background:white;padding:30px;box-shadow:0 0 15px rgba(0,0,0,0.1);border-radius:10px;}
-input{padding:10px;width:70%;font-size:16px;}
-button{padding:10px 20px;background:#1976d2;color:white;border:none;border-radius:6px;}
-table{width:100%;border-collapse:collapse;margin-top:20px;}
-th,td{border:1px solid #ddd;padding:10px;}
-th{background:#228B22;color:white;}
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      background:#f5f6fa;
+      text-align:center;
+      margin:0;
+      padding:0;
+    }
 
-td:first-child{
-  text-align:left;
-  padding-left:15px;
-}
+    .container{
+      width:700px;
+      max-width:90%;
+      margin:80px auto;
+      background:white;
+      padding:30px;
+      box-shadow:0 0 15px rgba(0,0,0,0.1);
+      border-radius:10px;
+    }
 
-.rank-text{margin-top:20px;font-size:20px;font-weight:bold;text-align:left;}
-.message{margin-top:20px;color:red;font-weight:bold;}
-</style>
+    input{
+      padding:10px;
+      width:70%;
+      font-size:16px;
+      margin-bottom:10px;
+      box-sizing:border-box;
+    }
+
+    button{
+      padding:10px 20px;
+      background:#1976d2;
+      color:white;
+      border:none;
+      border-radius:6px;
+      cursor:pointer;
+      font-size:16px;
+    }
+
+    button:hover{
+      background:#125ea7;
+    }
+
+    table{
+      width:100%;
+      border-collapse:collapse;
+      margin-top:20px;
+    }
+
+    th, td{
+      border:1px solid #ddd;
+      padding:10px 8px;
+    }
+
+    th{
+      background:#228B22;
+      color:white;
+    }
+
+    .info{
+      margin-top:20px;
+      font-size:18px;
+      font-weight:bold;
+    }
+
+    .semester{
+      margin-top:10px;
+      font-size:18px;
+    }
+
+    .rank-text{
+      margin-top:20px;
+      font-size:20px;
+      font-weight:bold;
+      color:#222;
+      text-align:left;
+      padding-left:5px;
+    }
+
+    .message{
+      margin-top:20px;
+      font-size:18px;
+      color:red;
+      font-weight:bold;
+    }
+
+    .logo{
+      width:120px;
+      margin-bottom:15px;
+      border-radius:50%;
+    }
+
+    th:nth-child(1){
+      text-align:center;
+    }
+
+    td:nth-child(1){
+      text-align:left;
+      padding-left:15px;
+    }
+
+    .total-row{
+      font-weight:bold;
+      background:#f1f1f1;
+    }
+  </style>
 </head>
 
 <body>
 
 <div class="container">
-<h2>📘 ตรวจสอบผลการเรียน อนุบาล 1</h2>
 
-<input type="text" id="studentId" placeholder="กรอกเลขบัตรประชาชน">
-<br><br>
-<button onclick="searchStudent()">ค้นหา</button>
+  <img src="logo.png" class="logo" alt="โลโก้โรงเรียน">
 
-<div id="result" style="display:none;">
-<p id="studentName"></p>
-<p id="studentYear"></p>
+  <h2>📘 ตรวจสอบผลการเรียน อนุบาล 3</h2>
 
-<table id="gradeTable" style="display:none;">
-<thead>
-<tr><th>ชื่อวิชา</th><th>คะแนน</th></tr>
-</thead>
-<tbody id="gradeTableBody"></tbody>
-</table>
+  <input
+    type="text"
+    id="studentId"
+    placeholder="กรอกเลขบัตรประชาชน"
+    inputmode="numeric"
+    autocomplete="off"
+  >
 
-<div class="rank-text" id="studentRank"></div>
-<div class="message" id="messageBox"></div>
-</div>
+  <br>
+
+  <button onclick="searchStudent()">ค้นหา</button>
+
+  <div id="result" style="display:none;">
+
+    <div class="info">
+      <p id="studentName"></p>
+    </div>
+
+    <div class="semester">
+      <p id="studentYear"></p>
+    </div>
+
+    <table id="gradeTable" style="display:none;">
+      <thead>
+        <tr>
+          <th>ชื่อวิชา</th>
+          <th>คะแนน</th>
+        </tr>
+      </thead>
+      <tbody id="gradeTableBody"></tbody>
+    </table>
+
+    <div class="rank-text" id="studentRank"></div>
+
+    <div class="message" id="messageBox"></div>
+
+  </div>
 </div>
 
 <script>
-function normalizeId(id){
-const map={"๐":"0","๑":"1","๒":"2","๓":"3","๔":"4","๕":"5","๖":"6","๗":"7","๘":"8","๙":"9"};
-return String(id).trim().replace(/\s+/g,"").replace(/[๐-๙]/g,d=>map[d]);
+
+function normalizeId(id) {
+  if (id === null || id === undefined) return "";
+
+  const thaiToArabic = {
+    "๐": "0",
+    "๑": "1",
+    "๒": "2",
+    "๓": "3",
+    "๔": "4",
+    "๕": "5",
+    "๖": "6",
+    "๗": "7",
+    "๘": "8",
+    "๙": "9"
+  };
+
+  return String(id)
+    .trim()
+    .replace(/\s+/g, "")
+    .replace(/[๐-๙]/g, function(ch) {
+      return thaiToArabic[ch];
+    });
 }
 
-async function searchStudent(){
-const inputId=normalizeId(document.getElementById("studentId").value);
 
-const result=document.getElementById("result");
-const table=document.getElementById("gradeTable");
-const body=document.getElementById("gradeTableBody");
-const name=document.getElementById("studentName");
-const year=document.getElementById("studentYear");
-const rank=document.getElementById("studentRank");
-const msg=document.getElementById("messageBox");
-
-result.style.display="block";
-table.style.display="none";
-body.innerHTML="";
-name.innerText="";
-year.innerText="";
-rank.innerText="";
-msg.innerText="";
-
-if(!inputId){msg.innerText="กรุณากรอกรหัสนักเรียน";return;}
-
-try{
-const res=await fetch("data/k1.json");
-const data=await res.json();
-
-const studentData=data.filter(i=>normalizeId(i.id)===inputId && i.subject_name!=="คะแนนรวม");
-
-if(studentData.length===0){msg.innerText="❌ ไม่พบข้อมูลนักเรียน";return;}
-
-const s=studentData[0];
-
-name.innerText=`ชื่อ: ${s.name} ชั้น: ${s.year_room}`;
-year.innerText="ภาคเรียนที่ 2 ปีการศึกษา 2568";
-
-studentData.forEach(i=>{
-body.innerHTML+=`<tr><td>${i.subject_name}</td><td>${i.score}</td></tr>`;
-});
-
-body.innerHTML+=`<tr style="font-weight:bold;background:#eee;"><td>คะแนนรวม</td><td>${s.total_score}</td></tr>`;
-
-table.style.display="table";
-rank.innerText=`อันดับที่/ห้อง : ${s.class_rank}/${s.total_students}`;
-
-}catch(e){msg.innerText="โหลดข้อมูลผิดพลาด";}
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
 }
+
+
+async function searchStudent() {
+
+  const inputId =
+    normalizeId(document.getElementById("studentId").value);
+
+  const resultDiv =
+    document.getElementById("result");
+
+  const gradeTable =
+    document.getElementById("gradeTable");
+
+  const tableBody =
+    document.getElementById("gradeTableBody");
+
+  const studentNameEl =
+    document.getElementById("studentName");
+
+  const studentYearEl =
+    document.getElementById("studentYear");
+
+  const studentRankEl =
+    document.getElementById("studentRank");
+
+  const messageBox =
+    document.getElementById("messageBox");
+
+
+  // รีเซ็ตหน้าผลลัพธ์
+  resultDiv.style.display = "block";
+  gradeTable.style.display = "none";
+  tableBody.innerHTML = "";
+  studentNameEl.innerText = "";
+  studentYearEl.innerText = "";
+  studentRankEl.innerText = "";
+  messageBox.innerText = "";
+
+
+  if (!inputId) {
+    messageBox.innerText = "กรุณากรอกรหัสนักเรียน";
+    return;
+  }
+
+
+  try {
+
+    // โหลดข้อมูลจาก JSON ที่สร้างจากชีต k3-2
+    const response = await fetch("data/k3.json");
+
+    if (!response.ok) {
+      throw new Error("โหลดข้อมูลไม่สำเร็จ");
+    }
+
+    const data = await response.json();
+
+
+    /*
+      โครงสร้าง k3-2 มีแถวคะแนนรวมแยกออกมา
+      โดยแถวคะแนนรวมจะไม่มี id / name / subject_name
+
+      ดังนั้นเราไม่ใช้ student.total_score
+      แต่คำนวณคะแนนรวมจากคะแนนของรายวิชาของนักเรียนโดยตรง
+    */
+
+    const studentData = data.filter(item => {
+
+      const sameId =
+        normalizeId(item.id) === inputId;
+
+      const hasSubject =
+        item.subject_name &&
+        String(item.subject_name).trim() !== "";
+
+      const isTotalRow =
+        String(item.subject_name || "").trim() === "คะแนนรวม";
+
+      return sameId && hasSubject && !isTotalRow;
+
+    });
+
+
+    if (studentData.length === 0) {
+
+      messageBox.innerText =
+        "❌ ไม่พบข้อมูลนักเรียน";
+
+      return;
+    }
+
+
+    const student = studentData[0];
+
+
+    // ----------------------------------
+    // สร้างชื่อชั้น เช่น อ.3/2
+    // ----------------------------------
+
+    const year =
+      Number(student.year);
+
+    const room =
+      Number(student.room);
+
+    const className =
+      `อ.${year}/${room}`;
+
+
+    studentNameEl.innerText =
+      `ชื่อ: ${student.name}   ชั้น: ${className}`;
+
+
+    studentYearEl.innerText =
+      "ภาคเรียนที่ 1 ปีการศึกษา 2569";
+
+
+    // ----------------------------------
+    // แสดงคะแนนแต่ละวิชา
+    // ----------------------------------
+
+    let totalScore = 0;
+
+
+    studentData.forEach(item => {
+
+      const score =
+        Number(item.score) || 0;
+
+      totalScore += score;
+
+
+      const row = document.createElement("tr");
+
+      const subjectCell =
+        document.createElement("td");
+
+      const scoreCell =
+        document.createElement("td");
+
+      subjectCell.textContent =
+        item.subject_name;
+
+      scoreCell.textContent =
+        score;
+
+      row.appendChild(subjectCell);
+      row.appendChild(scoreCell);
+
+      tableBody.appendChild(row);
+
+    });
+
+
+    // ----------------------------------
+    // คะแนนรวม
+    // ----------------------------------
+
+    const totalRow =
+      document.createElement("tr");
+
+    totalRow.className =
+      "total-row";
+
+    const totalLabel =
+      document.createElement("td");
+
+    const totalValue =
+      document.createElement("td");
+
+    totalLabel.textContent =
+      "คะแนนรวม";
+
+    totalValue.textContent =
+      totalScore;
+
+    totalRow.appendChild(totalLabel);
+    totalRow.appendChild(totalValue);
+
+    tableBody.appendChild(totalRow);
+
+
+    gradeTable.style.display =
+      "table";
+
+
+    // ----------------------------------
+    // หาจำนวนนักเรียนใน อ.3/2
+    // ----------------------------------
+
+    const studentsInRoom =
+      data.filter(item => {
+
+        const itemId =
+          normalizeId(item.id);
+
+        return (
+          itemId !== "" &&
+          Number(item.year) === year &&
+          Number(item.room) === room
+        );
+
+      });
+
+
+    // นับ id นักเรียนที่ไม่ซ้ำกัน
+    const uniqueStudentIds =
+      new Set(
+        studentsInRoom.map(item =>
+          normalizeId(item.id)
+        )
+      );
+
+
+    const totalStudents =
+      uniqueStudentIds.size;
+
+
+    // ----------------------------------
+    // อันดับในห้อง
+    // ----------------------------------
+
+    const rank =
+      student.class_rank !== undefined &&
+      student.class_rank !== null &&
+      student.class_rank !== ""
+        ? student.class_rank
+        : "-";
+
+
+    studentRankEl.innerText =
+      `อันดับที่/ห้อง : ${rank}/${totalStudents}`;
+
+
+  } catch (error) {
+
+    console.error(error);
+
+    messageBox.innerText =
+      "เกิดข้อผิดพลาดในการโหลดข้อมูล";
+
+  }
+
+}
+
+
+// กด Enter เพื่อค้นหาได้
+document.getElementById("studentId")
+  .addEventListener("keydown", function(event) {
+
+    if (event.key === "Enter") {
+      searchStudent();
+    }
+
+  });
+
 </script>
 
 </body>

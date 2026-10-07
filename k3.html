@@ -29,6 +29,7 @@
       width:70%;
       font-size:16px;
       margin-bottom:10px;
+      box-sizing:border-box;
     }
 
     button{
@@ -102,17 +103,32 @@
       text-align:left;
       padding-left:15px;
     }
+
+    .total-row{
+      font-weight:bold;
+      background:#f1f1f1;
+    }
   </style>
 </head>
 
 <body>
 
 <div class="container">
+
   <img src="logo.png" class="logo" alt="โลโก้โรงเรียน">
+
   <h2>📘 ตรวจสอบผลการเรียน อนุบาล 3</h2>
 
-  <input type="text" id="studentId" placeholder="กรอกเลขบัตรประชาชน">
+  <input
+    type="text"
+    id="studentId"
+    placeholder="กรอกเลขบัตรประชาชน"
+    inputmode="numeric"
+    autocomplete="off"
+  >
+
   <br>
+
   <button onclick="searchStudent()">ค้นหา</button>
 
   <div id="result" style="display:none;">
@@ -143,8 +159,9 @@
 </div>
 
 <script>
+
 function normalizeId(id) {
-  if (!id) return "";
+  if (id === null || id === undefined) return "";
 
   const thaiToArabic = {
     "๐": "0",
@@ -167,17 +184,45 @@ function normalizeId(id) {
     });
 }
 
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+
 async function searchStudent() {
-  const inputId = normalizeId(document.getElementById("studentId").value);
 
-  const resultDiv = document.getElementById("result");
-  const gradeTable = document.getElementById("gradeTable");
-  const tableBody = document.getElementById("gradeTableBody");
-  const studentNameEl = document.getElementById("studentName");
-  const studentYearEl = document.getElementById("studentYear");
-  const studentRankEl = document.getElementById("studentRank");
-  const messageBox = document.getElementById("messageBox");
+  const inputId =
+    normalizeId(document.getElementById("studentId").value);
 
+  const resultDiv =
+    document.getElementById("result");
+
+  const gradeTable =
+    document.getElementById("gradeTable");
+
+  const tableBody =
+    document.getElementById("gradeTableBody");
+
+  const studentNameEl =
+    document.getElementById("studentName");
+
+  const studentYearEl =
+    document.getElementById("studentYear");
+
+  const studentRankEl =
+    document.getElementById("studentRank");
+
+  const messageBox =
+    document.getElementById("messageBox");
+
+
+  // รีเซ็ตหน้าผลลัพธ์
   resultDiv.style.display = "block";
   gradeTable.style.display = "none";
   tableBody.innerHTML = "";
@@ -186,12 +231,16 @@ async function searchStudent() {
   studentRankEl.innerText = "";
   messageBox.innerText = "";
 
+
   if (!inputId) {
     messageBox.innerText = "กรุณากรอกรหัสนักเรียน";
     return;
   }
 
+
   try {
+
+    // โหลดข้อมูลจาก JSON ที่สร้างจากชีต k3-2
     const response = await fetch("data/k3.json");
 
     if (!response.ok) {
@@ -200,46 +249,205 @@ async function searchStudent() {
 
     const data = await response.json();
 
+
+    /*
+      โครงสร้าง k3-2 มีแถวคะแนนรวมแยกออกมา
+      โดยแถวคะแนนรวมจะไม่มี id / name / subject_name
+
+      ดังนั้นเราไม่ใช้ student.total_score
+      แต่คำนวณคะแนนรวมจากคะแนนของรายวิชาของนักเรียนโดยตรง
+    */
+
     const studentData = data.filter(item => {
-      return normalizeId(item.id) === inputId && item.subject_name !== "คะแนนรวม";
+
+      const sameId =
+        normalizeId(item.id) === inputId;
+
+      const hasSubject =
+        item.subject_name &&
+        String(item.subject_name).trim() !== "";
+
+      const isTotalRow =
+        String(item.subject_name || "").trim() === "คะแนนรวม";
+
+      return sameId && hasSubject && !isTotalRow;
+
     });
 
+
     if (studentData.length === 0) {
-      messageBox.innerText = "❌ ไม่พบข้อมูลนักเรียน";
+
+      messageBox.innerText =
+        "❌ ไม่พบข้อมูลนักเรียน";
+
       return;
     }
 
+
     const student = studentData[0];
 
-    studentNameEl.innerText = `ชื่อ: ${student.name}   ชั้น: ${student.year_room}`;
-    studentYearEl.innerText = "ภาคเรียนที่ 1 ปีการศึกษา 2569";
+
+    // ----------------------------------
+    // สร้างชื่อชั้น เช่น อ.3/2
+    // ----------------------------------
+
+    const year =
+      Number(student.year);
+
+    const room =
+      Number(student.room);
+
+    const className =
+      `อ.${year}/${room}`;
+
+
+    studentNameEl.innerText =
+      `ชื่อ: ${student.name}   ชั้น: ${className}`;
+
+
+    studentYearEl.innerText =
+      "ภาคเรียนที่ 1 ปีการศึกษา 2569";
+
+
+    // ----------------------------------
+    // แสดงคะแนนแต่ละวิชา
+    // ----------------------------------
+
+    let totalScore = 0;
+
 
     studentData.forEach(item => {
-      const row = `
-        <tr>
-          <td>${item.subject_name}</td>
-          <td>${item.score}</td>
-        </tr>
-      `;
-      tableBody.innerHTML += row;
+
+      const score =
+        Number(item.score) || 0;
+
+      totalScore += score;
+
+
+      const row = document.createElement("tr");
+
+      const subjectCell =
+        document.createElement("td");
+
+      const scoreCell =
+        document.createElement("td");
+
+      subjectCell.textContent =
+        item.subject_name;
+
+      scoreCell.textContent =
+        score;
+
+      row.appendChild(subjectCell);
+      row.appendChild(scoreCell);
+
+      tableBody.appendChild(row);
+
     });
 
-    const totalRow = `
-      <tr style="font-weight:bold; background:#f1f1f1;">
-        <td>คะแนนรวม</td>
-        <td>${student.total_score}</td>
-      </tr>
-    `;
-    tableBody.innerHTML += totalRow;
 
-    gradeTable.style.display = "table";
-    studentRankEl.innerText = `อันดับที่/ห้อง : ${student.class_rank}/${student.total_students}`;
+    // ----------------------------------
+    // คะแนนรวม
+    // ----------------------------------
+
+    const totalRow =
+      document.createElement("tr");
+
+    totalRow.className =
+      "total-row";
+
+    const totalLabel =
+      document.createElement("td");
+
+    const totalValue =
+      document.createElement("td");
+
+    totalLabel.textContent =
+      "คะแนนรวม";
+
+    totalValue.textContent =
+      totalScore;
+
+    totalRow.appendChild(totalLabel);
+    totalRow.appendChild(totalValue);
+
+    tableBody.appendChild(totalRow);
+
+
+    gradeTable.style.display =
+      "table";
+
+
+    // ----------------------------------
+    // หาจำนวนนักเรียนใน อ.3/2
+    // ----------------------------------
+
+    const studentsInRoom =
+      data.filter(item => {
+
+        const itemId =
+          normalizeId(item.id);
+
+        return (
+          itemId !== "" &&
+          Number(item.year) === year &&
+          Number(item.room) === room
+        );
+
+      });
+
+
+    // นับ id นักเรียนที่ไม่ซ้ำกัน
+    const uniqueStudentIds =
+      new Set(
+        studentsInRoom.map(item =>
+          normalizeId(item.id)
+        )
+      );
+
+
+    const totalStudents =
+      uniqueStudentIds.size;
+
+
+    // ----------------------------------
+    // อันดับในห้อง
+    // ----------------------------------
+
+    const rank =
+      student.class_rank !== undefined &&
+      student.class_rank !== null &&
+      student.class_rank !== ""
+        ? student.class_rank
+        : "-";
+
+
+    studentRankEl.innerText =
+      `อันดับที่/ห้อง : ${rank}/${totalStudents}`;
+
 
   } catch (error) {
-    messageBox.innerText = "เกิดข้อผิดพลาดในการโหลดข้อมูล";
+
     console.error(error);
+
+    messageBox.innerText =
+      "เกิดข้อผิดพลาดในการโหลดข้อมูล";
+
   }
+
 }
+
+
+// กด Enter เพื่อค้นหาได้
+document.getElementById("studentId")
+  .addEventListener("keydown", function(event) {
+
+    if (event.key === "Enter") {
+      searchStudent();
+    }
+
+  });
+
 </script>
 
 </body>

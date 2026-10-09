@@ -120,7 +120,7 @@
         <tr>
           <th style="width:20%;">รหัสวิชา</th>
           <th style="width:50%;">ชื่อวิชา</th>
-          <th style="width:30%;">เกรด</th>
+          <th style="width:30%;">คะแนน</th>
         </tr>
       </thead>
       <tbody id="gradeTableBody"></tbody>
@@ -128,8 +128,8 @@
 
     <p class="rank-text" id="studentRank"></p>
 
-    <p id="noteRemark" style="color:red; font-size:14px; display:none;">
-      *หมายเหตุ : นักเรียนที่มีผลการเรียน "ร", "มส" หรือ "ขส" GPA จะยังไม่สมบูรณ์
+    <p id="noteRemark" style="color:red; font-size:14px; font-weight:normal; text-align:left;">
+      *หมายเหตุ : เนื่องจากเป็นภาคเรียนที่ 1 ของปีการศึกษา จึงยังไม่สามารถแสดงอันดับที่/ห้องได้
     </p>
 
   </div>
@@ -172,7 +172,6 @@ async function searchStudent() {
         "❌ ไม่พบข้อมูล";
       document.getElementById("studentYear").innerText = "";
       document.getElementById("studentRank").innerText = "-";
-      document.getElementById("noteRemark").style.display = "none";
       return;
     }
 
@@ -194,40 +193,16 @@ async function searchStudent() {
     document.getElementById("studentRank").innerText =
       `อันดับที่/ห้อง : ${student.class_rank ?? "-"}/${student.total_students ?? "-"}`;
 
-    const hasSpecial = studentGrades.some(item =>
-      ["มส", "ขส", "ร", "0", 0].includes(item.remark) ||
-      ["ร", "0", 0].includes(item.grade)
-    );
-
-    document.getElementById("noteRemark").style.display =
-      hasSpecial ? "block" : "none";
-
     let rows = "";
 
     studentGrades.forEach(item => {
-      let gradeText = item.grade ?? "-";
-      let className = "";
-
-      if (item.remark === "มส") {
-        gradeText = "มส";
-        className = "ms";
-      } else if (item.remark === "ขส") {
-        gradeText = "ขส";
-        className = "absent";
-      } else if (
-        item.grade === "ร" ||
-        item.grade === 0 ||
-        item.grade === "0"
-      ) {
-        gradeText = "ร";
-        className = "fail";
-      }
+      const scoreText = item.score ?? "-";
 
       rows += `
         <tr>
           <td>${item.subject_code ?? "-"}</td>
           <td>${item.subject_name ?? "-"}</td>
-          <td class="${className}">${gradeText}</td>
+          <td>${scoreText}</td>
         </tr>
       `;
     });

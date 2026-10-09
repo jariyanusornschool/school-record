@@ -153,8 +153,7 @@ async function searchStudent() {
   try {
     // โหลดข้อมูลผลการเรียนเพียงไฟล์เดียว
     const [gradeResponse, activityResponse] = await Promise.all([
-      fetch("data/p1.json"),
-      fetch("data/passfail_p1.json")
+      fetch("data/p1-1.json")
     ]);
 
     if (!gradeResponse.ok || !activityResponse.ok) {

@@ -152,14 +152,7 @@ async function searchStudent() {
 
   try {
     // โหลดข้อมูลผลการเรียนเพียงไฟล์เดียว
-    const [gradeResponse, activityResponse] = await Promise.all([
-      fetch("data/p2.json"),
-      fetch("data/passfail_p2.json")
-    ]);
-
-    if (!gradeResponse.ok || !activityResponse.ok) {
-      throw new Error("โหลดไฟล์ข้อมูลไม่สำเร็จ");
-    }
+    const response = await fetch("data/p3-1.json");
 
     if (!response.ok) {
       throw new Error(
@@ -167,12 +160,12 @@ async function searchStudent() {
       );
     }
 
-    const gradeData = await gradeResponse.json();
-    const activityData = await activityResponse.json();
+    const gradeData = await response.json();
 
     // ค้นหาด้วยเลขบัตรประชาชน
-    const studentGrades = gradeData.filter(item => String(item.id).trim() === inputId);
-    const studentActivities = activityData.filter(item => String(item.id).trim() === inputId);
+    const studentGrades = gradeData.filter(
+      item => String(item.id).trim() === inputId
+    );
 
     if (studentGrades.length === 0) {
       document.getElementById("studentInfo").innerText =
@@ -210,18 +203,6 @@ async function searchStudent() {
           <td>${item.subject_code ?? "-"}</td>
           <td>${item.subject_name ?? "-"}</td>
           <td>${scoreText}</td>
-        </tr>
-      `;
-    });
-
-    studentActivities.forEach(item => {
-      const activityText = item.result || "-";
-      const activityClass = activityText === "ผ่าน" ? "pass" : activityText === "ไม่ผ่าน" ? "fail" : "";
-      rows += `
-        <tr>
-          <td>${item.subject_code ?? "-"}</td>
-          <td>${item.subject_name ?? "-"}</td>
-          <td class="${activityClass}">${activityText}</td>
         </tr>
       `;
     });

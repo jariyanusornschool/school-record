@@ -141,7 +141,7 @@ async function searchStudent() {
 
   const [gradeResponse, activityResponse] = await Promise.all([
     fetch("data/p3.json"),
-    fetch("data/passfail_p3.json")
+    fetch("data/passfail_p3-1.json")
   ]);
 
   const gradeData = await gradeResponse.json();

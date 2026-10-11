@@ -240,28 +240,35 @@ async function searchStudent() {
 
   try {
 
-    // โหลดข้อมูลจากไฟล์ JSON ของ อนุบาล 1 ทั้ง 3 ห้อง/ชุด
+    // โหลดข้อมูลจากไฟล์ JSON ที่มีอยู่ โดยไม่บังคับว่าต้องมีครบทั้ง 3 ไฟล์
     const fileNames = [
       "data/k1-1.json",
       "data/k1-2.json",
       "data/k1-3.json"
     ];
 
-    const responses = await Promise.all(
-      fileNames.map(fileName => fetch(fileName))
+    const results = await Promise.all(
+      fileNames.map(async fileName => {
+        try {
+          const response = await fetch(fileName);
+          if (!response.ok) return null; // ข้ามไฟล์ที่ไม่มีหรือโหลดไม่ได้
+
+          const jsonData = await response.json();
+          return Array.isArray(jsonData) ? jsonData : null;
+        } catch (error) {
+          return null; // ข้ามไฟล์ที่อ่านไม่ได้
+        }
+      })
     );
 
-    if (responses.some(response => !response.ok)) {
-      throw new Error("โหลดข้อมูลไม่สำเร็จ");
+    // รวมเฉพาะข้อมูลจากไฟล์ที่โหลดสำเร็จ
+    const dataSets = results.filter(dataSet => Array.isArray(dataSet));
+
+    if (dataSets.length === 0) {
+      throw new Error("ไม่พบไฟล์ JSON ที่สามารถโหลดได้");
     }
 
-    const dataSets = await Promise.all(
-      responses.map(response => response.json())
-    );
-
-    // รวมข้อมูลจาก JSON ทั้ง 3 ไฟล์ไว้ในชุดข้อมูลเดียว
     const data = dataSets.flat();
-
 
     /*
       โครงสร้าง k3-2 มีแถวคะแนนรวมแยกออกมา
@@ -444,7 +451,7 @@ async function searchStudent() {
     console.error(error);
 
     messageBox.innerText =
-      "เกิดข้อผิดพลาดในการโหลดข้อมูล";
+      `เกิดข้อผิดพลาดในการโหลดข้อมูล: ${error.message}`;
 
   }
 

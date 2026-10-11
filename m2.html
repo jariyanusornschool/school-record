@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="th">
 <head>
@@ -274,19 +273,14 @@ async function searchStudent() {
       const subjectName = String(item.subject_name ?? "").trim();
       const isActivity = subjectName.includes("กิจกรรม");
 
-      // วิชาปกติแสดงค่าจากช่อง grade โดยตรง ไม่คำนวณจากคะแนน
-      // กิจกรรมแสดง grade หากมีค่า มิฉะนั้นอ่านข้อความผลกิจกรรมจาก score
-      let displayValue = isActivity
-        ? (item.grade !== undefined && item.grade !== null && String(item.grade).trim() !== ""
-            ? item.grade
-            : item.score)
-        : item.grade;
+      // อ่านผลการเรียน/ผลกิจกรรมจากคอลัมน์ score เท่านั้น
+      // ไม่คำนวณเกรด และไม่ใช้ค่าจากคอลัมน์ grade หรือ result
+      const hasScore =
+        item.score !== undefined &&
+        item.score !== null &&
+        String(item.score).trim() !== "";
 
-      if (displayValue === undefined || displayValue === null || String(displayValue).trim() === "") {
-        displayValue = "-";
-      }
-
-      const resultText = String(displayValue).trim();
+      const resultText = hasScore ? String(item.score).trim() : "-";
       let className = "";
 
       if (["ผ่าน", "ผ"].includes(resultText)) {

@@ -200,11 +200,22 @@ async function searchStudent() {
     studentInfo.innerText = `ชื่อ: ${name} ชั้น: ${yearRoom}`;
     studentYear.innerText = "ภาคเรียนที่ 1 ปีการศึกษา 2569";
 
-    // แสดงอันดับจากฟิลด์ class_rank และจำนวนนักเรียนจาก total_students
+    // แสดงอันดับจาก class_rank และนับจำนวนนักเรียนในห้องจาก id ที่ไม่ซ้ำกัน
+    // แต่ละคนอาจมีหลายแถวตามจำนวนวิชา จึงนับ id เดิมเป็น 1 คน
     const rank = student.class_rank !== "" && student.class_rank != null
       ? student.class_rank : "-";
-    const totalStudents = student.total_students !== "" && student.total_students != null
-      ? student.total_students : "-";
+
+    const studentIdsInRoom = new Set(
+      gradeData
+        .filter(item =>
+          Number(item.year) === Number(student.year) &&
+          Number(item.room) === Number(student.room) &&
+          String(item.id ?? "").trim() !== "" &&
+          String(item.subject_name ?? "").trim() !== "คะแนนรวม"
+        )
+        .map(item => String(item.id).trim())
+    );
+    const totalStudents = studentIdsInRoom.size;
     studentRank.innerText = `อันดับที่/ห้อง : ${rank}/${totalStudents}`;
 
     gradeTableBody.innerHTML = studentGrades.map(item => `

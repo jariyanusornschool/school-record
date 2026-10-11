@@ -117,7 +117,7 @@
 
   <img src="logo.png" class="logo" alt="โลโก้โรงเรียน">
 
-  <h2>📘 ตรวจสอบผลการเรียน อนุบาล 3</h2>
+  <h2>📘 ตรวจสอบผลการเรียน อนุบาล 2</h2>
 
   <input
     type="text"
@@ -233,22 +233,42 @@ async function searchStudent() {
 
 
   if (!inputId) {
-    messageBox.innerText = "กรุณากรอกรหัสนักเรียน";
+    messageBox.innerText = "กรุณากรอกรหัสบัตรประชาชน";
     return;
   }
 
 
   try {
 
-    // โหลดข้อมูลจาก JSON ที่สร้างจากชีต k3-2
-    const response = await fetch("data/k2.json");
+    // โหลดข้อมูลจากไฟล์ JSON ที่มีอยู่ โดยไม่บังคับว่าต้องมีครบทั้ง 3 ไฟล์
+    const fileNames = [
+      "data/k2-1.json",
+      "data/k2-2.json",
+      "data/k2-3.json"
+    ];
 
-    if (!response.ok) {
-      throw new Error("โหลดข้อมูลไม่สำเร็จ");
+    const results = await Promise.all(
+      fileNames.map(async fileName => {
+        try {
+          const response = await fetch(fileName);
+          if (!response.ok) return null; // ข้ามไฟล์ที่ไม่มีหรือโหลดไม่ได้
+
+          const jsonData = await response.json();
+          return Array.isArray(jsonData) ? jsonData : null;
+        } catch (error) {
+          return null; // ข้ามไฟล์ที่อ่านไม่ได้
+        }
+      })
+    );
+
+    // รวมเฉพาะข้อมูลจากไฟล์ที่โหลดสำเร็จ
+    const dataSets = results.filter(dataSet => Array.isArray(dataSet));
+
+    if (dataSets.length === 0) {
+      throw new Error("ไม่พบไฟล์ JSON ที่สามารถโหลดได้");
     }
 
-    const data = await response.json();
-
+    const data = dataSets.flat();
 
     /*
       โครงสร้าง k3-2 มีแถวคะแนนรวมแยกออกมา
@@ -431,7 +451,7 @@ async function searchStudent() {
     console.error(error);
 
     messageBox.innerText =
-      "เกิดข้อผิดพลาดในการโหลดข้อมูล";
+      `เกิดข้อผิดพลาดในการโหลดข้อมูล: ${error.message}`;
 
   }
 

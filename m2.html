@@ -254,9 +254,14 @@ async function searchStudent() {
     }
 
     const allData = availableFiles.flatMap(item => item.data);
-    const studentData = allData.filter(
-      item => normalizeStudentId(item.id) === inputId
-    );
+
+    // ค้นหาทุกรายการของนักเรียน โดยรองรับทั้งฟิลด์ id และ student_code
+    // เพื่อไม่ให้รายวิชาตกหล่น หากข้อมูลแต่ละชุดเก็บรหัสไว้คนละฟิลด์
+    const studentData = allData.filter(item => {
+      const id = normalizeStudentId(item.id);
+      const studentCode = normalizeStudentId(item.student_code);
+      return id === inputId || studentCode === inputId;
+    });
 
     if (studentData.length === 0) {
       studentName.textContent = "❌ ไม่พบข้อมูล";
@@ -273,7 +278,8 @@ async function searchStudent() {
 
     studentYear.textContent = "ภาคเรียนที่ 1 ปีการศึกษา 2569";
 
-    // แสดงหมายเหตุเฉพาะนักเรียนที่มีค่าในคอลัมน์ score เป็น "ร"
+    // หมายเหตุแสดงเฉพาะเมื่อมีอย่างน้อยหนึ่งรายการที่ score เท่ากับ "ร"
+    // เงื่อนไขนี้ไม่กรองรายวิชา ตารางยังแสดง studentData ทุกรายการ
     const hasR = studentData.some(item =>
       String(item.score ?? "").trim() === "ร"
     );

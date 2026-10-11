@@ -240,14 +240,27 @@ async function searchStudent() {
 
   try {
 
-    // โหลดข้อมูลจาก JSON ที่สร้างจากชีต k3-2
-    const response = await fetch("data/k1-1.json");
+    // โหลดข้อมูลจากไฟล์ JSON ของ อนุบาล 1 ทั้ง 3 ห้อง/ชุด
+    const fileNames = [
+      "data/k1-1.json",
+      "data/k1-2.json",
+      "data/k1-3.json"
+    ];
 
-    if (!response.ok) {
+    const responses = await Promise.all(
+      fileNames.map(fileName => fetch(fileName))
+    );
+
+    if (responses.some(response => !response.ok)) {
       throw new Error("โหลดข้อมูลไม่สำเร็จ");
     }
 
-    const data = await response.json();
+    const dataSets = await Promise.all(
+      responses.map(response => response.json())
+    );
+
+    // รวมข้อมูลจาก JSON ทั้ง 3 ไฟล์ไว้ในชุดข้อมูลเดียว
+    const data = dataSets.flat();
 
 
     /*

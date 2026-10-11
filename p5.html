@@ -120,7 +120,7 @@
         <tr>
           <th style="width:20%;">รหัสวิชา</th>
           <th style="width:50%;">ชื่อวิชา</th>
-          <th style="width:30%;">เกรด</th>
+          <th style="width:30%;">คะแนน</th>
         </tr>
       </thead>
       <tbody id="gradeTableBody"></tbody>
@@ -128,9 +128,6 @@
 
     <p class="rank-text" id="studentRank"></p>
 
-    <p id="noteRemark" style="color:red; font-size:14px; display:none;">
-      *หมายเหตุ : นักเรียนที่มีผลการเรียน "ร", "มส" หรือ "ขส" GPA จะยังไม่สมบูรณ์
-    </p>
 
   </div>
 </div>
@@ -139,108 +136,116 @@
 async function searchStudent() {
   const inputId = document.getElementById("studentId").value.trim();
 
-  const [gradeResponse, activityResponse] = await Promise.all([
-    fetch("data/p5.json"),
-    fetch("data/passfail_p5.json")
-  ]);
-
-  const gradeData = await gradeResponse.json();
-  const activityData = await activityResponse.json();
-
-  const studentGrades = gradeData.filter(item => String(item.id) === inputId);
-  const studentActivities = activityData.filter(item => String(item.id) === inputId);
-
-  const resultDiv = document.getElementById("result");
-  const gradeTableBody = document.getElementById("gradeTableBody");
-
-  gradeTableBody.innerHTML = "";
-
-  if (studentGrades.length === 0) {
-    resultDiv.style.display = "block";
-    document.getElementById("studentInfo").innerText = "❌ ไม่พบข้อมูล";
-    document.getElementById("studentRank").innerText = "-";
-    document.getElementById("noteRemark").style.display = "none";
+  if (!inputId) {
+    alert("กรุณากรอกเลขบัตรประชาชน");
     return;
   }
 
-  const student = studentGrades[0];
+  const resultDiv = document.getElementById("result");
+  const gradeTableBody = document.getElementById("gradeTableBody");
+  const studentInfo = document.getElementById("studentInfo");
+  const studentYear = document.getElementById("studentYear");
+  const studentRank = document.getElementById("studentRank");
 
-  const name = student.name || "-";
-  const yearRoom = student.year_room || (student.year && student.room ? `ป.${student.year}/${student.room}` : "-");
-  const rank = student.class_rank ?? "-";
-  const total = student.total_students ?? "-";
-
-  document.getElementById("studentInfo").innerText =
-    `ชื่อ: ${name}   ชั้น: ${yearRoom}`;
-  document.getElementById("studentYear").innerText =
-  "ภาคเรียนที่ 2 ปีการศึกษา 2568";
-
-  document.getElementById("studentRank").innerText =
-    `อันดับที่/ห้อง : ${rank}/${total}`;
-
-  const hasSpecial = studentGrades.some(item =>
-    item.remark === "มส" ||
-    item.remark === "ขส" ||
-    item.grade === "ร" ||
-    item.grade === 0 ||
-    item.grade === "0"
-  );
-
-  document.getElementById("noteRemark").style.display =
-    hasSpecial ? "block" : "none";
-
-  let rows = "";
-
-  studentGrades.forEach(item => {
-    let gradeText = "-";
-    let className = "";
-
-    if (item.remark === "มส") {
-      gradeText = "มส";
-      className = "ms";
-    } else if (item.remark === "ขส") {
-      gradeText = "ขส";
-      className = "absent";
-    } else if (item.grade === "ร" || item.grade === 0 || item.grade === "0") {
-      gradeText = "ร";
-      className = "fail";
-    } else {
-      gradeText = item.grade ?? "-";
-    }
-
-    rows += `
-      <tr>
-        <td>${item.subject_code ?? "-"}</td>
-        <td>${item.subject_name ?? "-"}</td>
-        <td class="${className}">${gradeText}</td>
-      </tr>
-    `;
-  });
-
-  studentActivities.forEach(item => {
-    let text = "-";
-    let cls = "";
-
-    if (item.result === "ผ่าน") {
-      text = "ผ่าน";
-      cls = "pass";
-    } else if (item.result === "ไม่ผ่าน") {
-      text = "ไม่ผ่าน";
-      cls = "fail";
-    }
-
-    rows += `
-      <tr>
-        <td>${item.subject_code ?? "-"}</td>
-        <td>${item.subject_name ?? "-"}</td>
-        <td class="${cls}">${text}</td>
-      </tr>
-    `;
-  });
-
-  gradeTableBody.innerHTML = rows;
   resultDiv.style.display = "block";
+  gradeTableBody.innerHTML = "";
+  studentInfo.innerText = "กำลังโหลดข้อมูล...";
+  studentYear.innerText = "";
+  studentRank.innerText = "";
+
+  try {
+    // โหลดข้อมูลจากไฟล์ที่มีอยู่ได้ โดยข้ามไฟล์ที่ไม่มีหรือโหลดไม่สำเร็จ
+    const fileNames = [
+      "data/p5-1.json",
+      "data/p5-2.json",
+      "data/p5-3.json"
+    ];
+
+    const results = await Promise.allSettled(
+      fileNames.map(async fileName => {
+        const response = await fetch(fileName);
+        if (!response.ok) throw new Error(`${fileName}: HTTP ${response.status}`);
+        return await response.json();
+      })
+    );
+
+    const gradeData = results
+      .filter(result => result.status === "fulfilled" && Array.isArray(result.value))
+      .flatMap(result => result.value);
+
+    if (gradeData.length === 0) {
+      throw new Error("ไม่พบไฟล์ JSON ที่โหลดได้ กรุณาตรวจสอบ data/p1-1.json ถึง data/p1-3.json");
+    }
+
+    // ค้นหานักเรียนจากข้อมูลที่รวมจากไฟล์ที่โหลดสำเร็จ
+    const studentGrades = gradeData.filter(
+      item => String(item.id ?? "").trim() === inputId &&
+              String(item.subject_name ?? "").trim() !== "คะแนนรวม"
+    );
+
+    if (studentGrades.length === 0) {
+      studentInfo.innerText = "❌ ไม่พบข้อมูล";
+      studentYear.innerText = "";
+      studentRank.innerText = "";
+      return;
+    }
+
+    const student = studentGrades[0];
+    const name = student.name || "-";
+    const yearRoom = student.year_room ||
+      (student.year != null && student.room != null
+        ? `ป.${student.year}/${student.room}`
+        : "ป.5");
+
+    studentInfo.innerText = `ชื่อ: ${name} ชั้น: ${yearRoom}`;
+    studentYear.innerText = "ภาคเรียนที่ 1 ปีการศึกษา 2569";
+
+    // แสดงอันดับจาก class_rank และนับจำนวนนักเรียนในห้องจาก id ที่ไม่ซ้ำกัน
+    // แต่ละคนอาจมีหลายแถวตามจำนวนวิชา จึงนับ id เดิมเป็น 1 คน
+    const rank = student.class_rank !== "" && student.class_rank != null
+      ? student.class_rank : "-";
+
+    const studentIdsInRoom = new Set(
+      gradeData
+        .filter(item =>
+          Number(item.year) === Number(student.year) &&
+          Number(item.room) === Number(student.room) &&
+          String(item.id ?? "").trim() !== "" &&
+          String(item.subject_name ?? "").trim() !== "คะแนนรวม"
+        )
+        .map(item => String(item.id).trim())
+    );
+    const totalStudents = studentIdsInRoom.size;
+    studentRank.innerText = `อันดับที่/ห้อง : ${rank}/${totalStudents}`;
+
+    gradeTableBody.innerHTML = studentGrades.map(item => `
+      <tr>
+        <td>${escapeHtml(item.subject_code ?? "-")}</td>
+        <td>${escapeHtml(item.subject_name ?? "-")}</td>
+        <td>${escapeHtml(item.score ?? "-")}</td>
+      </tr>
+    `).join("");
+
+  } catch (error) {
+    console.error("เกิดข้อผิดพลาด:", error);
+    studentInfo.innerText = "ไม่สามารถโหลดข้อมูลได้ กรุณาตรวจสอบไฟล์ JSON";
+    studentYear.innerText = "";
+    studentRank.innerText = error.message;
+  }
 }
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+document.getElementById("studentId").addEventListener("keydown", function(event) {
+  if (event.key === "Enter") searchStudent();
+});
 </script>
 
 </body>

@@ -177,7 +177,8 @@ async function searchStudent() {
   const inputId = document.getElementById("studentId").value.trim();
 
   const [gradeResponse, activityResponse] = await Promise.all([
-    fetch("data/m2-2.json")
+    fetch("data/m2-2.json"),
+    fetch("data/m2-5.json")
   ]);
 
   const gradeData = await gradeResponse.json();

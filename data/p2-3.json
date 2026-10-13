@@ -1,22 +1,5 @@
 [
   {
-    "id": "รหัสบัตรประชาชน",
-    "name": "ชื่อ-นามสกุล",
-    "year": 2,
-    "room": 3,
-    "student_code": "รหัสประจำตัวนักเรียน",
-    "subject_code": "รหัสวิชา",
-    "subject_name": "วิชา",
-    "credit": "",
-    "score": "คะแนนรวม",
-    "grade": "",
-    "gpa": "",
-    "class_rank": "ลำดับที่",
-    "total_students": "",
-    "year_room": "",
-    "check": ""
-  },
-  {
     "id": 1399900661732,
     "name": "เด็กชายธนกร ท้าวพรม",
     "year": 2,

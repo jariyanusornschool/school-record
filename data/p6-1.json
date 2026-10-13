@@ -1,22 +1,5 @@
 [
   {
-    "id": "รหัสบัตรประชาชน",
-    "name": "ชื่อ-นามสกุล",
-    "year": 6,
-    "room": 1,
-    "student_code": "รหัสประจำตัวนักเรียน",
-    "subject_code": "รหัสวิชา",
-    "subject_name": "วิชา",
-    "credit": "",
-    "score": "คะแนนรวม",
-    "grade": "",
-    "gpa": "",
-    "class_rank": "ลำดับที่",
-    "total_students": "",
-    "year_room": "",
-    "check": ""
-  },
-  {
     "id": 1399900536598,
     "name": "เด็กชายอนุวัฒน์ เพียดงมัน",
     "year": 6,

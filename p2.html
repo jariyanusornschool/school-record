@@ -3,6 +3,288 @@
 <head>
   <meta charset="UTF-8">
   <title>ตรวจสอบผลการเรียน ป.2</title>
+<link rel="icon" type="image/png" href="JYS.png">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <!-- Google Fonts: Sarabun -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+  <style>
+    /* ตั้งค่าฟอนต์ทั้งเว็บไซต์ */
+    * {
+      font-family: "Sarabun", sans-serif;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f5f6fa;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 700px;
+      max-width: 90%;
+      margin: 80px auto;
+      background: white;
+      padding: 30px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+
+    input {
+      padding: 10px;
+      width: 70%;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background: #1976d2;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background: #125ea7;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px 8px;
+    }
+
+    th {
+      background: #228B22;
+      color: white;
+    }
+
+    .info {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .semester {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    .rank-text {
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #222;
+      text-align: left;
+      padding-left: 5px;
+    }
+
+    .message {
+      margin-top: 20px;
+      font-size: 18px;
+      color: red;
+      font-weight: bold;
+    }
+
+    .logo {
+      width: 120px;
+      margin-bottom: 15px;
+      border-radius: 50%;
+    }
+
+    th:nth-child(1) {
+      text-align: center;
+    }
+
+    td:nth-child(1) {
+      text-align: left;
+      padding-left: 15px;
+    }
+
+    .total-row {
+      font-weight: bold;
+      background: #f1f1f1;
+    }
+  </style>
+    <style>
+    body{
+      font-family: Arial, sans-serif;
+      background:#f5f6fa;
+      text-align:center;
+      margin:0;
+      padding:0;
+    }
+
+    .container{
+      width:700px;
+      max-width:90%;
+      margin:80px auto;
+      background:white;
+      padding:30px;
+      box-shadow:0 0 15px rgba(0,0,0,0.1);
+      border-radius:10px;
+    }
+
+    input{
+      padding:10px;
+      width:70%;
+      font-size:16px;
+      margin-bottom:10px;
+      box-sizing:border-box;
+    }
+
+    button{
+      padding:10px 20px;
+      background:#1976d2;
+      color:white;
+      border:none;
+      border-radius:6px;
+      cursor:pointer;
+      font-size:16px;
+    }
+
+    button:hover{
+      background:#125ea7;
+    }
+
+    table{
+      width:100%;
+      border-collapse:collapse;
+      margin-top:20px;
+    }
+
+    th, td{
+      border:1px solid #ddd;
+      padding:10px 8px;
+    }
+
+    th{
+      background:#228B22;
+      color:white;
+    }
+
+    .info{
+      margin-top:20px;
+      font-size:18px;
+      font-weight:bold;
+    }
+
+    .semester{
+      margin-top:10px;
+      font-size:18px;
+    }
+
+    .rank-text{
+      margin-top:20px;
+      font-size:20px;
+      font-weight:bold;
+      color:#222;
+      text-align:left;
+      padding-left:5px;
+    }
+
+    .message{
+      margin-top:20px;
+      font-size:18px;
+      color:red;
+      font-weight:bold;
+    }
+
+    .logo{
+      width:120px;
+      margin-bottom:15px;
+      border-radius:50%;
+    }
+
+    th:nth-child(1){
+      text-align:center;
+    }
+
+    td:nth-child(1){
+      text-align:left;
+      padding-left:15px;
+    }
+
+    .total-row{
+      font-weight:bold;
+      background:#f1f1f1;
+    }
+     /* ไอคอน */
+    .menu-grade {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #2878E8;
+    text-decoration: none;
+    font-size: 18px;
+    }
+
+    .menu-grade i {
+    font-size: 28px;
+    }
+    /* ไอคอนขยับ */
+    .grade-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 22px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #fff0f6, #e8f4ff);
+    color: #344563;
+    font-size: 24px;
+    font-weight: 700;
+    box-shadow: 0 4px 12px rgba(100, 100, 150, 0.12);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.grade-title i {
+    font-size: 30px;
+    color: #ff5c8a;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.grade-title:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 22px rgba(255, 92, 138, 0.22);
+    background: linear-gradient(135deg, #ffe0ed, #dceeff);
+}
+
+.grade-title:hover i {
+    transform: scale(1.2) rotate(-8deg);
+    color: #e83e75;
+}
+.education-icon {
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 16px;
+    transition: 0.3s ease;
+}
+.kindergarten {
+    color: #3485FF;
+    background: #E4F1FF;
+}
+.education-icon:hover {
+    transform: translateY(-4px);
+}
+  </style>
 
   <style>
     body{
@@ -54,45 +336,89 @@
     }
 
     th{
-      background:#7CFC00;
-      color:black;
+      background:#ffd700;  /* สีเหลือง */
+      color:black;        /* ตัวหนังสือดำ อ่านชัด */
     }
-
     .info{
       margin-top:20px;
-      margin-bottom:10px;
-      font-size:20px;
-      font-weight:bold;
-    }
-
-    #studentYear{
-      font-size:16px;
-      font-weight:normal;
-      margin-top:5px;
-      margin-bottom:15px;
-    }
-
-    .rank-text{
-      text-align:left;
-      font-weight:bold;
       font-size:18px;
-      margin-top:12px;
+      font-weight:bold;
     }
 
-    .pass{ font-weight:bold; }
-    .fail{ color:red; font-weight:bold; }
-    .ms{ color:red; font-weight:bold; }
-    .absent{ color:red; font-weight:bold; }
+    .semester{
+      margin-top:10px;
+      font-size:18px;
+    }
 
-    td:nth-child(1), th:nth-child(1){ text-align:center; }
-    th:nth-child(2){ text-align:center; }
-    td:nth-child(2){ text-align:left; padding-left:15px; }
-    td:nth-child(3), th:nth-child(3){ text-align:center; }
+    .section-title{
+      margin-top:30px;
+      font-size:22px;
+      font-weight:bold;
+    }
 
+    /* สีผ่าน/ไม่ผ่าน */
+    .pass{
+      color:black;
+      font-weight:bold;
+    }
+
+    .fail{
+      color:red;
+      font-weight:bold;
+    }
+
+    .ms{
+      color: red;
+      font-weight: bold;
+    }
+
+    .absent{
+      color: red;
+      font-weight: bold;
+    }
+    
     .logo{
       width:120px;
       margin-bottom:15px;
       border-radius:50%;
+    }
+    /* รหัสวิชา (คอลัมน์ 1) */
+      td:nth-child(1),
+      th:nth-child(1){
+      text-align:center;
+    }
+
+    /* หัวตาราง (ชื่อวิชา) ให้อยู่กลาง */
+      th:nth-child(2){
+      text-align:center;
+    }
+
+    /* ข้อมูลในตาราง (ชื่อวิชา) ให้ชิดซ้าย */
+      td:nth-child(2){
+      text-align:left;
+      padding-left:15px;
+    }
+    /* เกรด (คอลัมน์ 3) */
+      td:nth-child(3),
+      th:nth-child(3){
+      text-align:center;
+    }
+
+
+    .gpa-summary{
+      margin-top:18px;
+      padding:12px;
+      border:1px solid #ddd;
+      border-radius:8px;
+      background:#fafafa;
+      font-size:20px;
+      font-weight:bold;
+    }
+    .gpa-detail{
+      font-size:14px;
+      font-weight:normal;
+      color:#555;
+      margin-top:6px;
     }
   </style>
 </head>
@@ -101,7 +427,7 @@
 
 <div class="container">
   <img src="logo.png" class="logo">
-  <h2>📘 ตรวจสอบผลการเรียน ป.2</h2>
+  <h2><i class="fa-solid fa-clipboard-check education-icon kindergarten"></i> ตรวจสอบผลการเรียน ป.2</h2>
 
   <input type="text" id="studentId" placeholder="กรอกเลขบัตรประชาชน">
   <br>

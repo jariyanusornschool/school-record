@@ -1,22 +1,5 @@
 [
   {
-    "id": "รหัสบัตรประชาชน",
-    "name": "ชื่อ-นามสกุล",
-    "year": 4,
-    "room": 3,
-    "student_code": "รหัสประจำตัวนักเรียน",
-    "subject_code": "รหัสวิชา",
-    "subject_name": "วิชา",
-    "credit": "",
-    "score": "คะแนนรวม",
-    "grade": "",
-    "gpa": "",
-    "class_rank": "ลำดับที่",
-    "total_students": "",
-    "year_room": "",
-    "check": ""
-  },
-  {
     "id": 1209501354705,
     "name": "เด็กชายภูตะวัน เผือดนอก",
     "year": 4,

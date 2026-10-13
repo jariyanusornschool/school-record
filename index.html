@@ -3,9 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="JYS.png">
   <title>ระบบตรวจสอบผลการเรียน</title>
+     <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
 
   <style>
+.education-icon {
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 16px;
+    transition: 0.3s ease;
+}
+
+.kindergarten {
+    color: #FF5C8A;
+    background: #FFF0F5;
+}
+
+.primary {
+    color: #20B96B;
+    background: #E5F9E9;
+}
+
+.junior-high {
+    color: #3485FF;
+    background: #E4F1FF;
+}
+
+.senior-high {
+    color: #9B59F6;
+    background: #F1E6FF;
+}
+
+.education-icon:hover {
+    transform: translateY(-4px);
+}
+
     body{
       font-family: 'Segoe UI', Tahoma, sans-serif;
       background: linear-gradient(135deg, #e3f2fd, #fce4ec);
@@ -96,7 +131,7 @@
 
     <!-- อนุบาล -->
     <div class="section">
-      <h2>🧸 ระดับอนุบาล</h2>
+      <h2><i class="fa-solid fa-child education-icon kindergarten"></i> ระดับอนุบาล</h2>
       <div class="menu">
         <a href="k1.html" class="k1">อนุบาล 1</a>
         <a href="k2.html" class="k2">อนุบาล 2</a>
@@ -106,7 +141,7 @@
 
     <!-- ประถม -->
     <div class="section">
-      <h2>📘 ระดับประถมศึกษา</h2>
+      <h2><i class="fa-solid fa-book-open education-icon primary"></i> ระดับประถมศึกษา</h2>
       <div class="menu">
         <a href="p1.html" class="p">ป.1</a>
         <a href="p2.html" class="p">ป.2</a>
@@ -119,7 +154,7 @@
 
     <!-- มัธยมต้น -->
     <div class="section">
-      <h2>📗 ระดับมัธยมศึกษาตอนต้น</h2>
+      <h2><i class="fa-solid fa-school education-icon junior-high"></i> ระดับมัธยมศึกษาตอนต้น</h2>
       <div class="menu">
         <a href="m1.html" class="m">ม.1</a>
         <a href="m2.html" class="m">ม.2</a>
@@ -129,15 +164,240 @@
 
     <!-- มัธยมปลาย -->
     <div class="section">
-      <h2>🎓 ระดับมัธยมศึกษาตอนปลาย</h2>
+      <h2><i class="fa-solid fa-graduation-cap education-icon senior-high"></i> ระดับมัธยมศึกษาตอนปลาย</h2>
       <div class="menu">
         <a href="m4.html" class="mhigh">ม.4</a>
         <a href="m5.html" class="mhigh">ม.5</a>
         <a href="m6.html" class="mhigh">ม.6</a>
       </div>
     </div>
-
+  
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   </div>
+   <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Sarabun", sans-serif;
+            background: #f8fafc;
+        }
+
+        /* ===== FOOTER ===== */
+        .footer {
+            background: linear-gradient(135deg, #111827, #1e293b);
+            color: #cbd5e1;
+            padding: 50px 24px 0;
+            font-size: 14px;
+            line-height: 1.9;
+            border-top: 3px solid #3b82f6;
+        }
+
+        .footer-container {
+            max-width: 1140px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 36px;
+        }
+
+        /* หัวข้อแต่ละคอลัมน์ */
+        .footer-column h3 {
+            color: #ffffff;
+            font-size: 17px;
+            font-weight: 700;
+            margin: 0 0 18px;
+            padding-bottom: 10px;
+            position: relative;
+        }
+
+        .footer-column h3::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 38px;
+            height: 3px;
+            border-radius: 3px;
+            background: #60a5fa;
+        }
+
+        /* ข้อมูลภายใน Footer */
+        .footer-column p {
+            margin: 5px 0;
+            overflow-wrap: anywhere;
+        }
+
+        .footer-column a {
+            color: #cbd5e1;
+            text-decoration: none;
+            transition: color 0.25s ease;
+        }
+
+        .footer-column a:hover {
+            color: #60a5fa;
+        }
+
+        /* ไอคอน Social Media */
+        .social-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 12px;
+        }
+
+        .social-links a {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: #334155;
+            color: #ffffff;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            transition: all 0.25s ease;
+        }
+
+        .social-links a:hover {
+            background: #3b82f6;
+            color: #ffffff;
+            transform: translateY(-3px);
+        }
+
+        /* แถบลิขสิทธิ์ด้านล่าง */
+        .footer-bottom {
+            max-width: 1140px;
+            margin: 35px auto 0;
+            padding: 18px 0;
+            border-top: 1px solid #334155;
+            text-align: center;
+            color: #94a3b8;
+            font-size: 12px;
+        }
+
+        .footer-bottom a {
+            color: #93c5fd;
+            text-decoration: none;
+        }
+
+        /* ===== TABLET ===== */
+        @media (max-width: 900px) {
+            .footer-container {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 30px;
+            }
+        }
+
+        /* ===== MOBILE ===== */
+        @media (max-width: 480px) {
+            .footer {
+                padding: 35px 20px 0;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+
+            .footer-column h3 {
+                font-size: 16px;
+            }
+
+            .footer-bottom {
+                margin-top: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- คอลัมน์ 1: ข้อมูลโรงเรียน -->
+            <div class="footer-column">
+                <h3>JYS</h3>
+                <p>โรงเรียนจริยานุสรณ์ 323 หมู่ 10 ตำบลลำภู</p>
+                <p>อำเภอเมือง จังหวัดหนองบัวลำภู 39000</p>
+            </div>
+
+            <!-- คอลัมน์ 2: ติดต่อ -->
+            <div class="footer-column">
+                <h3>ขอความช่วยเหลือ</h3>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:">
+                        E-mail : Jariyanusornschool@gmail.com
+                    </a>
+                </p>
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:042841409">โทร. 08 6451 4193 </a>
+                </p>
+                <p>โทรสาร </p>
+            </div>
+
+            <!-- คอลัมน์ 3: ผู้พัฒนาเว็บไซต์ -->
+            <div class="footer-column">
+                <h3>Website by</h3>
+                <p>Phapawarin Mahamart</p>
+                <p>Pitchapa Wiangwong</p>
+                <p>Jakkrit Haohom</p>
+                <p></p>
+              
+            </div>
+
+            <!-- คอลัมน์ 4: Social Media -->
+            <div class="footer-column">
+                <h3>ติดตามเรา</h3>
+
+                <div class="social-links">
+                    <a href="https://www.facebook.com/JYS2019?locale=th_TH"
+                        target="_blank"
+                       aria-label="Facebook"
+                       title="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#"
+                       aria-label="X"
+                       title="X">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <a href="#"
+                       aria-label="Instagram"
+                       title="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#"
+                       aria-label="LinkedIn"
+                       title="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            © 2026 JYS. All Rights Reserved.
+            | Designed with care for education.
+        </div>
+    </footer>
+
+</body>
+</html>
+
+</style>
 
 </body>
 </html>

@@ -122,6 +122,22 @@
       text-align:center;
     }
 
+
+    .gpa-summary{
+      margin-top:18px;
+      padding:12px;
+      border:1px solid #ddd;
+      border-radius:8px;
+      background:#fafafa;
+      font-size:20px;
+      font-weight:bold;
+    }
+    .gpa-detail{
+      font-size:14px;
+      font-weight:normal;
+      color:#555;
+      margin-top:6px;
+    }
   </style>
 </head>
 
@@ -159,6 +175,11 @@
       <tbody id="gradeTableBody"></tbody>
     </table>
 
+    <div id="gpaSummary" class="gpa-summary" style="display:none;">
+      GPA: <span id="gpaValue">-</span>
+      <div id="gpaDetail" class="gpa-detail"></div>
+    </div>
+
     <p id="noteRemark" style="color:red; font-size:18px; text-align:left; padding-left:5px; margin-top:15px; display:none;">
       *หมายเหตุ : GPA จะถูกคำนวณใหม่ เมื่อแก้ไข ร , มส , ขส เรียบร้อยแล้ว
     </p>
@@ -170,6 +191,62 @@ function normalizeStudentId(value) {
   return String(value ?? "")
     .trim()
     .replace(/[๐-๙]/g, digit => String("๐๑๒๓๔๕๖๗๘๙".indexOf(digit)));
+}
+
+// จับคู่หน่วยกิตด้วยรหัสวิชา โดยไม่สนใจช่องว่างภายในรหัส
+function normalizeSubjectCode(value) {
+  return String(value ?? "").toUpperCase().replace(/\s+/g, "").trim();
+}
+
+const subjectCredits = {
+  "ท32101": 1,
+  "ค32101": 1,
+  "ว32101": 1,
+  "ว32103": 1,
+  "ส32101": 1,
+  "ส32103": 0.5,
+  "พ32101": 0.5,
+  "ศ32102": 0.5,
+  "ง32101": 0.5,
+  "อ32101": 1,
+  "ค32201": 1,
+  "ว32203": 1.5,
+  "ว32213": 1.5,
+  "ว32243": 1.5,
+  "ว32263": 0.5,
+  "อ32201": 1
+};
+
+function calculateGpa(studentData) {
+  let weightedTotal = 0;
+  let creditTotal = 0;
+  const unmatchedCodes = new Set();
+
+  studentData.forEach(item => {
+    const subjectName = String(item.subject_name ?? "").trim();
+    const code = normalizeSubjectCode(item.subject_code);
+    const scoreText = String(item.score ?? "").trim();
+    const grade = Number(scoreText);
+
+    // คิดเฉพาะเกรดตัวเลข 0–4 และไม่รวมกิจกรรม
+    if (subjectName.includes("กิจกรรม")) return;
+    if (scoreText === "" || !Number.isFinite(grade) || grade < 0 || grade > 4) return;
+
+    if (!Object.prototype.hasOwnProperty.call(subjectCredits, code)) {
+      unmatchedCodes.add(String(item.subject_code ?? "(ไม่มีรหัส)"));
+      return;
+    }
+
+    const credit = subjectCredits[code];
+    weightedTotal += grade * credit;
+    creditTotal += credit;
+  });
+
+  return {
+    gpa: creditTotal > 0 ? weightedTotal / creditTotal : null,
+    creditTotal,
+    unmatchedCodes: [...unmatchedCodes]
+  };
 }
 
 function escapeHtml(value) {
@@ -192,9 +269,15 @@ async function searchStudent() {
   const studentName = document.getElementById("studentName");
   const studentYear = document.getElementById("studentYear");
   const noteRemark = document.getElementById("noteRemark");
+  const gpaSummary = document.getElementById("gpaSummary");
+  const gpaValue = document.getElementById("gpaValue");
+  const gpaDetail = document.getElementById("gpaDetail");
 
   resultDiv.style.display = "block";
   noteRemark.style.display = "none";
+  gpaSummary.style.display = "none";
+  gpaValue.textContent = "-";
+  gpaDetail.textContent = "";
   gradeTableBody.innerHTML = "";
   studentName.textContent = "";
   studentYear.textContent = "";
@@ -279,6 +362,27 @@ async function searchStudent() {
       String(item.score ?? "").trim() === "ร"
     );
     noteRemark.style.display = hasR ? "block" : "none";
+
+    // คำนวณ GPA จากเกรดตัวเลขใน score; หากมี ร ก็คิดเฉพาะวิชาที่มีเกรดตัวเลข
+    const gpaResult = calculateGpa(studentData);
+    gpaSummary.style.display = "block";
+    if (gpaResult.gpa === null) {
+      gpaValue.textContent = "ยังคำนวณไม่ได้";
+      gpaDetail.textContent = "ไม่พบเกรดตัวเลขที่จับคู่หน่วยกิตได้";
+    } else {
+      gpaValue.textContent = gpaResult.gpa.toFixed(2);
+      gpaDetail.textContent = "คำนวณจาก " + gpaResult.creditTotal + " หน่วยกิต";
+    }
+    if (gpaResult.unmatchedCodes.length > 0) {
+      const warning = document.createElement("div");
+      warning.style.color = "red";
+      warning.style.fontSize = "14px";
+      warning.style.fontWeight = "normal";
+      warning.style.marginTop = "6px";
+      warning.textContent = "รหัสวิชาที่ไม่มีหน่วยกิตกำหนด จึงไม่นำมาคำนวณ: " + gpaResult.unmatchedCodes.join(", ");
+      gpaDetail.appendChild(document.createElement("br"));
+      gpaDetail.appendChild(warning);
+    }
 
     let rows = "";
 
